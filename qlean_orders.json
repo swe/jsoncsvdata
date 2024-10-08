@@ -110,21 +110,5 @@
     "duration": 7200,
     "special_instructions": "Please use eco-friendly cleaning products.",
     "cleaning_supplies": ["Eco-friendly all-purpose cleaner", "Microfiber cloths", "Natural scrub brushes"]
-  },
-  {
-    "id": "823e4567-e89b-12d3-a456-426614174007",
-    "type": "Deep Cleaning",
-    "cleaner_name": "Tom Brown",
-    "cleaner_image_url": "https://i.alleksy.com/qleanUser.png",
-    "status": "completed",
-    "date_time": "2024-09-25T10:00:00Z",
-    "address": "234 Willow St, Vancouver",
-    "price": 180.00,
-    "is_completed": true,
-    "rating": 5,
-    "receipt_url": "https://example.com/receipt3.pdf",
-    "duration": 18000,
-    "special_instructions": "Extra attention to bathroom grout cleaning.",
-    "cleaning_supplies": ["Grout cleaner", "Mold remover", "Heavy-duty degreaser"]
   }
 ]
