@@ -110,5 +110,21 @@
     "duration": 7200,
     "special_instructions": "Please use eco-friendly cleaning products.",
     "cleaning_supplies": ["Eco-friendly all-purpose cleaner", "Microfiber cloths", "Natural scrub brushes"]
+  },
+  {
+    "id": "823e4527-e79b-15d3-a456-42683174006",
+    "type": "Regular Cleaning",
+    "cleaner_name": "Jessika Parker",
+    "cleaner_image_url": "https://i.alleksy.com/qleanUser.png",
+    "status": "confirmed",
+    "date_time": "2024-09-18T15:00:00Z",
+    "address": "101 Birch St, Vancouver",
+    "price": 90.00,
+    "is_completed": true,
+    "rating": null,
+    "receipt_url": null,
+    "duration": 7200,
+    "special_instructions": "Please use eco-friendly cleaning products.",
+    "cleaning_supplies": ["Eco-friendly all-purpose cleaner", "Microfiber cloths", "Natural scrub brushes"]
   }
 ]
