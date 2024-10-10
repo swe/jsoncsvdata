@@ -1,0 +1,112 @@
+{
+  "users": [
+    {
+      "id": "67890",
+      "fullName": "Emily Johnson",
+      "phone": "+14155501234",
+      "email": "emily.johnson@example.com",
+      "photoUrl": "https://example.com/photos/emilyjohnson.jpg",
+      "rating": 4.7,
+      "amountOfOrders": 22,
+      "homeAddresses": [
+        {
+          "address": "456 Elm St",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zipCode": "90001",
+          "cleaningFrequency": "monthly",
+          "preferredDays": "20"
+        },
+        {
+          "address": "789 Maple Ave",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zipCode": "90002",
+          "cleaningFrequency": "bi-weekly",
+          "preferredDays": ["Wednesday"]
+        }
+      ],
+      "signupDate": "2022-06-10",
+      "lastOrderDate": "2024-10-08",
+      "notificationsEnabled": true,
+      "loyaltyPoints": 220
+    },
+    {
+      "id": "67891",
+      "fullName": "Michael Smith",
+      "phone": "+14155504567",
+      "email": "michael.smith@example.com",
+      "photoUrl": "https://example.com/photos/michaelsmith.jpg",
+      "rating": 4.5,
+      "amountOfOrders": 15,
+      "homeAddresses": [
+        {
+          "address": "101 Pine Rd",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zipCode": "90003",
+          "cleaningFrequency": "weekly",
+          "preferredDays": ["Tuesday"]
+        }
+      ],
+      "signupDate": "2022-05-20",
+      "lastOrderDate": "2024-10-02",
+      "notificationsEnabled": true,
+      "loyaltyPoints": 150
+    },
+    {
+      "id": "67892",
+      "fullName": "Sarah Brown",
+      "phone": "+14155507890",
+      "email": "sarah.brown@example.com",
+      "photoUrl": "https://example.com/photos/sarahbrown.jpg",
+      "rating": 4.9,
+      "amountOfOrders": 30,
+      "homeAddresses": [
+        {
+          "address": "202 Oak Dr",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zipCode": "90004",
+          "cleaningFrequency": "one-time",
+          "preferredDays": null
+        }
+      ],
+      "signupDate": "2021-11-15",
+      "lastOrderDate": "2024-10-01",
+      "notificationsEnabled": true,
+      "loyaltyPoints": 350
+    },
+    {
+      "id": "67893",
+      "fullName": "David Wilson",
+      "phone": "+14155503456",
+      "email": "david.wilson@example.com",
+      "photoUrl": "https://example.com/photos/davidwilson.jpg",
+      "rating": 4.6,
+      "amountOfOrders": 18,
+      "homeAddresses": [
+        {
+          "address": "303 Cedar Ln",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zipCode": "90005",
+          "cleaningFrequency": "weekly",
+          "preferredDays": ["Thursday"]
+        },
+        {
+          "address": "404 Birch Ct",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zipCode": "90006",
+          "cleaningFrequency": "bi-weekly",
+          "preferredDays": ["Monday"]
+        }
+      ],
+      "signupDate": "2023-01-20",
+      "lastOrderDate": "2024-09-25",
+      "notificationsEnabled": true,
+      "loyaltyPoints": 180
+    }
+  ]
+}
