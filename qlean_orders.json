@@ -1,6 +1,8 @@
 [
   {
     "id": "123e4567-e89b-12d3-a456-426614174000",
+    "user_id": "67893",
+    "cleaner_id": "cleaner_001",
     "type": "Regular Cleaning",
     "cleaner_name": "John Doe",
     "cleaner_image_url": "https://i.alleksy.com/qleanUser.png",
@@ -17,6 +19,8 @@
   },
   {
     "id": "223e4567-e89b-12d3-a456-426614174001",
+    "user_id": "67890",
+    "cleaner_id": "cleaner_002",
     "type": "Deep Cleaning",
     "cleaner_name": "Jane Smith",
     "cleaner_image_url": "https://i.alleksy.com/qleanUser.png",
@@ -33,6 +37,8 @@
   },
   {
     "id": "323e4567-e89b-12d3-a456-426614174002",
+    "user_id": "67892",
+    "cleaner_id": "cleaner_003",
     "type": "Window Cleaning",
     "cleaner_name": "Bob Johnson",
     "cleaner_image_url": "https://i.alleksy.com/qleanUser.png",
@@ -49,6 +55,8 @@
   },
   {
     "id": "423e4567-e89b-12d3-a456-426614174003",
+    "user_id": "67891",
+    "cleaner_id": "cleaner_004",
     "type": "Regular Cleaning",
     "cleaner_name": "Alice Brown",
     "cleaner_image_url": "https://i.alleksy.com/qleanUser.png",
@@ -65,6 +73,8 @@
   },
   {
     "id": "523e4567-e89b-12d3-a456-426614174004",
+    "user_id": "67890",
+    "cleaner_id": "cleaner_005",
     "type": "Carpet Cleaning",
     "cleaner_name": "Eva Green",
     "cleaner_image_url": "https://i.alleksy.com/qleanUser.png",
@@ -81,6 +91,8 @@
   },
   {
     "id": "623e4567-e89b-12d3-a456-426614174005",
+    "user_id": "67891",
+    "cleaner_id": "cleaner_006",
     "type": "Move-out Cleaning",
     "cleaner_name": "Mike Wilson",
     "cleaner_image_url": "https://i.alleksy.com/qleanUser.png",
@@ -97,6 +109,8 @@
   },
   {
     "id": "723e4567-e89b-12d3-a456-426614174006",
+    "user_id": "67890",
+    "cleaner_id": "cleaner_007",
     "type": "Regular Cleaning",
     "cleaner_name": "Sarah Johnson",
     "cleaner_image_url": "https://i.alleksy.com/qleanUser.png",
@@ -113,6 +127,8 @@
   },
   {
     "id": "823e4567-e89b-12d3-a456-426614174007",
+    "user_id": "67890",
+    "cleaner_id": "cleaner_008",
     "type": "Deep Cleaning",
     "cleaner_name": "Tom Brown",
     "cleaner_image_url": "https://i.alleksy.com/qleanUser.png",
@@ -128,4 +144,3 @@
     "cleaning_supplies": ["Grout cleaner", "Mold remover", "Heavy-duty degreaser"]
   }
 ]
-
