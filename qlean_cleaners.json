@@ -1,0 +1,98 @@
+[
+  {
+    "cleaner_id": "1",
+    "full_name": "John Doe",
+    "phone_number": "+1-555-0101",
+    "email": "john.doe@example.com",
+    "amount_of_orders": 15,
+    "total_rating": 4.8,
+    "cleaner_level": "Expert",
+    "bio": "Experienced cleaner specializing in residential services.",
+    "languages_spoken": ["English", "Spanish"],
+    "years_of_experience": 5
+  },
+  {
+    "cleaner_id": "2",
+    "full_name": "Jane Smith",
+    "phone_number": "+1-555-0102",
+    "email": "jane.smith@example.com",
+    "amount_of_orders": 10,
+    "total_rating": 4.5,
+    "cleaner_level": "Intermediate",
+    "bio": "Detail-oriented cleaner with a focus on deep cleaning.",
+    "languages_spoken": ["English"],
+    "years_of_experience": 3
+  },
+  {
+    "cleaner_id": "3",
+    "full_name": "Bob Johnson",
+    "phone_number": "+1-555-0103",
+    "email": "bob.johnson@example.com",
+    "amount_of_orders": 8,
+    "total_rating": 4.7,
+    "cleaner_level": "Expert",
+    "bio": "Specializes in window and exterior cleaning.",
+    "languages_spoken": ["English", "French"],
+    "years_of_experience": 6
+  },
+  {
+    "cleaner_id": "4",
+    "full_name": "Alice Brown",
+    "phone_number": "+1-555-0104",
+    "email": "alice.brown@example.com",
+    "amount_of_orders": 20,
+    "total_rating": 5.0,
+    "cleaner_level": "Expert",
+    "bio": "Highly rated cleaner known for exceptional service.",
+    "languages_spoken": ["English"],
+    "years_of_experience": 7
+  },
+  {
+    "cleaner_id": "5",
+    "full_name": "Eva Green",
+    "phone_number": "+1-555-0105",
+    "email": "eva.green@example.com",
+    "amount_of_orders": 5,
+    "total_rating": 4.2,
+    "cleaner_level": "Beginner",
+    "bio": "New to the cleaning service, eager to learn and grow.",
+    "languages_spoken": ["English", "German"],
+    "years_of_experience": 1
+  },
+  {
+    "cleaner_id": "6",
+    "full_name": "Mike Wilson",
+    "phone_number": "+1-555-0106",
+    "email": "mike.wilson@example.com",
+    "amount_of_orders": 12,
+    "total_rating": 4.6,
+    "cleaner_level": "Intermediate",
+    "bio": "Focused on move-out and move-in cleaning services.",
+    "languages_spoken": ["English"],
+    "years_of_experience": 4
+  },
+  {
+    "cleaner_id": "7",
+    "full_name": "Sarah Johnson",
+    "phone_number": "+1-555-0107",
+    "email": "sarah.johnson@example.com",
+    "amount_of_orders": 18,
+    "total_rating": 4.9,
+    "cleaner_level": "Expert",
+    "bio": "Eco-friendly cleaning specialist with great customer feedback.",
+    "languages_spoken": ["English"],
+    "years_of_experience": 5
+  },
+  {
+    "cleaner_id": "8",
+    "full_name": "Tom Brown",
+    "phone_number": "+1-555-0108",
+    "email": "tom.brown@example.com",
+    "amount_of_orders": 25,
+    "total_rating": 4.8,
+    "cleaner_level": "Expert",
+    "bio": "Versatile cleaner with extensive experience in deep cleaning.",
+    "languages_spoken": ["English"],
+    "years_of_experience": 8
+  }
+]
