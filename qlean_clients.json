@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fullName": "Emily Johnson",
+      "phone": "+14155501234",
+      "email": "emily.johnson@example.com",
+      "photoUrl": "https://i.alleksy.com/qlean/qleanUser1.png",
+      "rating": 4.7,
+      "amountOfOrders": 22,
+      "signupDate": "2022-06-10",
+      "lastOrderDate": "2024-10-08",
+      "notificationsEnabled": true,
+      "loyaltyPoints": 220
+    },
+    {
+      "id": "2",
+      "fullName": "Michael Smith",
+      "phone": "+14155504567",
+      "email": "michael.smith@example.com",
+      "photoUrl": "https://i.alleksy.com/qlean/qleanUser2.png",
+      "rating": 4.5,
+      "amountOfOrders": 15,
+      "signupDate": "2022-05-20",
+      "lastOrderDate": "2024-10-02",
+      "notificationsEnabled": true,
+      "loyaltyPoints": 150
+    },
+    {
+      "id": "3",
+      "fullName": "Sarah Brown",
+      "phone": "+14155507890",
+      "email": "sarah.brown@example.com",
+      "photoUrl": "https://i.alleksy.com/qlean/qleanUser3.png",
+      "rating": 4.9,
+      "amountOfOrders": 30,
+      "signupDate": "2021-11-15",
+      "lastOrderDate": "2024-10-01",
+      "notificationsEnabled": true,
+      "loyaltyPoints": 350
+    },
+    {
+      "id": "4",
+      "fullName": "David Wilson",
+      "phone": "+14155503456",
+      "email": "david.wilson@example.com",
+      "photoUrl": "https://i.alleksy.com/qlean/qleanUser1.png",
+      "rating": 4.6,
+      "amountOfOrders": 18,
+      "signupDate": "2023-01-20",
+      "lastOrderDate": "2024-09-25",
+      "notificationsEnabled": true,
+      "loyaltyPoints": 180
+    },
+    {
+      "id": "5",
+      "fullName": "Jessica Green",
+      "phone": "+14155506789",
+      "email": "jessica.green@example.com",
+      "photoUrl": "https://i.alleksy.com/qlean/qleanUser2.png",
+      "rating": 4.8,
+      "amountOfOrders": 25,
+      "signupDate": "2022-02-18",
+      "lastOrderDate": "2024-10-05",
+      "notificationsEnabled": true,
+      "loyaltyPoints": 300
+    },
+    {
+      "id": "6",
+      "fullName": "Kevin Lee",
+      "phone": "+14155509876",
+      "email": "kevin.lee@example.com",
+      "photoUrl": "https://i.alleksy.com/qlean/qleanUser3.png",
+      "rating": 4.3,
+      "amountOfOrders": 10,
+      "signupDate": "2023-03-10",
+      "lastOrderDate": "2024-09-30",
+      "notificationsEnabled": false,
+      "loyaltyPoints": 90
+    },
+    {
+      "id": "7",
+      "fullName": "Laura Martinez",
+      "phone": "+14155512345",
+      "email": "laura.martinez@example.com",
+      "photoUrl": "https://i.alleksy.com/qlean/qleanUser1.png",
+      "rating": 4.4,
+      "amountOfOrders": 20,
+      "signupDate": "2022-08-25",
+      "lastOrderDate": "2024-10-07",
+      "notificationsEnabled": true,
+      "loyaltyPoints": 200
+    },
+    {
+      "id": "8",
+      "fullName": "Daniel Garcia",
+      "phone": "+14155598765",
+      "email": "daniel.garcia@example.com",
+      "photoUrl": "https://i.alleksy.com/qlean/qleanUser2.png",
+      "rating": 4.2,
+      "amountOfOrders": 12,
+      "signupDate": "2023-04-01",
+      "lastOrderDate": "2024-09-28",
+      "notificationsEnabled": true,
+      "loyaltyPoints": 70
+    }
+  ]
+}
