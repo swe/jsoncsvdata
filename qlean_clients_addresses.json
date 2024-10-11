@@ -1,0 +1,181 @@
+[
+  {
+    "user_id": "1",
+    "addresses": [
+      {
+        "type": "Home",
+        "icon": "🏡",
+        "full_address": {
+          "street": "123 Main St",
+          "apartment_number": "Apt 101",
+          "city": "Vancouver",
+          "province": "BC",
+          "postal_code": "V5K 0A1",
+          "country": "Canada"
+        },
+        "latitude": 49.2827,
+        "longitude": -123.1207
+      },
+      {
+        "type": "Work",
+        "icon": "🏢",
+        "full_address": {
+          "street": "456 Corporate Ave",
+          "city": "Vancouver",
+          "province": "BC",
+          "postal_code": "V5K 0B2",
+          "country": "Canada"
+        },
+        "latitude": 49.2830,
+        "longitude": -123.1210
+      }
+    ]
+  },
+  {
+    "user_id": "2",
+    "addresses": [
+      {
+        "type": "Home",
+        "icon": "🏡",
+        "full_address": {
+          "street": "456 Elm St",
+          "apartment_number": null,
+          "city": "Vancouver",
+          "province": "BC",
+          "postal_code": "V5K 0A2",
+          "country": "Canada"
+        },
+        "latitude": 49.2828,
+        "longitude": -123.1208
+      }
+    ]
+  },
+  {
+    "user_id": "3",
+    "addresses": [
+      {
+        "type": "Home",
+        "icon": "🏡",
+        "full_address": {
+          "street": "789 Oak St",
+          "apartment_number": "Apt 202",
+          "city": "Vancouver",
+          "province": "BC",
+          "postal_code": "V5K 0A3",
+          "country": "Canada"
+        },
+        "latitude": 49.2829,
+        "longitude": -123.1209
+      },
+      {
+        "type": "Vacation",
+        "icon": "🏖️",
+        "full_address": {
+          "street": "111 Beach Rd",
+          "apartment_number": null,
+          "city": "Vancouver",
+          "province": "BC",
+          "postal_code": "V5K 0C3",
+          "country": "Canada"
+        },
+        "latitude": 49.2831,
+        "longitude": -123.1211
+      }
+    ]
+  },
+  {
+    "user_id": "4",
+    "addresses": [
+      {
+        "type": "Home",
+        "icon": "🏡",
+        "full_address": {
+          "street": "321 Pine St",
+          "apartment_number": null,
+          "city": "Vancouver",
+          "province": "BC",
+          "postal_code": "V5K 0A4",
+          "country": "Canada"
+        },
+        "latitude": 49.2830,
+        "longitude": -123.1210
+      }
+    ]
+  },
+  {
+    "user_id": "5",
+    "addresses": [
+      {
+        "type": "Home",
+        "icon": "🏡",
+        "full_address": {
+          "street": "567 Maple St",
+          "apartment_number": "Apt 303",
+          "city": "Vancouver",
+          "province": "BC",
+          "postal_code": "V5K 0A5",
+          "country": "Canada"
+        },
+        "latitude": 49.2831,
+        "longitude": -123.1211
+      }
+    ]
+  },
+  {
+    "user_id": "6",
+    "addresses": [
+      {
+        "type": "Home",
+        "icon": "🏡",
+        "full_address": {
+          "street": "789 Cedar St",
+          "apartment_number": null,
+          "city": "Vancouver",
+          "province": "BC",
+          "postal_code": "V5K 0A6",
+          "country": "Canada"
+        },
+        "latitude": 49.2832,
+        "longitude": -123.1212
+      }
+    ]
+  },
+  {
+    "user_id": "7",
+    "addresses": [
+      {
+        "type": "Home",
+        "icon": "🏡",
+        "full_address": {
+          "street": "101 Birch St",
+          "apartment_number": "Apt 404",
+          "city": "Vancouver",
+          "province": "BC",
+          "postal_code": "V5K 0A7",
+          "country": "Canada"
+        },
+        "latitude": 49.2833,
+        "longitude": -123.1213
+      }
+    ]
+  },
+  {
+    "user_id": "8",
+    "addresses": [
+      {
+        "type": "Home",
+        "icon": "🏡",
+        "full_address": {
+          "street": "234 Willow St",
+          "apartment_number": null,
+          "city": "Vancouver",
+          "province": "BC",
+          "postal_code": "V5K 0A8",
+          "country": "Canada"
+        },
+        "latitude": 49.2834,
+        "longitude": -123.1214
+      }
+    ]
+  }
+]
