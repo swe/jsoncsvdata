@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Alice's Adventures in Wonderland",
+        "author": "Lewis Carroll",
+        "category": "Fiction",
+        "rating": 5,
+        "year": 2024,
+        "link": "/library/alice",
+        "description": "A timeless classic that continues to captivate readers with its whimsical characters and imaginative storytelling. Carroll's wordplay and logic puzzles make this a book that rewards multiple readings."
+    },
+    {
+        "title": "Peter Pan",
+        "author": "J.M. Barrie",
+        "category": "Fiction",
+        "rating": 4,
+        "year": 2024,
+        "link": "library/peterpan",
+        "description": "The tale of the boy who wouldn't grow up remains as enchanting today as when it was first written. Barrie's exploration of childhood, imagination, and the inevitable passage of time feels both magical and melancholic."
+    },
+    {
+        "title": "Longevity",
+        "author": "David Sinclair",
+        "category": "Science",
+        "rating": 4,
+        "year": 2024,
+        "link": "library/longevity,
+        "description": "A fascinating look at the science of aging and what we might be able to do about it. Sinclair presents complex research in an accessible way, though some claims feel more aspirational than proven."
+    },
+    {
+        "title": "The Design of Everyday Things",
+        "author": "Don Norman",
+        "category": "Design",
+        "rating": 5,
+        "year": 2024,
+        "link": "library/thedesign",
+        "description": "Essential reading for anyone who creates things that people use. Norman's principles of good design are timeless and applicable far beyond traditional product design."
+    },
+    {
+        "title": "Deep Work",
+        "author": "Cal Newport",
+        "category": "Productivity",
+        "rating": 4,
+        "year": 2024,
+        "link": "/library/deepwork/",
+        "description": "In our age of constant distraction, Newport makes a compelling case for the value of sustained, focused work. The strategies are practical and the philosophy is sound."
+    },
+    {
+        "title": "Sapiens",
+        "author": "Yuval Noah Harari",
+        "category": "History",
+        "rating": 5,
+        "year": 2024,
+        "link": "library/sapiens",
+        "description": "A sweeping overview of human history that connects fascinating dots between past and present. Harari's ability to synthesize complex topics into engaging narratives is remarkable."
+    }
+]
