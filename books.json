@@ -1,56 +1,362 @@
 [
     {
-        "title": "Alice's Adventures in Wonderland",
-        "author": "Lewis Carroll",
-        "category": "Fiction",
-        "rating": 5,
-        "year": 2024,
-        "link": "/library/alice",
-        "description": "A timeless classic that continues to captivate readers with its whimsical characters and imaginative storytelling. Carroll's wordplay and logic puzzles make this a book that rewards multiple readings."
-    },
-    {
-        "title": "Peter Master Pan",
-        "author": "J.M. Barrie",
-        "category": "Fiction",
-        "rating": 4,
-        "year": 2024,
-        "link": "library/peterpan",
-        "description": "The tale of the boy who wouldn't grow up remains as enchanting today as when it was first written. Barrie's exploration of childhood, imagination, and the inevitable passage of time feels both magical and melancholic."
-    },
-    {
-        "title": "Longevity",
-        "author": "David Sinclair",
+        "title": "Book 6",
+        "author": "Author 6",
         "category": "Science",
         "rating": 4,
-        "year": 2024,
-        "link": "library/longevity",
-        "description": "A fascinating look at the science of aging and what we might be able to do about it. Sinclair presents complex research in an accessible way, though some claims feel more aspirational than proven."
+        "year": 2022,
+        "link": "/library/book6",
+        "description": "Description for book 6."
     },
     {
-        "title": "The Design of Everyday Things",
-        "author": "Don Norman",
-        "category": "Design",
+        "title": "Book 13",
+        "author": "Author 13",
+        "category": "History",
         "rating": 5,
-        "year": 2024,
-        "link": "library/thedesign",
-        "description": "Essential reading for anyone who creates things that people use. Norman's principles of good design are timeless and applicable far beyond traditional product design."
+        "year": 2023,
+        "link": "/library/book13",
+        "description": "Description for book 13."
     },
     {
-        "title": "Deep Work",
-        "author": "Cal Newport",
-        "category": "Productivity",
-        "rating": 4,
-        "year": 2024,
-        "link": "/library/deepwork/",
-        "description": "In our age of constant distraction, Newport makes a compelling case for the value of sustained, focused work. The strategies are practical and the philosophy is sound."
-    },
-    {
-        "title": "Sapiens",
-        "author": "Yuval Noah Harari",
+        "title": "Book 12",
+        "author": "Author 12",
         "category": "History",
         "rating": 5,
         "year": 2024,
-        "link": "library/sapiens",
-        "description": "A sweeping overview of human history that connects fascinating dots between past and present. Harari's ability to synthesize complex topics into engaging narratives is remarkable."
+        "link": "/library/book12",
+        "description": "Description for book 12."
+    },
+    {
+        "title": "Book 16",
+        "author": "Author 16",
+        "category": "Psychology",
+        "rating": 5,
+        "year": 2025,
+        "link": "/library/book16",
+        "description": "Description for book 16."
+    },
+    {
+        "title": "Book 39",
+        "author": "Author 39",
+        "category": "Design",
+        "rating": 5,
+        "year": 2022,
+        "link": "/library/book39",
+        "description": "Description for book 39."
+    },
+    {
+        "title": "Book 5",
+        "author": "Author 5",
+        "category": "Fiction",
+        "rating": 4,
+        "year": 2023,
+        "link": "/library/book5",
+        "description": "Description for book 5."
+    },
+    {
+        "title": "Book 14",
+        "author": "Author 14",
+        "category": "History",
+        "rating": 4,
+        "year": 2024,
+        "link": "/library/book14",
+        "description": "Description for book 14."
+    },
+    {
+        "title": "Book 29",
+        "author": "Author 29",
+        "category": "Self-help",
+        "rating": 5,
+        "year": 2025,
+        "link": "/library/book29",
+        "description": "Description for book 29."
+    },
+    {
+        "title": "Book 24",
+        "author": "Author 24",
+        "category": "Business",
+        "rating": 4,
+        "year": 2022,
+        "link": "/library/book24",
+        "description": "Description for book 24."
+    },
+    {
+        "title": "Book 22",
+        "author": "Author 22",
+        "category": "Philosophy",
+        "rating": 5,
+        "year": 2023,
+        "link": "/library/book22",
+        "description": "Description for book 22."
+    },
+    {
+        "title": "Book 40",
+        "author": "Author 40",
+        "category": "Design",
+        "rating": 5,
+        "year": 2024,
+        "link": "/library/book40",
+        "description": "Description for book 40."
+    },
+    {
+        "title": "Book 17",
+        "author": "Author 17",
+        "category": "Psychology",
+        "rating": 5,
+        "year": 2025,
+        "link": "/library/book17",
+        "description": "Description for book 17."
+    },
+    {
+        "title": "Book 3",
+        "author": "Author 3",
+        "category": "Fiction",
+        "rating": 4,
+        "year": 2022,
+        "link": "/library/book3",
+        "description": "Description for book 3."
+    },
+    {
+        "title": "Book 35",
+        "author": "Author 35",
+        "category": "Spirituality",
+        "rating": 5,
+        "year": 2023,
+        "link": "/library/book35",
+        "description": "Description for book 35."
+    },
+    {
+        "title": "Book 28",
+        "author": "Author 28",
+        "category": "Self-help",
+        "rating": 4,
+        "year": 2024,
+        "link": "/library/book28",
+        "description": "Description for book 28."
+    },
+    {
+        "title": "Book 8",
+        "author": "Author 8",
+        "category": "Science",
+        "rating": 5,
+        "year": 2025,
+        "link": "/library/book8",
+        "description": "Description for book 8."
+    },
+    {
+        "title": "Book 4",
+        "author": "Author 4",
+        "category": "Fiction",
+        "rating": 4,
+        "year": 2022,
+        "link": "/library/book4",
+        "description": "Description for book 4."
+    },
+    {
+        "title": "Book 23",
+        "author": "Author 23",
+        "category": "Philosophy",
+        "rating": 4,
+        "year": 2023,
+        "link": "/library/book23",
+        "description": "Description for book 23."
+    },
+    {
+        "title": "Book 38",
+        "author": "Author 38",
+        "category": "Design",
+        "rating": 5,
+        "year": 2024,
+        "link": "/library/book38",
+        "description": "Description for book 38."
+    },
+    {
+        "title": "Book 21",
+        "author": "Author 21",
+        "category": "Philosophy",
+        "rating": 4,
+        "year": 2025,
+        "link": "/library/book21",
+        "description": "Description for book 21."
+    },
+    {
+        "title": "Book 10",
+        "author": "Author 10",
+        "category": "Science",
+        "rating": 4,
+        "year": 2022,
+        "link": "/library/book10",
+        "description": "Description for book 10."
+    },
+    {
+        "title": "Book 9",
+        "author": "Author 9",
+        "category": "Science",
+        "rating": 4,
+        "year": 2023,
+        "link": "/library/book9",
+        "description": "Description for book 9."
+    },
+    {
+        "title": "Book 11",
+        "author": "Author 11",
+        "category": "History",
+        "rating": 4,
+        "year": 2024,
+        "link": "/library/book11",
+        "description": "Description for book 11."
+    },
+    {
+        "title": "Book 26",
+        "author": "Author 26",
+        "category": "Business",
+        "rating": 5,
+        "year": 2025,
+        "link": "/library/book26",
+        "description": "Description for book 26."
+    },
+    {
+        "title": "Book 1",
+        "author": "Author 1",
+        "category": "Fiction",
+        "rating": 5,
+        "year": 2022,
+        "link": "/library/book1",
+        "description": "Description for book 1."
+    },
+    {
+        "title": "Book 20",
+        "author": "Author 20",
+        "category": "Philosophy",
+        "rating": 5,
+        "year": 2023,
+        "link": "/library/book20",
+        "description": "Description for book 20."
+    },
+    {
+        "title": "Book 15",
+        "author": "Author 15",
+        "category": "Psychology",
+        "rating": 5,
+        "year": 2024,
+        "link": "/library/book15",
+        "description": "Description for book 15."
+    },
+    {
+        "title": "Book 37",
+        "author": "Author 37",
+        "category": "Design",
+        "rating": 4,
+        "year": 2025,
+        "link": "/library/book37",
+        "description": "Description for book 37."
+    },
+    {
+        "title": "Book 32",
+        "author": "Author 32",
+        "category": "Spirituality",
+        "rating": 5,
+        "year": 2022,
+        "link": "/library/book32",
+        "description": "Description for book 32."
+    },
+    {
+        "title": "Book 34",
+        "author": "Author 34",
+        "category": "Spirituality",
+        "rating": 5,
+        "year": 2023,
+        "link": "/library/book34",
+        "description": "Description for book 34."
+    },
+    {
+        "title": "Book 36",
+        "author": "Author 36",
+        "category": "Design",
+        "rating": 4,
+        "year": 2024,
+        "link": "/library/book36",
+        "description": "Description for book 36."
+    },
+    {
+        "title": "Book 19",
+        "author": "Author 19",
+        "category": "Psychology",
+        "rating": 5,
+        "year": 2025,
+        "link": "/library/book19",
+        "description": "Description for book 19."
+    },
+    {
+        "title": "Book 18",
+        "author": "Author 18",
+        "category": "Psychology",
+        "rating": 5,
+        "year": 2022,
+        "link": "/library/book18",
+        "description": "Description for book 18."
+    },
+    {
+        "title": "Book 33",
+        "author": "Author 33",
+        "category": "Spirituality",
+        "rating": 5,
+        "year": 2023,
+        "link": "/library/book33",
+        "description": "Description for book 33."
+    },
+    {
+        "title": "Book 2",
+        "author": "Author 2",
+        "category": "Fiction",
+        "rating": 5,
+        "year": 2024,
+        "link": "/library/book2",
+        "description": "Description for book 2."
+    },
+    {
+        "title": "Book 7",
+        "author": "Author 7",
+        "category": "Science",
+        "rating": 5,
+        "year": 2025,
+        "link": "/library/book7",
+        "description": "Description for book 7."
+    },
+    {
+        "title": "Book 31",
+        "author": "Author 31",
+        "category": "Self-help",
+        "rating": 4,
+        "year": 2022,
+        "link": "/library/book31",
+        "description": "Description for book 31."
+    },
+    {
+        "title": "Book 25",
+        "author": "Author 25",
+        "category": "Business",
+        "rating": 4,
+        "year": 2023,
+        "link": "/library/book25",
+        "description": "Description for book 25."
+    },
+    {
+        "title": "Book 30",
+        "author": "Author 30",
+        "category": "Self-help",
+        "rating": 5,
+        "year": 2024,
+        "link": "/library/book30",
+        "description": "Description for book 30."
+    },
+    {
+        "title": "Book 27",
+        "author": "Author 27",
+        "category": "Business",
+        "rating": 4,
+        "year": 2025,
+        "link": "/library/book27",
+        "description": "Description for book 27."
     }
 ]
