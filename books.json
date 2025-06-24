@@ -126,15 +126,6 @@
         "description": "Description for book 35."
     },
     {
-        "title": "Book 28",
-        "author": "Author 28",
-        "category": "Self-help",
-        "rating": 4,
-        "year": 2024,
-        "link": "/library/book28",
-        "description": "Description for book 28."
-    },
-    {
         "title": "Book 8",
         "author": "Author 8",
         "category": "Science",
