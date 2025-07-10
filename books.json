@@ -7,7 +7,6 @@
         "category": "Science",
         "rating": 4,
         "year": 2022,
-        "link": "/library/book6",
         "description": "Description for book 6."
     },
     {
@@ -18,7 +17,6 @@
         "category": "History",
         "rating": 5,
         "year": 2023,
-        "link": "/library/book13",
         "description": "Description for book 13."
     },
     {
@@ -29,7 +27,6 @@
         "category": "History",
         "rating": 5,
         "year": 2024,
-        "link": "/library/book12",
         "description": "Description for book 12."
     },
     {
@@ -40,7 +37,6 @@
         "category": "Psychology",
         "rating": 5,
         "year": 2025,
-        "link": "/library/book16",
         "description": "Description for book 16."
     },
     {
@@ -51,7 +47,6 @@
         "category": "Design",
         "rating": 5,
         "year": 2022,
-        "link": "/library/book39",
         "description": "Description for book 39."
     },
     {
@@ -62,7 +57,6 @@
         "category": "Fiction",
         "rating": 4,
         "year": 2023,
-        "link": "/library/book5",
         "description": "Description for book 5."
     },
     {
@@ -73,7 +67,6 @@
         "category": "History",
         "rating": 4,
         "year": 2024,
-        "link": "/library/book14",
         "description": "Description for book 14."
     },
     {
@@ -84,7 +77,6 @@
         "category": "Self-help",
         "rating": 5,
         "year": 2025,
-        "link": "/library/book29",
         "description": "Description for book 29."
     },
     {
@@ -95,7 +87,6 @@
         "category": "Business",
         "rating": 4,
         "year": 2022,
-        "link": "/library/book24",
         "description": "Description for book 24."
     },
     {
@@ -106,7 +97,6 @@
         "category": "Philosophy",
         "rating": 5,
         "year": 2023,
-        "link": "/library/book22",
         "description": "Description for book 22."
     },
     {
@@ -117,7 +107,6 @@
         "category": "Design",
         "rating": 5,
         "year": 2024,
-        "link": "/library/book40",
         "description": "Description for book 40."
     },
     {
@@ -128,7 +117,6 @@
         "category": "Psychology",
         "rating": 5,
         "year": 2025,
-        "link": "/library/book17",
         "description": "Description for book 17."
     },
     {
@@ -139,7 +127,6 @@
         "category": "Fiction",
         "rating": 4,
         "year": 2022,
-        "link": "/library/book3",
         "description": "Description for book 3."
     },
     {
@@ -150,7 +137,6 @@
         "category": "Spirituality",
         "rating": 5,
         "year": 2023,
-        "link": "/library/book35",
         "description": "Description for book 35."
     },
     {
@@ -161,7 +147,6 @@
         "category": "Science",
         "rating": 5,
         "year": 2025,
-        "link": "/library/book8",
         "description": "Description for book 8."
     },
     {
@@ -172,7 +157,6 @@
         "category": "Fiction",
         "rating": 4,
         "year": 2022,
-        "link": "/library/book4",
         "description": "Description for book 4."
     },
     {
@@ -183,7 +167,6 @@
         "category": "Philosophy",
         "rating": 4,
         "year": 2023,
-        "link": "/library/book23",
         "description": "Description for book 23."
     },
     {
@@ -194,7 +177,6 @@
         "category": "Design",
         "rating": 5,
         "year": 2024,
-        "link": "/library/book38",
         "description": "Description for book 38."
     },
     {
@@ -205,7 +187,6 @@
         "category": "Philosophy",
         "rating": 4,
         "year": 2025,
-        "link": "/library/book21",
         "description": "Description for book 21."
     },
     {
@@ -216,7 +197,6 @@
         "category": "Science",
         "rating": 4,
         "year": 2022,
-        "link": "/library/book10",
         "description": "Description for book 10."
     },
     {
@@ -227,7 +207,6 @@
         "category": "Science",
         "rating": 4,
         "year": 2023,
-        "link": "/library/book9",
         "description": "Description for book 9."
     },
     {
@@ -238,7 +217,6 @@
         "category": "History",
         "rating": 4,
         "year": 2024,
-        "link": "/library/book11",
         "description": "Description for book 11."
     },
     {
@@ -249,7 +227,6 @@
         "category": "Business",
         "rating": 5,
         "year": 2025,
-        "link": "/library/book26",
         "description": "Description for book 26."
     },
     {
@@ -260,7 +237,6 @@
         "category": "Fiction",
         "rating": 5,
         "year": 2022,
-        "link": "/library/book1",
         "description": "Description for book 1."
     },
     {
@@ -271,7 +247,6 @@
         "category": "Philosophy",
         "rating": 5,
         "year": 2023,
-        "link": "/library/book20",
         "description": "Description for book 20."
     },
     {
@@ -282,7 +257,6 @@
         "category": "Psychology",
         "rating": 5,
         "year": 2024,
-        "link": "/library/book15",
         "description": "Description for book 15."
     },
     {
@@ -293,7 +267,6 @@
         "category": "Design",
         "rating": 4,
         "year": 2025,
-        "link": "/library/book37",
         "description": "Description for book 37."
     },
     {
@@ -304,7 +277,6 @@
         "category": "Spirituality",
         "rating": 5,
         "year": 2022,
-        "link": "/library/book32",
         "description": "Description for book 32."
     },
     {
@@ -315,7 +287,6 @@
         "category": "Spirituality",
         "rating": 5,
         "year": 2023,
-        "link": "/library/book34",
         "description": "Description for book 34."
     },
     {
@@ -326,7 +297,6 @@
         "category": "Design",
         "rating": 4,
         "year": 2024,
-        "link": "/library/book36",
         "description": "Description for book 36."
     },
     {
@@ -337,7 +307,6 @@
         "category": "Psychology",
         "rating": 5,
         "year": 2025,
-        "link": "/library/book19",
         "description": "Description for book 19."
     },
     {
@@ -348,7 +317,6 @@
         "category": "Psychology",
         "rating": 5,
         "year": 2022,
-        "link": "/library/book18",
         "description": "Description for book 18."
     },
     {
@@ -359,7 +327,6 @@
         "category": "Spirituality",
         "rating": 5,
         "year": 2023,
-        "link": "/library/book33",
         "description": "Description for book 33."
     },
     {
@@ -370,7 +337,6 @@
         "category": "Fiction",
         "rating": 5,
         "year": 2024,
-        "link": "/library/book2",
         "description": "Description for book 2."
     },
     {
@@ -381,7 +347,6 @@
         "category": "Science",
         "rating": 5,
         "year": 2025,
-        "link": "/library/book7",
         "description": "Description for book 7."
     },
     {
@@ -392,7 +357,6 @@
         "category": "Self-help",
         "rating": 4,
         "year": 2022,
-        "link": "/library/book31",
         "description": "Description for book 31."
     },
     {
@@ -403,7 +367,6 @@
         "category": "Business",
         "rating": 4,
         "year": 2023,
-        "link": "/library/book25",
         "description": "Description for book 25."
     },
     {
@@ -414,7 +377,6 @@
         "category": "Self-help",
         "rating": 5,
         "year": 2024,
-        "link": "/library/book30",
         "description": "Description for book 30."
     },
     {
@@ -425,7 +387,6 @@
         "category": "Business",
         "rating": 4,
         "year": 2025,
-        "link": "/library/book27",
         "description": "Description for book 27."
     }
 ]
