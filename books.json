@@ -1,392 +1,342 @@
 [
     {
-        "UUID": "aebf78a1-7919-437a-a371-ced5ed0442ec",
-        "title": "Book 6",
-        "cover_url": "https://i.alleksy.com/books/book-6.jpg",
-        "author": "Author 6",
+        "UUID": "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
+        "title": "The Digital Revolution",
+        "cover_url": "https://i.alleksy.com/books/digital-revolution.jpg",
+        "author": "Sarah Mitchell",
+        "category": "Technology",
+        "rating": 5,
+        "year": 2022,
+        "description": "An exploration of how technology has transformed modern society."
+    },
+    {
+        "UUID": "b2c3d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
+        "title": "Machine Learning Fundamentals",
+        "cover_url": "https://i.alleksy.com/books/ml-fundamentals.jpg",
+        "author": "David Chen",
+        "category": "Technology",
+        "rating": 4,
+        "year": 2023,
+        "description": "A comprehensive guide to understanding machine learning algorithms."
+    },
+    {
+        "UUID": "c3d4e5f6-a7b8-9c0d-1e2f-3a4b5c6d7e8f",
+        "title": "Cloud Computing Essentials",
+        "cover_url": "https://i.alleksy.com/books/cloud-computing.jpg",
+        "author": "Maria Rodriguez",
+        "category": "Technology",
+        "rating": 5,
+        "year": 2024,
+        "description": "Everything you need to know about cloud infrastructure and services."
+    },
+    {
+        "UUID": "d4e5f6a7-b8c9-0d1e-2f3a-4b5c6d7e8f9a",
+        "title": "Cybersecurity in the Modern Age",
+        "cover_url": "https://i.alleksy.com/books/cybersecurity.jpg",
+        "author": "James Thompson",
+        "category": "Technology",
+        "rating": 4,
+        "year": 2022,
+        "description": "Understanding and implementing effective cybersecurity measures."
+    },
+    {
+        "UUID": "e5f6a7b8-c9d0-1e2f-3a4b-5c6d7e8f9a0b",
+        "title": "Blockchain Technology",
+        "cover_url": "https://i.alleksy.com/books/blockchain.jpg",
+        "author": "Anna Kim",
+        "category": "Technology",
+        "rating": 5,
+        "year": 2023,
+        "description": "The complete guide to blockchain technology and its applications."
+    },
+    {
+        "UUID": "f6a7b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c",
+        "title": "Artificial Intelligence Ethics",
+        "cover_url": "https://i.alleksy.com/books/ai-ethics.jpg",
+        "author": "Robert Wilson",
+        "category": "Technology",
+        "rating": 4,
+        "year": 2024,
+        "description": "Exploring the ethical implications of artificial intelligence."
+    },
+    {
+        "UUID": "a7b8c9d0-e1f2-3a4b-5c6d-7e8f9a0b1c2d",
+        "title": "Quantum Computing Basics",
+        "cover_url": "https://i.alleksy.com/books/quantum-computing.jpg",
+        "author": "Lisa Parker",
+        "category": "Technology",
+        "rating": 5,
+        "year": 2022,
+        "description": "An introduction to the principles of quantum computing."
+    },
+    {
+        "UUID": "b8c9d0e1-f2a3-4b5c-6d7e-8f9a0b1c2d3e",
+        "title": "Data Science Handbook",
+        "cover_url": "https://i.alleksy.com/books/data-science.jpg",
+        "author": "Michael Brown",
+        "category": "Technology",
+        "rating": 4,
+        "year": 2023,
+        "description": "A practical guide to data science techniques and tools."
+    },
+    {
+        "UUID": "c9d0e1f2-a3b4-5c6d-7e8f-9a0b1c2d3e4f",
+        "title": "IoT and Smart Cities",
+        "cover_url": "https://i.alleksy.com/books/iot-smart-cities.jpg",
+        "author": "Jennifer Davis",
+        "category": "Technology",
+        "rating": 5,
+        "year": 2024,
+        "description": "How Internet of Things is shaping the future of urban living."
+    },
+    {
+        "UUID": "d0e1f2a3-b4c5-6d7e-8f9a-0b1c2d3e4f5a",
+        "title": "Mysteries of the Deep Ocean",
+        "cover_url": "https://i.alleksy.com/books/deep-ocean.jpg",
+        "author": "Dr. Elizabeth Carter",
+        "category": "Science",
+        "rating": 5,
+        "year": 2022,
+        "description": "Exploring the unknown depths of our oceans."
+    },
+    {
+        "UUID": "e1f2a3b4-c5d6-7e8f-9a0b-1c2d3e4f5a6b",
+        "title": "Climate Change and Our Future",
+        "cover_url": "https://i.alleksy.com/books/climate-change.jpg",
+        "author": "Dr. Thomas Green",
+        "category": "Science",
+        "rating": 4,
+        "year": 2023,
+        "description": "Understanding the science behind climate change and its impacts."
+    },
+    {
+        "UUID": "f2a3b4c5-d6e7-8f9a-0b1c-2d3e4f5a6b7c",
+        "title": "The Human Genome Project",
+        "cover_url": "https://i.alleksy.com/books/human-genome.jpg",
+        "author": "Dr. Rachel Adams",
+        "category": "Science",
+        "rating": 5,
+        "year": 2024,
+        "description": "The story of mapping human DNA and its implications."
+    },
+    {
+        "UUID": "a3b4c5d6-e7f8-9a0b-1c2d-3e4f5a6b7c8d",
+        "title": "Space Exploration Chronicles",
+        "cover_url": "https://i.alleksy.com/books/space-exploration.jpg",
+        "author": "Dr. Kevin Martinez",
         "category": "Science",
         "rating": 4,
         "year": 2022,
-        "description": "Description for book 6."
+        "description": "Humanity's journey to explore the cosmos."
     },
     {
-        "UUID": "b9c2d5e8-4f3a-4b2c-9d1e-2f5a8b7c3d6e",
-        "title": "Book 13",
-        "cover_url": "https://i.alleksy.com/books/book-13.jpg",
-        "author": "Author 13",
-        "category": "History",
+        "UUID": "b4c5d6e7-f8a9-0b1c-2d3e-4f5a6b7c8d9e",
+        "title": "Renewable Energy Solutions",
+        "cover_url": "https://i.alleksy.com/books/renewable-energy.jpg",
+        "author": "Dr. Amanda White",
+        "category": "Science",
         "rating": 5,
         "year": 2023,
-        "description": "Description for book 13."
+        "description": "Sustainable energy sources for the future."
     },
     {
-        "UUID": "c8d9e6f2-5a4b-4c3d-8e9f-3a6b9c8d4e7f",
-        "title": "Book 12",
-        "cover_url": "https://i.alleksy.com/books/book-12.jpg",
-        "author": "Author 12",
-        "category": "History",
-        "rating": 5,
+        "UUID": "c5d6e7f8-a9b0-1c2d-3e4f-5a6b7c8d9e0f",
+        "title": "Neuroscience Breakthrough",
+        "cover_url": "https://i.alleksy.com/books/neuroscience.jpg",
+        "author": "Dr. Brian Johnson",
+        "category": "Science",
+        "rating": 4,
         "year": 2024,
-        "description": "Description for book 12."
+        "description": "Latest discoveries in brain research and neuroscience."
     },
     {
-        "UUID": "d7e8f5a3-6b5c-4d4e-9f0a-4b7c0d9e5f8a",
-        "title": "Book 16",
-        "cover_url": "https://i.alleksy.com/books/book-16.jpg",
-        "author": "Author 16",
-        "category": "Psychology",
-        "rating": 5,
-        "year": 2025,
-        "description": "Description for book 16."
-    },
-    {
-        "UUID": "e6f9a4b7-7c6d-4e5f-0a1b-5c8d1e0f6a9b",
-        "title": "Book 39",
-        "cover_url": "https://i.alleksy.com/books/book-39.jpg",
-        "author": "Author 39",
-        "category": "Design",
+        "UUID": "d6e7f8a9-b0c1-2d3e-4f5a-6b7c8d9e0f1a",
+        "title": "Quantum Physics Simplified",
+        "cover_url": "https://i.alleksy.com/books/quantum-physics.jpg",
+        "author": "Dr. Helen Lee",
+        "category": "Science",
         "rating": 5,
         "year": 2022,
-        "description": "Description for book 39."
+        "description": "Making quantum physics accessible to everyone."
     },
     {
-        "UUID": "f5a0b8c1-8d7e-4f6a-1b2c-6d9e2f1a7b0c",
-        "title": "Book 5",
-        "cover_url": "https://i.alleksy.com/books/book-5.jpg",
-        "author": "Author 5",
-        "category": "Fiction",
-        "rating": 4,
+        "UUID": "e7f8a9b0-c1d2-3e4f-5a6b-7c8d9e0f1a2b",
+        "title": "The Art of Storytelling",
+        "cover_url": "https://i.alleksy.com/books/storytelling.jpg",
+        "author": "Margaret Foster",
+        "category": "Literature",
+        "rating": 5,
         "year": 2023,
-        "description": "Description for book 5."
+        "description": "Mastering the craft of narrative and creative writing."
     },
     {
-        "UUID": "a4b1c9d2-9e8f-4a7b-2c3d-7e0f3a2b8c1d",
-        "title": "Book 14",
-        "cover_url": "https://i.alleksy.com/books/book-14.jpg",
-        "author": "Author 14",
-        "category": "History",
+        "UUID": "f8a9b0c1-d2e3-4f5a-6b7c-8d9e0f1a2b3c",
+        "title": "Modern Poetry Collection",
+        "cover_url": "https://i.alleksy.com/books/modern-poetry.jpg",
+        "author": "Daniel Rivers",
+        "category": "Literature",
         "rating": 4,
         "year": 2024,
-        "description": "Description for book 14."
+        "description": "A curated selection of contemporary poetry."
     },
     {
-        "UUID": "b3c2d0e5-0f9a-4b8c-3d4e-8f1a4b3c9d2e",
-        "title": "Book 29",
-        "cover_url": "https://i.alleksy.com/books/book-29.jpg",
-        "author": "Author 29",
-        "category": "Self-help",
+        "UUID": "a9b0c1d2-e3f4-5a6b-7c8d-9e0f1a2b3c4d",
+        "title": "Classic Literature Revisited",
+        "cover_url": "https://i.alleksy.com/books/classic-literature.jpg",
+        "author": "Professor Sarah Barnes",
+        "category": "Literature",
         "rating": 5,
-        "year": 2025,
-        "description": "Description for book 29."
+        "year": 2022,
+        "description": "A fresh perspective on timeless literary works."
     },
     {
-        "UUID": "c2d3e1f6-1a0b-4c9d-4e5f-9a2b5c4d0e3f",
-        "title": "Book 24",
-        "cover_url": "https://i.alleksy.com/books/book-24.jpg",
-        "author": "Author 24",
+        "UUID": "b0c1d2e3-f4a5-6b7c-8d9e-0f1a2b3c4d5e",
+        "title": "The Writer's Journey",
+        "cover_url": "https://i.alleksy.com/books/writers-journey.jpg",
+        "author": "Christopher Blake",
+        "category": "Literature",
+        "rating": 4,
+        "year": 2023,
+        "description": "A guide for aspiring writers and their creative process."
+    },
+    {
+        "UUID": "c1d2e3f4-a5b6-7c8d-9e0f-1a2b3c4d5e6f",
+        "title": "Literary Criticism Today",
+        "cover_url": "https://i.alleksy.com/books/literary-criticism.jpg",
+        "author": "Dr. Patricia Moore",
+        "category": "Literature",
+        "rating": 5,
+        "year": 2024,
+        "description": "Contemporary approaches to analyzing literature."
+    },
+    {
+        "UUID": "d2e3f4a5-b6c7-8d9e-0f1a-2b3c4d5e6f7a",
+        "title": "The Entrepreneur's Mindset",
+        "cover_url": "https://i.alleksy.com/books/entrepreneur-mindset.jpg",
+        "author": "Steven Walsh",
         "category": "Business",
         "rating": 4,
         "year": 2022,
-        "description": "Description for book 24."
+        "description": "Developing the mental framework for business success."
     },
     {
-        "UUID": "d1e4f2a7-2b1c-4d0e-5f6a-0b3c6d5e1f4a",
-        "title": "Book 22",
-        "cover_url": "https://i.alleksy.com/books/book-22.jpg",
-        "author": "Author 22",
-        "category": "Philosophy",
+        "UUID": "e3f4a5b6-c7d8-9e0f-1a2b-3c4d5e6f7a8b",
+        "title": "Digital Marketing Mastery",
+        "cover_url": "https://i.alleksy.com/books/digital-marketing.jpg",
+        "author": "Rebecca Taylor",
+        "category": "Business",
         "rating": 5,
         "year": 2023,
-        "description": "Description for book 22."
+        "description": "Strategies for succeeding in the digital marketplace."
     },
     {
-        "UUID": "e0f5a3b8-3c2d-4e1f-6a7b-1c4d7e6f2a5b",
-        "title": "Book 40",
-        "cover_url": "https://i.alleksy.com/books/book-40.jpg",
-        "author": "Author 40",
-        "category": "Design",
-        "rating": 5,
+        "UUID": "f4a5b6c7-d8e9-0f1a-2b3c-4d5e6f7a8b9c",
+        "title": "Leadership in Crisis",
+        "cover_url": "https://i.alleksy.com/books/leadership-crisis.jpg",
+        "author": "Mark Anderson",
+        "category": "Business",
+        "rating": 4,
         "year": 2024,
-        "description": "Description for book 40."
+        "description": "Leading teams through challenging times."
     },
     {
-        "UUID": "f9a6b4c9-4d3e-4f2a-7b8c-2d5e8f7a3b6c",
-        "title": "Book 17",
-        "cover_url": "https://i.alleksy.com/books/book-17.jpg",
-        "author": "Author 17",
+        "UUID": "a5b6c7d8-e9f0-1a2b-3c4d-5e6f7a8b9c0d",
+        "title": "The Innovation Imperative",
+        "cover_url": "https://i.alleksy.com/books/innovation-imperative.jpg",
+        "author": "Dr. Linda Cooper",
+        "category": "Business",
+        "rating": 5,
+        "year": 2022,
+        "description": "Why innovation is crucial for business survival."
+    },
+    {
+        "UUID": "b6c7d8e9-f0a1-2b3c-4d5e-6f7a8b9c0d1e",
+        "title": "Understanding Depression",
+        "cover_url": "https://i.alleksy.com/books/understanding-depression.jpg",
+        "author": "Dr. Maria Santos",
         "category": "Psychology",
         "rating": 5,
-        "year": 2025,
-        "description": "Description for book 17."
-    },
-    {
-        "UUID": "a8b7c5d0-5e4f-4a3b-8c9d-3e6f9a8b4c7d",
-        "title": "Book 3",
-        "cover_url": "https://i.alleksy.com/books/book-3.jpg",
-        "author": "Author 3",
-        "category": "Fiction",
-        "rating": 4,
-        "year": 2022,
-        "description": "Description for book 3."
-    },
-    {
-        "UUID": "b7c8d6e1-6f5a-4b4c-9d0e-4f7a0b9c5d8e",
-        "title": "Book 35",
-        "cover_url": "https://i.alleksy.com/books/book-35.jpg",
-        "author": "Author 35",
-        "category": "Spirituality",
-        "rating": 5,
         "year": 2023,
-        "description": "Description for book 35."
+        "description": "A comprehensive guide to mental health and depression."
     },
     {
-        "UUID": "c6d9e7f2-7a6b-4c5d-0e1f-5a8b1c0d6e9f",
-        "title": "Book 8",
-        "cover_url": "https://i.alleksy.com/books/book-8.jpg",
-        "author": "Author 8",
-        "category": "Science",
-        "rating": 5,
-        "year": 2025,
-        "description": "Description for book 8."
-    },
-    {
-        "UUID": "d5e0f8a3-8b7c-4d6e-1f2a-6b9c2d1e7f0a",
-        "title": "Book 4",
-        "cover_url": "https://i.alleksy.com/books/book-4.jpg",
-        "author": "Author 4",
-        "category": "Fiction",
+        "UUID": "c7d8e9f0-a1b2-3c4d-5e6f-7a8b9c0d1e2f",
+        "title": "Cognitive Behavioral Therapy",
+        "cover_url": "https://i.alleksy.com/books/cbt.jpg",
+        "author": "Dr. John Phillips",
+        "category": "Psychology",
         "rating": 4,
-        "year": 2022,
-        "description": "Description for book 4."
-    },
-    {
-        "UUID": "e4f1a9b4-9c8d-4e7f-2a3b-7c0d3e2f8a1b",
-        "title": "Book 23",
-        "cover_url": "https://i.alleksy.com/books/book-23.jpg",
-        "author": "Author 23",
-        "category": "Philosophy",
-        "rating": 4,
-        "year": 2023,
-        "description": "Description for book 23."
-    },
-    {
-        "UUID": "f3a2b0c5-0d9e-4f8a-3b4c-8d1e4f3a9b2c",
-        "title": "Book 38",
-        "cover_url": "https://i.alleksy.com/books/book-38.jpg",
-        "author": "Author 38",
-        "category": "Design",
-        "rating": 5,
         "year": 2024,
-        "description": "Description for book 38."
+        "description": "Practical approaches to changing thought patterns."
     },
     {
-        "UUID": "a2b3c1d6-1e0f-4a9b-4c5d-9e2f5a4b0c3d",
-        "title": "Book 21",
-        "cover_url": "https://i.alleksy.com/books/book-21.jpg",
-        "author": "Author 21",
-        "category": "Philosophy",
-        "rating": 4,
-        "year": 2025,
-        "description": "Description for book 21."
-    },
-    {
-        "UUID": "b1c4d2e7-2f1a-4b0c-5d6e-0f3a6b5c1d4e",
-        "title": "Book 10",
-        "cover_url": "https://i.alleksy.com/books/book-10.jpg",
-        "author": "Author 10",
-        "category": "Science",
-        "rating": 4,
+        "UUID": "d8e9f0a1-b2c3-4d5e-6f7a-8b9c0d1e2f3a",
+        "title": "The Psychology of Success",
+        "cover_url": "https://i.alleksy.com/books/psychology-success.jpg",
+        "author": "Dr. Angela Roberts",
+        "category": "Psychology",
+        "rating": 5,
         "year": 2022,
-        "description": "Description for book 10."
+        "description": "Mental strategies for achieving your goals."
     },
     {
-        "UUID": "c0d5e3f8-3a2b-4c1d-6e7f-1a4b7c6d2e5f",
-        "title": "Book 9",
-        "cover_url": "https://i.alleksy.com/books/book-9.jpg",
-        "author": "Author 9",
-        "category": "Science",
-        "rating": 4,
-        "year": 2023,
-        "description": "Description for book 9."
-    },
-    {
-        "UUID": "d9e6f4a0-4b3c-4d2e-7f8a-2b5c8d7e3f6a",
-        "title": "Book 11",
-        "cover_url": "https://i.alleksy.com/books/book-11.jpg",
-        "author": "Author 11",
+        "UUID": "e9f0a1b2-c3d4-5e6f-7a8b-9c0d1e2f3a4b",
+        "title": "Ancient Civilizations",
+        "cover_url": "https://i.alleksy.com/books/ancient-civilizations.jpg",
+        "author": "Professor William Stone",
         "category": "History",
         "rating": 4,
+        "year": 2023,
+        "description": "Exploring the great civilizations of the past."
+    },
+    {
+        "UUID": "f0a1b2c3-d4e5-6f7a-8b9c-0d1e2f3a4b5c",
+        "title": "World War II Chronicles",
+        "cover_url": "https://i.alleksy.com/books/wwii-chronicles.jpg",
+        "author": "Dr. Catherine Miller",
+        "category": "History",
+        "rating": 5,
         "year": 2024,
-        "description": "Description for book 11."
+        "description": "A detailed account of the Second World War."
     },
     {
-        "UUID": "e8f7a5b1-5c4d-4e3f-8a9b-3c6d9e8f4a7b",
-        "title": "Book 26",
-        "cover_url": "https://i.alleksy.com/books/book-26.jpg",
-        "author": "Author 26",
-        "category": "Business",
-        "rating": 5,
-        "year": 2025,
-        "description": "Description for book 26."
-    },
-    {
-        "UUID": "f7a8b6c2-6d5e-4f4a-9b0c-4d7e0f9a5b8c",
-        "title": "Book 1",
-        "cover_url": "https://i.alleksy.com/books/book-1.jpg",
-        "author": "Author 1",
-        "category": "Fiction",
-        "rating": 5,
+        "UUID": "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
+        "title": "The Renaissance Era",
+        "cover_url": "https://i.alleksy.com/books/renaissance.jpg",
+        "author": "Professor Marcus Hall",
+        "category": "History",
+        "rating": 4,
         "year": 2022,
-        "description": "Description for book 1."
+        "description": "Art, culture, and innovation during the Renaissance."
     },
     {
-        "UUID": "a6b9c7d3-7e6f-4a5b-0c1d-5e8f1a0b6c9d",
-        "title": "Book 20",
-        "cover_url": "https://i.alleksy.com/books/book-20.jpg",
-        "author": "Author 20",
+        "UUID": "b2c3d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
+        "title": "Mastering Watercolor",
+        "cover_url": "https://i.alleksy.com/books/watercolor.jpg",
+        "author": "Isabella Cruz",
+        "category": "Art",
+        "rating": 5,
+        "year": 2023,
+        "description": "Techniques and tips for watercolor painting."
+    },
+    {
+        "UUID": "c3d4e5f6-a7b8-9c0d-1e2f-3a4b5c6d7e8f",
+        "title": "Digital Art Revolution",
+        "cover_url": "https://i.alleksy.com/books/digital-art.jpg",
+        "author": "Alex Turner",
+        "category": "Art",
+        "rating": 4,
+        "year": 2024,
+        "description": "The evolution of art in the digital age."
+    },
+    {
+        "UUID": "d4e5f6a7-b8c9-0d1e-2f3a-4b5c6d7e8f9a",
+        "title": "The Philosophy of Mind",
+        "cover_url": "https://i.alleksy.com/books/philosophy-mind.jpg",
+        "author": "Dr. Richard Hayes",
         "category": "Philosophy",
         "rating": 5,
-        "year": 2023,
-        "description": "Description for book 20."
-    },
-    {
-        "UUID": "b5c0d8e4-8f7a-4b6c-1d2e-6f9a2b1c7d0e",
-        "title": "Book 15",
-        "cover_url": "https://i.alleksy.com/books/book-15.jpg",
-        "author": "Author 15",
-        "category": "Psychology",
-        "rating": 5,
-        "year": 2024,
-        "description": "Description for book 15."
-    },
-    {
-        "UUID": "c4d1e9f5-9a8b-4c7d-2e3f-7a0b3c2d8e1f",
-        "title": "Book 37",
-        "cover_url": "https://i.alleksy.com/books/book-37.jpg",
-        "author": "Author 37",
-        "category": "Design",
-        "rating": 4,
-        "year": 2025,
-        "description": "Description for book 37."
-    },
-    {
-        "UUID": "d3e2f0a6-0b9c-4d8e-3f4a-8b1c4d3e9f2a",
-        "title": "Book 32",
-        "cover_url": "https://i.alleksy.com/books/book-32.jpg",
-        "author": "Author 32",
-        "category": "Spirituality",
-        "rating": 5,
         "year": 2022,
-        "description": "Description for book 32."
-    },
-    {
-        "UUID": "e2f3a1b7-1c0d-4e9f-4a5b-9c2d5e4f0a3b",
-        "title": "Book 34",
-        "cover_url": "https://i.alleksy.com/books/book-34.jpg",
-        "author": "Author 34",
-        "category": "Spirituality",
-        "rating": 5,
-        "year": 2023,
-        "description": "Description for book 34."
-    },
-    {
-        "UUID": "f1a4b2c8-2d1e-4f0a-5b6c-0d3e6f5a1b4c",
-        "title": "Book 36",
-        "cover_url": "https://i.alleksy.com/books/book-36.jpg",
-        "author": "Author 36",
-        "category": "Design",
-        "rating": 4,
-        "year": 2024,
-        "description": "Description for book 36."
-    },
-    {
-        "UUID": "a0b5c3d9-3e2f-4a1b-6c7d-1e4f7a6b2c5d",
-        "title": "Book 19",
-        "cover_url": "https://i.alleksy.com/books/book-19.jpg",
-        "author": "Author 19",
-        "category": "Psychology",
-        "rating": 5,
-        "year": 2025,
-        "description": "Description for book 19."
-    },
-    {
-        "UUID": "b9c6d4e0-4f3a-4b2c-7d8e-2f5a8b7c3d6e",
-        "title": "Book 18",
-        "cover_url": "https://i.alleksy.com/books/book-18.jpg",
-        "author": "Author 18",
-        "category": "Psychology",
-        "rating": 5,
-        "year": 2022,
-        "description": "Description for book 18."
-    },
-    {
-        "UUID": "c8d7e5f1-5a4b-4c3d-8e9f-3a6b9c8d4e7f",
-        "title": "Book 33",
-        "cover_url": "https://i.alleksy.com/books/book-33.jpg",
-        "author": "Author 33",
-        "category": "Spirituality",
-        "rating": 5,
-        "year": 2023,
-        "description": "Description for book 33."
-    },
-    {
-        "UUID": "d7e8f6a2-6b5c-4d4e-9f0a-4b7c0d9e5f8a",
-        "title": "Book 2",
-        "cover_url": "https://i.alleksy.com/books/book-2.jpg",
-        "author": "Author 2",
-        "category": "Fiction",
-        "rating": 5,
-        "year": 2024,
-        "description": "Description for book 2."
-    },
-    {
-        "UUID": "e6f9a7b3-7c6d-4e5f-0a1b-5c8d1e0f6a9b",
-        "title": "Book 7",
-        "cover_url": "https://i.alleksy.com/books/book-7.jpg",
-        "author": "Author 7",
-        "category": "Science",
-        "rating": 5,
-        "year": 2025,
-        "description": "Description for book 7."
-    },
-    {
-        "UUID": "f5a0b8c4-8d7e-4f6a-1b2c-6d9e2f1a7b0c",
-        "title": "Book 31",
-        "cover_url": "https://i.alleksy.com/books/book-31.jpg",
-        "author": "Author 31",
-        "category": "Self-help",
-        "rating": 4,
-        "year": 2022,
-        "description": "Description for book 31."
-    },
-    {
-        "UUID": "a4b1c9d5-9e8f-4a7b-2c3d-7e0f3a2b8c1d",
-        "title": "Book 25",
-        "cover_url": "https://i.alleksy.com/books/book-25.jpg",
-        "author": "Author 25",
-        "category": "Business",
-        "rating": 4,
-        "year": 2023,
-        "description": "Description for book 25."
-    },
-    {
-        "UUID": "b3c2d0e6-0f9a-4b8c-3d4e-8f1a4b3c9d2e",
-        "title": "Book 30",
-        "cover_url": "https://i.alleksy.com/books/book-30.jpg",
-        "author": "Author 30",
-        "category": "Self-help",
-        "rating": 5,
-        "year": 2024,
-        "description": "Description for book 30."
-    },
-    {
-        "UUID": "c2d3e1f7-1a0b-4c9d-4e5f-9a2b5c4d0e3f",
-        "title": "Book 27",
-        "cover_url": "https://i.alleksy.com/books/book-27.jpg",
-        "author": "Author 27",
-        "category": "Business",
-        "rating": 4,
-        "year": 2025,
-        "description": "Description for book 27."
+        "description": "Exploring consciousness and the nature of mind."
     }
 ]
