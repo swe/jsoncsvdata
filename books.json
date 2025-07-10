@@ -1,6 +1,8 @@
 [
     {
+        "UUID": "aebf78a1-7919-437a-a371-ced5ed0442ec",
         "title": "Book 6",
+        "cover_url": "https://i.alleksy.com/books/book-6.jpg",
         "author": "Author 6",
         "category": "Science",
         "rating": 4,
@@ -9,7 +11,9 @@
         "description": "Description for book 6."
     },
     {
+        "UUID": "b9c2d5e8-4f3a-4b2c-9d1e-2f5a8b7c3d6e",
         "title": "Book 13",
+        "cover_url": "https://i.alleksy.com/books/book-13.jpg",
         "author": "Author 13",
         "category": "History",
         "rating": 5,
@@ -18,7 +22,9 @@
         "description": "Description for book 13."
     },
     {
+        "UUID": "c8d9e6f2-5a4b-4c3d-8e9f-3a6b9c8d4e7f",
         "title": "Book 12",
+        "cover_url": "https://i.alleksy.com/books/book-12.jpg",
         "author": "Author 12",
         "category": "History",
         "rating": 5,
@@ -27,7 +33,9 @@
         "description": "Description for book 12."
     },
     {
+        "UUID": "d7e8f5a3-6b5c-4d4e-9f0a-4b7c0d9e5f8a",
         "title": "Book 16",
+        "cover_url": "https://i.alleksy.com/books/book-16.jpg",
         "author": "Author 16",
         "category": "Psychology",
         "rating": 5,
@@ -36,7 +44,9 @@
         "description": "Description for book 16."
     },
     {
+        "UUID": "e6f9a4b7-7c6d-4e5f-0a1b-5c8d1e0f6a9b",
         "title": "Book 39",
+        "cover_url": "https://i.alleksy.com/books/book-39.jpg",
         "author": "Author 39",
         "category": "Design",
         "rating": 5,
@@ -45,7 +55,9 @@
         "description": "Description for book 39."
     },
     {
+        "UUID": "f5a0b8c1-8d7e-4f6a-1b2c-6d9e2f1a7b0c",
         "title": "Book 5",
+        "cover_url": "https://i.alleksy.com/books/book-5.jpg",
         "author": "Author 5",
         "category": "Fiction",
         "rating": 4,
@@ -54,7 +66,9 @@
         "description": "Description for book 5."
     },
     {
+        "UUID": "a4b1c9d2-9e8f-4a7b-2c3d-7e0f3a2b8c1d",
         "title": "Book 14",
+        "cover_url": "https://i.alleksy.com/books/book-14.jpg",
         "author": "Author 14",
         "category": "History",
         "rating": 4,
@@ -63,7 +77,9 @@
         "description": "Description for book 14."
     },
     {
+        "UUID": "b3c2d0e5-0f9a-4b8c-3d4e-8f1a4b3c9d2e",
         "title": "Book 29",
+        "cover_url": "https://i.alleksy.com/books/book-29.jpg",
         "author": "Author 29",
         "category": "Self-help",
         "rating": 5,
@@ -72,7 +88,9 @@
         "description": "Description for book 29."
     },
     {
+        "UUID": "c2d3e1f6-1a0b-4c9d-4e5f-9a2b5c4d0e3f",
         "title": "Book 24",
+        "cover_url": "https://i.alleksy.com/books/book-24.jpg",
         "author": "Author 24",
         "category": "Business",
         "rating": 4,
@@ -81,7 +99,9 @@
         "description": "Description for book 24."
     },
     {
+        "UUID": "d1e4f2a7-2b1c-4d0e-5f6a-0b3c6d5e1f4a",
         "title": "Book 22",
+        "cover_url": "https://i.alleksy.com/books/book-22.jpg",
         "author": "Author 22",
         "category": "Philosophy",
         "rating": 5,
@@ -90,7 +110,9 @@
         "description": "Description for book 22."
     },
     {
+        "UUID": "e0f5a3b8-3c2d-4e1f-6a7b-1c4d7e6f2a5b",
         "title": "Book 40",
+        "cover_url": "https://i.alleksy.com/books/book-40.jpg",
         "author": "Author 40",
         "category": "Design",
         "rating": 5,
@@ -99,7 +121,9 @@
         "description": "Description for book 40."
     },
     {
+        "UUID": "f9a6b4c9-4d3e-4f2a-7b8c-2d5e8f7a3b6c",
         "title": "Book 17",
+        "cover_url": "https://i.alleksy.com/books/book-17.jpg",
         "author": "Author 17",
         "category": "Psychology",
         "rating": 5,
@@ -108,7 +132,9 @@
         "description": "Description for book 17."
     },
     {
+        "UUID": "a8b7c5d0-5e4f-4a3b-8c9d-3e6f9a8b4c7d",
         "title": "Book 3",
+        "cover_url": "https://i.alleksy.com/books/book-3.jpg",
         "author": "Author 3",
         "category": "Fiction",
         "rating": 4,
@@ -117,7 +143,9 @@
         "description": "Description for book 3."
     },
     {
+        "UUID": "b7c8d6e1-6f5a-4b4c-9d0e-4f7a0b9c5d8e",
         "title": "Book 35",
+        "cover_url": "https://i.alleksy.com/books/book-35.jpg",
         "author": "Author 35",
         "category": "Spirituality",
         "rating": 5,
@@ -126,7 +154,9 @@
         "description": "Description for book 35."
     },
     {
+        "UUID": "c6d9e7f2-7a6b-4c5d-0e1f-5a8b1c0d6e9f",
         "title": "Book 8",
+        "cover_url": "https://i.alleksy.com/books/book-8.jpg",
         "author": "Author 8",
         "category": "Science",
         "rating": 5,
@@ -135,7 +165,9 @@
         "description": "Description for book 8."
     },
     {
+        "UUID": "d5e0f8a3-8b7c-4d6e-1f2a-6b9c2d1e7f0a",
         "title": "Book 4",
+        "cover_url": "https://i.alleksy.com/books/book-4.jpg",
         "author": "Author 4",
         "category": "Fiction",
         "rating": 4,
@@ -144,7 +176,9 @@
         "description": "Description for book 4."
     },
     {
+        "UUID": "e4f1a9b4-9c8d-4e7f-2a3b-7c0d3e2f8a1b",
         "title": "Book 23",
+        "cover_url": "https://i.alleksy.com/books/book-23.jpg",
         "author": "Author 23",
         "category": "Philosophy",
         "rating": 4,
@@ -153,7 +187,9 @@
         "description": "Description for book 23."
     },
     {
+        "UUID": "f3a2b0c5-0d9e-4f8a-3b4c-8d1e4f3a9b2c",
         "title": "Book 38",
+        "cover_url": "https://i.alleksy.com/books/book-38.jpg",
         "author": "Author 38",
         "category": "Design",
         "rating": 5,
@@ -162,7 +198,9 @@
         "description": "Description for book 38."
     },
     {
+        "UUID": "a2b3c1d6-1e0f-4a9b-4c5d-9e2f5a4b0c3d",
         "title": "Book 21",
+        "cover_url": "https://i.alleksy.com/books/book-21.jpg",
         "author": "Author 21",
         "category": "Philosophy",
         "rating": 4,
@@ -171,7 +209,9 @@
         "description": "Description for book 21."
     },
     {
+        "UUID": "b1c4d2e7-2f1a-4b0c-5d6e-0f3a6b5c1d4e",
         "title": "Book 10",
+        "cover_url": "https://i.alleksy.com/books/book-10.jpg",
         "author": "Author 10",
         "category": "Science",
         "rating": 4,
@@ -180,7 +220,9 @@
         "description": "Description for book 10."
     },
     {
+        "UUID": "c0d5e3f8-3a2b-4c1d-6e7f-1a4b7c6d2e5f",
         "title": "Book 9",
+        "cover_url": "https://i.alleksy.com/books/book-9.jpg",
         "author": "Author 9",
         "category": "Science",
         "rating": 4,
@@ -189,7 +231,9 @@
         "description": "Description for book 9."
     },
     {
+        "UUID": "d9e6f4a0-4b3c-4d2e-7f8a-2b5c8d7e3f6a",
         "title": "Book 11",
+        "cover_url": "https://i.alleksy.com/books/book-11.jpg",
         "author": "Author 11",
         "category": "History",
         "rating": 4,
@@ -198,7 +242,9 @@
         "description": "Description for book 11."
     },
     {
+        "UUID": "e8f7a5b1-5c4d-4e3f-8a9b-3c6d9e8f4a7b",
         "title": "Book 26",
+        "cover_url": "https://i.alleksy.com/books/book-26.jpg",
         "author": "Author 26",
         "category": "Business",
         "rating": 5,
@@ -207,7 +253,9 @@
         "description": "Description for book 26."
     },
     {
+        "UUID": "f7a8b6c2-6d5e-4f4a-9b0c-4d7e0f9a5b8c",
         "title": "Book 1",
+        "cover_url": "https://i.alleksy.com/books/book-1.jpg",
         "author": "Author 1",
         "category": "Fiction",
         "rating": 5,
@@ -216,7 +264,9 @@
         "description": "Description for book 1."
     },
     {
+        "UUID": "a6b9c7d3-7e6f-4a5b-0c1d-5e8f1a0b6c9d",
         "title": "Book 20",
+        "cover_url": "https://i.alleksy.com/books/book-20.jpg",
         "author": "Author 20",
         "category": "Philosophy",
         "rating": 5,
@@ -225,7 +275,9 @@
         "description": "Description for book 20."
     },
     {
+        "UUID": "b5c0d8e4-8f7a-4b6c-1d2e-6f9a2b1c7d0e",
         "title": "Book 15",
+        "cover_url": "https://i.alleksy.com/books/book-15.jpg",
         "author": "Author 15",
         "category": "Psychology",
         "rating": 5,
@@ -234,7 +286,9 @@
         "description": "Description for book 15."
     },
     {
+        "UUID": "c4d1e9f5-9a8b-4c7d-2e3f-7a0b3c2d8e1f",
         "title": "Book 37",
+        "cover_url": "https://i.alleksy.com/books/book-37.jpg",
         "author": "Author 37",
         "category": "Design",
         "rating": 4,
@@ -243,7 +297,9 @@
         "description": "Description for book 37."
     },
     {
+        "UUID": "d3e2f0a6-0b9c-4d8e-3f4a-8b1c4d3e9f2a",
         "title": "Book 32",
+        "cover_url": "https://i.alleksy.com/books/book-32.jpg",
         "author": "Author 32",
         "category": "Spirituality",
         "rating": 5,
@@ -252,7 +308,9 @@
         "description": "Description for book 32."
     },
     {
+        "UUID": "e2f3a1b7-1c0d-4e9f-4a5b-9c2d5e4f0a3b",
         "title": "Book 34",
+        "cover_url": "https://i.alleksy.com/books/book-34.jpg",
         "author": "Author 34",
         "category": "Spirituality",
         "rating": 5,
@@ -261,7 +319,9 @@
         "description": "Description for book 34."
     },
     {
+        "UUID": "f1a4b2c8-2d1e-4f0a-5b6c-0d3e6f5a1b4c",
         "title": "Book 36",
+        "cover_url": "https://i.alleksy.com/books/book-36.jpg",
         "author": "Author 36",
         "category": "Design",
         "rating": 4,
@@ -270,7 +330,9 @@
         "description": "Description for book 36."
     },
     {
+        "UUID": "a0b5c3d9-3e2f-4a1b-6c7d-1e4f7a6b2c5d",
         "title": "Book 19",
+        "cover_url": "https://i.alleksy.com/books/book-19.jpg",
         "author": "Author 19",
         "category": "Psychology",
         "rating": 5,
@@ -279,7 +341,9 @@
         "description": "Description for book 19."
     },
     {
+        "UUID": "b9c6d4e0-4f3a-4b2c-7d8e-2f5a8b7c3d6e",
         "title": "Book 18",
+        "cover_url": "https://i.alleksy.com/books/book-18.jpg",
         "author": "Author 18",
         "category": "Psychology",
         "rating": 5,
@@ -288,7 +352,9 @@
         "description": "Description for book 18."
     },
     {
+        "UUID": "c8d7e5f1-5a4b-4c3d-8e9f-3a6b9c8d4e7f",
         "title": "Book 33",
+        "cover_url": "https://i.alleksy.com/books/book-33.jpg",
         "author": "Author 33",
         "category": "Spirituality",
         "rating": 5,
@@ -297,7 +363,9 @@
         "description": "Description for book 33."
     },
     {
+        "UUID": "d7e8f6a2-6b5c-4d4e-9f0a-4b7c0d9e5f8a",
         "title": "Book 2",
+        "cover_url": "https://i.alleksy.com/books/book-2.jpg",
         "author": "Author 2",
         "category": "Fiction",
         "rating": 5,
@@ -306,7 +374,9 @@
         "description": "Description for book 2."
     },
     {
+        "UUID": "e6f9a7b3-7c6d-4e5f-0a1b-5c8d1e0f6a9b",
         "title": "Book 7",
+        "cover_url": "https://i.alleksy.com/books/book-7.jpg",
         "author": "Author 7",
         "category": "Science",
         "rating": 5,
@@ -315,7 +385,9 @@
         "description": "Description for book 7."
     },
     {
+        "UUID": "f5a0b8c4-8d7e-4f6a-1b2c-6d9e2f1a7b0c",
         "title": "Book 31",
+        "cover_url": "https://i.alleksy.com/books/book-31.jpg",
         "author": "Author 31",
         "category": "Self-help",
         "rating": 4,
@@ -324,7 +396,9 @@
         "description": "Description for book 31."
     },
     {
+        "UUID": "a4b1c9d5-9e8f-4a7b-2c3d-7e0f3a2b8c1d",
         "title": "Book 25",
+        "cover_url": "https://i.alleksy.com/books/book-25.jpg",
         "author": "Author 25",
         "category": "Business",
         "rating": 4,
@@ -333,7 +407,9 @@
         "description": "Description for book 25."
     },
     {
+        "UUID": "b3c2d0e6-0f9a-4b8c-3d4e-8f1a4b3c9d2e",
         "title": "Book 30",
+        "cover_url": "https://i.alleksy.com/books/book-30.jpg",
         "author": "Author 30",
         "category": "Self-help",
         "rating": 5,
@@ -342,7 +418,9 @@
         "description": "Description for book 30."
     },
     {
+        "UUID": "c2d3e1f7-1a0b-4c9d-4e5f-9a2b5c4d0e3f",
         "title": "Book 27",
+        "cover_url": "https://i.alleksy.com/books/book-27.jpg",
         "author": "Author 27",
         "category": "Business",
         "rating": 4,
