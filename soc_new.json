@@ -5,14 +5,14 @@
       "status": "open",
       "title": "Suspicious Login Attempt",
       "severity": "medium",
-      "detectedAt": "2025-07-08T02:22:34Z",
-      "lastUpdated": "2025-07-07T17:22:50Z",
+      "detectedAt": "2025-08-08T02:22:34Z",
+      "lastUpdated": "2025-08-07T17:22:50Z",
       "closingDate": null,
-      "slaDeadline": "2025-07-10T02:22:34Z",
+      "slaDeadline": "2025-08-09T02:22:34Z",
       "assignedTo": {
         "analyst": "mike.torres",
         "team": "SOC-L2",
-        "assignedAt": "2025-07-13T20:05:30Z"
+        "assignedAt": "2025-08-09T20:05:30Z"
       },
       "source": "SIEM",
       "alertRule": {
@@ -75,7 +75,7 @@
       "remediationSteps": [
         {
           "action": "Initial containment applied",
-          "completedAt": "2025-07-02T14:30:54Z",
+          "completedAt": "2025-08-02T14:30:54Z",
           "completedBy": "system.auto"
         }
       ],
