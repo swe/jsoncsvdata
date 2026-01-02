@@ -1,7 +1,7 @@
 [
   {
     "name": "Old Fashioned",
-    "drinkType": "coffee",
+    "drinkType": "cocktail",
     "isCocktail": true,
     "ingredients": [
       "60ml Bourbon or rye whiskey",
@@ -12,13 +12,7 @@
     ],
     "preparation": "In an Old Fashioned glass, combine sugar syrup and bitters. Add an ice cube, pour in whiskey, and gently stir. Garnish with orange peel.",
     "servingTemperature": null,
-    "flavorDescription": [
-      "spirit-forward",
-      "dry",
-      "slightly sweet",
-      "bitter",
-      "citrus"
-    ],
+    "flavorDescription": ["spirit-forward", "dry", "slightly sweet", "bitter", "citrus"],
     "personalImpression": "A timeless minimalist classic that fully exposes the quality of the whiskey.",
     "isFavorite": true,
     "region": null,
@@ -26,7 +20,7 @@
   },
   {
     "name": "Mojito",
-    "drinkType": "mocktail",
+    "drinkType": "cocktail",
     "isCocktail": true,
     "ingredients": [
       "50ml White rum",
@@ -38,14 +32,8 @@
     ],
     "preparation": "Gently muddle mint with sugar syrup and lime juice. Fill the glass with crushed ice, add rum, top with soda water, and stir lightly.",
     "servingTemperature": null,
-    "flavorDescription": [
-      "fresh",
-      "citrusy",
-      "herbal",
-      "light",
-      "refreshing"
-    ],
-    "personalImpression": "Effortless summer drink — refreshing, light, and slightly deceptive.",
+    "flavorDescription": ["fresh", "citrusy", "herbal", "light", "refreshing"],
+    "personalImpression": "Effortless summer drink — refreshing and dangerously easy to drink.",
     "isFavorite": false,
     "region": null,
     "imageUrl": "https://i.etsystatic.com/13149612/r/il/b51760/6736034493/il_1588xN.6736034493_3lep.jpg"
@@ -63,14 +51,8 @@
     ],
     "preparation": "Add all liquid ingredients to a glass over ice, stir until chilled, and garnish with orange peel.",
     "servingTemperature": null,
-    "flavorDescription": [
-      "bitter-sweet",
-      "herbal",
-      "bold",
-      "complex",
-      "dry"
-    ],
-    "personalImpression": "Sharp personality drink — polarizing, but unforgettable once acquired.",
+    "flavorDescription": ["bitter-sweet", "herbal", "bold", "complex", "dry"],
+    "personalImpression": "Polarizing, but unforgettable once acquired.",
     "isFavorite": true,
     "region": null,
     "imageUrl": "https://i.etsystatic.com/48110695/r/il/6053e7/5552209217/il_1588xN.5552209217_qpg5.jpg"
@@ -82,37 +64,110 @@
     "ingredients": null,
     "preparation": "Serve slightly below room temperature. Decant or allow to breathe for 15–30 minutes before drinking.",
     "servingTemperature": "16–18 °C",
-    "flavorDescription": [
-      "dry",
-      "high acidity",
-      "cherry",
-      "red berries",
-      "earthy",
-      "herbal"
-    ],
-    "personalImpression": "Honest, food-driven wine — shines best alongside Italian cuisine.",
+    "flavorDescription": ["dry", "high acidity", "cherry", "red berries", "earthy", "herbal"],
+    "personalImpression": "Reliable and food-driven, especially with Italian dishes.",
     "isFavorite": false,
     "region": "Tuscany, Italy",
     "imageUrl": "https://i.etsystatic.com/60565755/r/il/b30c8c/7028303784/il_1588xN.7028303784_4nid.jpg"
   },
   {
-    "name": "Laurent-Perrier",
+    "name": "Laurent-Perrier Champagne",
     "drinkType": "wine",
     "isCocktail": false,
     "ingredients": null,
-    "preparation": "Chill to serving temperature. Open carefully without shaking and pour gently into a flute.",
+    "preparation": "Chill to serving temperature. Open carefully and pour gently into a flute.",
     "servingTemperature": "8–10 °C",
-    "flavorDescription": [
-      "fresh",
-      "crisp",
-      "citrus",
-      "floral",
-      "mineral",
-      "elegant"
-    ],
-    "personalImpression": "Restrained luxury — celebratory without being loud.",
+    "flavorDescription": ["fresh", "crisp", "citrus", "floral", "mineral", "elegant"],
+    "personalImpression": "Restrained luxury, perfect for celebrations.",
     "isFavorite": true,
     "region": "Champagne, France",
     "imageUrl": "https://i.etsystatic.com/60956859/r/il/59c7c0/7363104743/il_1588xN.7363104743_7ep1.jpg"
+  },
+  {
+    "name": "Virgin Mojito",
+    "drinkType": "mocktail",
+    "isCocktail": false,
+    "ingredients": [
+      "25ml Fresh lime juice",
+      "15ml Sugar syrup",
+      "Fresh mint leaves",
+      "Soda water",
+      "Crushed ice"
+    ],
+    "preparation": "Muddle mint with sugar syrup and lime juice. Fill with crushed ice, top with soda water, and stir gently.",
+    "servingTemperature": null,
+    "flavorDescription": ["fresh", "citrusy", "herbal", "cooling"],
+    "personalImpression": "All the freshness of a Mojito without the alcohol.",
+    "isFavorite": false,
+    "region": null,
+    "imageUrl": null
+  },
+  {
+    "name": "Cucumber Tonic",
+    "drinkType": "mocktail",
+    "isCocktail": false,
+    "ingredients": [
+      "50ml Fresh cucumber juice",
+      "100ml Tonic water",
+      "Lime peel",
+      "Ice cube"
+    ],
+    "preparation": "Fill a glass with ice, add cucumber juice, top with tonic, and garnish with lime peel.",
+    "servingTemperature": null,
+    "flavorDescription": ["clean", "fresh", "slightly bitter", "cool"],
+    "personalImpression": "Minimal, spa-like drink with high refreshment value.",
+    "isFavorite": false,
+    "region": null,
+    "imageUrl": null
+  },
+  {
+    "name": "Berry Spritz",
+    "drinkType": "mocktail",
+    "isCocktail": false,
+    "ingredients": [
+      "40ml Mixed berry puree",
+      "100ml Sparkling water",
+      "Fresh berries",
+      "Ice cube"
+    ],
+    "preparation": "Add berry puree to a glass with ice, top with sparkling water, and gently stir.",
+    "servingTemperature": null,
+    "flavorDescription": ["fruity", "light", "slightly sweet", "refreshing"],
+    "personalImpression": "Playful and easy-going, perfect for daytime.",
+    "isFavorite": false,
+    "region": null,
+    "imageUrl": null
+  },
+  {
+    "name": "Espresso",
+    "drinkType": "coffee",
+    "isCocktail": false,
+    "ingredients": [
+      "30ml Espresso coffee"
+    ],
+    "preparation": "Brew under high pressure using finely ground coffee beans.",
+    "servingTemperature": null,
+    "flavorDescription": ["intense", "bitter", "roasted", "bold"],
+    "personalImpression": "Pure concentration — no room to hide bad beans.",
+    "isFavorite": true,
+    "region": null,
+    "imageUrl": null
+  },
+  {
+    "name": "Cappuccino",
+    "drinkType": "coffee",
+    "isCocktail": false,
+    "ingredients": [
+      "30ml Espresso",
+      "120ml Steamed milk",
+      "Milk foam"
+    ],
+    "preparation": "Pour steamed milk over espresso and finish with a thick layer of milk foam.",
+    "servingTemperature": null,
+    "flavorDescription": ["creamy", "balanced", "roasted", "smooth"],
+    "personalImpression": "Comfort coffee — structured but soft.",
+    "isFavorite": false,
+    "region": null,
+    "imageUrl": null
   }
 ]
