@@ -1,7 +1,7 @@
 [
   {
     "name": "Old Fashioned",
-    "drinkType": "cocktail",
+    "drinkType": "coffee",
     "isCocktail": true,
     "ingredients": [
       "60ml Bourbon or rye whiskey",
@@ -26,7 +26,7 @@
   },
   {
     "name": "Mojito",
-    "drinkType": "cocktail",
+    "drinkType": "mocktail",
     "isCocktail": true,
     "ingredients": [
       "50ml White rum",
