@@ -1,6 +1,7 @@
 [
   {
     "name": "Old Fashioned",
+    "drinkType": "cocktail",
     "isCocktail": true,
     "ingredients": [
       "60ml Bourbon or rye whiskey",
@@ -25,6 +26,7 @@
   },
   {
     "name": "Mojito",
+    "drinkType": "cocktail",
     "isCocktail": true,
     "ingredients": [
       "50ml White rum",
@@ -50,6 +52,7 @@
   },
   {
     "name": "Negroni",
+    "drinkType": "cocktail",
     "isCocktail": true,
     "ingredients": [
       "30ml Gin",
@@ -74,6 +77,7 @@
   },
   {
     "name": "Chianti",
+    "drinkType": "wine",
     "isCocktail": false,
     "ingredients": null,
     "preparation": "Serve slightly below room temperature. Decant or allow to breathe for 15–30 minutes before drinking.",
@@ -92,7 +96,8 @@
     "imageUrl": "https://i.etsystatic.com/60565755/r/il/b30c8c/7028303784/il_1588xN.7028303784_4nid.jpg"
   },
   {
-    "name": "Laurent-Perrier Champagne",
+    "name": "Laurent-Perrier",
+    "drinkType": "wine",
     "isCocktail": false,
     "ingredients": null,
     "preparation": "Chill to serving temperature. Open carefully without shaking and pour gently into a flute.",
