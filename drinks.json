@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Old Fashioned",
+    "isCocktail": true,
+    "ingredients": [
+      "60ml Bourbon or rye whiskey",
+      "5ml Sugar syrup",
+      "2ml Angostura bitters",
+      "Orange peel",
+      "Ice cube"
+    ],
+    "preparation": "In an Old Fashioned glass, combine sugar syrup and bitters. Add an ice cube, pour in whiskey, and gently stir. Garnish with orange peel.",
+    "servingTemperature": null,
+    "flavorDescription": "Dry, spirit-forward, with balanced sweetness, bitterness, and subtle citrus notes.",
+    "personalImpression": "A timeless minimalist classic that fully exposes the quality of the whiskey.",
+    "isFavorite": true,
+    "region": null,
+    "imageUrl": "https://i.etsystatic.com/13149612/r/il/5079ab/5501180232/il_1588xN.5501180232_qm31.jpg"
+  },
+  {
+    "name": "Mojito",
+    "isCocktail": true,
+    "ingredients": [
+      "50ml White rum",
+      "25ml Fresh lime juice",
+      "15ml Sugar syrup",
+      "Fresh mint leaves",
+      "Soda water",
+      "Crushed ice"
+    ],
+    "preparation": "Gently muddle mint with sugar syrup and lime juice. Fill the glass with crushed ice, add rum, top with soda water, and stir lightly.",
+    "servingTemperature": null,
+    "flavorDescription": "Bright, citrusy, herbal, and extremely refreshing.",
+    "personalImpression": "Effortless summer drink — refreshing, light, and slightly deceptive.",
+    "isFavorite": false,
+    "region": null,
+    "imageUrl": "https://i.etsystatic.com/13149612/r/il/b51760/6736034493/il_1588xN.6736034493_3lep.jpg"
+  },
+  {
+    "name": "Negroni",
+    "isCocktail": true,
+    "ingredients": [
+      "30ml Gin",
+      "30ml Campari",
+      "30ml Sweet vermouth",
+      "Orange peel",
+      "Ice cube"
+    ],
+    "preparation": "Add all liquid ingredients to a glass over ice, stir until chilled, and garnish with orange peel.",
+    "servingTemperature": null,
+    "flavorDescription": "Bitter-sweet, herbal, bold, and layered.",
+    "personalImpression": "Sharp personality drink — polarizing, but unforgettable once acquired.",
+    "isFavorite": true,
+    "region": null,
+    "imageUrl": "https://i.etsystatic.com/48110695/r/il/6053e7/5552209217/il_1588xN.5552209217_qpg5.jpg"
+  },
+  {
+    "name": "Chianti",
+    "isCocktail": false,
+    "ingredients": null,
+    "preparation": "Serve slightly below room temperature. Decant or allow to breathe for 15–30 minutes before drinking.",
+    "servingTemperature": "16–18 °C",
+    "flavorDescription": "Dry, high acidity, with notes of sour cherry, red berries, herbs, and subtle earthiness.",
+    "personalImpression": "Honest, food-driven wine — shines best alongside Italian cuisine.",
+    "isFavorite": false,
+    "region": "Tuscany, Italy",
+    "imageUrl": "https://i.etsystatic.com/60565755/r/il/b30c8c/7028303784/il_1588xN.7028303784_4nid.jpg"
+  },
+  {
+    "name": "Laurent-Perrier Champagne",
+    "isCocktail": false,
+    "ingredients": null,
+    "preparation": "Chill to serving temperature. Open carefully without shaking and pour gently into a flute.",
+    "servingTemperature": "8–10 °C",
+    "flavorDescription": "Fresh and elegant, with citrus, white flowers, fine bubbles, and mineral notes.",
+    "personalImpression": "Restrained luxury — celebratory without being loud.",
+    "isFavorite": true,
+    "region": "Champagne, France",
+    "imageUrl": "https://i.etsystatic.com/60956859/r/il/59c7c0/7363104743/il_1588xN.7363104743_7ep1.jpg"
+  }
+]
