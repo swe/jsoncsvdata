@@ -11,7 +11,13 @@
     ],
     "preparation": "In an Old Fashioned glass, combine sugar syrup and bitters. Add an ice cube, pour in whiskey, and gently stir. Garnish with orange peel.",
     "servingTemperature": null,
-    "flavorDescription": "Dry, spirit-forward, with balanced sweetness, bitterness, and subtle citrus notes.",
+    "flavorDescription": [
+      "spirit-forward",
+      "dry",
+      "slightly sweet",
+      "bitter",
+      "citrus"
+    ],
     "personalImpression": "A timeless minimalist classic that fully exposes the quality of the whiskey.",
     "isFavorite": true,
     "region": null,
@@ -30,7 +36,13 @@
     ],
     "preparation": "Gently muddle mint with sugar syrup and lime juice. Fill the glass with crushed ice, add rum, top with soda water, and stir lightly.",
     "servingTemperature": null,
-    "flavorDescription": "Bright, citrusy, herbal, and extremely refreshing.",
+    "flavorDescription": [
+      "fresh",
+      "citrusy",
+      "herbal",
+      "light",
+      "refreshing"
+    ],
     "personalImpression": "Effortless summer drink — refreshing, light, and slightly deceptive.",
     "isFavorite": false,
     "region": null,
@@ -48,7 +60,13 @@
     ],
     "preparation": "Add all liquid ingredients to a glass over ice, stir until chilled, and garnish with orange peel.",
     "servingTemperature": null,
-    "flavorDescription": "Bitter-sweet, herbal, bold, and layered.",
+    "flavorDescription": [
+      "bitter-sweet",
+      "herbal",
+      "bold",
+      "complex",
+      "dry"
+    ],
     "personalImpression": "Sharp personality drink — polarizing, but unforgettable once acquired.",
     "isFavorite": true,
     "region": null,
@@ -60,7 +78,14 @@
     "ingredients": null,
     "preparation": "Serve slightly below room temperature. Decant or allow to breathe for 15–30 minutes before drinking.",
     "servingTemperature": "16–18 °C",
-    "flavorDescription": "Dry, high acidity, with notes of sour cherry, red berries, herbs, and subtle earthiness.",
+    "flavorDescription": [
+      "dry",
+      "high acidity",
+      "cherry",
+      "red berries",
+      "earthy",
+      "herbal"
+    ],
     "personalImpression": "Honest, food-driven wine — shines best alongside Italian cuisine.",
     "isFavorite": false,
     "region": "Tuscany, Italy",
@@ -72,7 +97,14 @@
     "ingredients": null,
     "preparation": "Chill to serving temperature. Open carefully without shaking and pour gently into a flute.",
     "servingTemperature": "8–10 °C",
-    "flavorDescription": "Fresh and elegant, with citrus, white flowers, fine bubbles, and mineral notes.",
+    "flavorDescription": [
+      "fresh",
+      "crisp",
+      "citrus",
+      "floral",
+      "mineral",
+      "elegant"
+    ],
     "personalImpression": "Restrained luxury — celebratory without being loud.",
     "isFavorite": true,
     "region": "Champagne, France",
