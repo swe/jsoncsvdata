@@ -1,17 +1,212 @@
 [
   {
-    "uuid": "7b9b7a2e-9f6f-4f6a-8c2c-1a9c9d4f0a11",
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000001",
     "link": "ai-future-blog",
-    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/ai-future-blog.md"
+    "title": "On the Quiet Acceleration of Artificial Intelligence",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/ai-future-blog.md",
+    "date": "2024-01-12"
   },
   {
-    "uuid": "c3f0b5e4-2d8e-4f3c-9a2b-6c1d8e2f4b22",
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000002",
     "link": "sustainable-living-blog",
-    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/sustainable-living-blog.md"
+    "title": "Living With Less, Thinking a Bit More",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/sustainable-living-blog.md",
+    "date": "2024-02-03"
   },
   {
-    "uuid": "e91a4c77-6f0e-4b2a-9d3f-8a5b6c7d8e33",
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000003",
     "link": "remote-work-blog",
-    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/remote-work-blog.md"
+    "title": "Work Without Offices, Time Without Borders",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/remote-work-blog.md",
+    "date": "2024-02-27"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000004",
+    "link": "ai-future-blog",
+    "title": "Machines That Feel Closer Than Expected",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/ai-future-blog.md",
+    "date": "2024-03-15"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000005",
+    "link": "sustainable-living-blog",
+    "title": "Sustainability as a Daily Practice",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/sustainable-living-blog.md",
+    "date": "2024-04-01"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000006",
+    "link": "remote-work-blog",
+    "title": "The Shape of a Workday at Home",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/remote-work-blog.md",
+    "date": "2024-04-22"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000007",
+    "link": "ai-future-blog",
+    "title": "Thinking Alongside Algorithms",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/ai-future-blog.md",
+    "date": "2024-05-10"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000008",
+    "link": "sustainable-living-blog",
+    "title": "Small Choices, Long Consequences",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/sustainable-living-blog.md",
+    "date": "2024-06-02"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000009",
+    "link": "remote-work-blog",
+    "title": "Remote Work and the New Social Contract",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/remote-work-blog.md",
+    "date": "2024-06-28"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000010",
+    "link": "ai-future-blog",
+    "title": "When Software Starts to Make Decisions",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/ai-future-blog.md",
+    "date": "2024-07-14"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000011",
+    "link": "sustainable-living-blog",
+    "title": "The Economics of Enough",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/sustainable-living-blog.md",
+    "date": "2024-08-05"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000012",
+    "link": "remote-work-blog",
+    "title": "Home Offices and Invisible Commutes",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/remote-work-blog.md",
+    "date": "2024-08-29"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000013",
+    "link": "ai-future-blog",
+    "title": "Learning to Trust Synthetic Minds",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/ai-future-blog.md",
+    "date": "2024-09-17"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000014",
+    "link": "sustainable-living-blog",
+    "title": "A Slower Way to Live Well",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/sustainable-living-blog.md",
+    "date": "2024-10-06"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000015",
+    "link": "remote-work-blog",
+    "title": "Collaboration Without a Common Room",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/remote-work-blog.md",
+    "date": "2024-10-24"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000016",
+    "link": "ai-future-blog",
+    "title": "Artificial Intelligence as Infrastructure",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/ai-future-blog.md",
+    "date": "2024-11-12"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000017",
+    "link": "sustainable-living-blog",
+    "title": "Designing a Life That Wastes Less",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/sustainable-living-blog.md",
+    "date": "2024-12-03"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000018",
+    "link": "remote-work-blog",
+    "title": "Async by Default",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/remote-work-blog.md",
+    "date": "2024-12-21"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000019",
+    "link": "ai-future-blog",
+    "title": "What Happens After Automation",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/ai-future-blog.md",
+    "date": "2025-01-11"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000020",
+    "link": "sustainable-living-blog",
+    "title": "Sustainability Beyond Trends",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/sustainable-living-blog.md",
+    "date": "2025-01-29"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000021",
+    "link": "remote-work-blog",
+    "title": "Working Together, Apart",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/remote-work-blog.md",
+    "date": "2025-02-16"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000022",
+    "link": "ai-future-blog",
+    "title": "The Moral Weight of Code",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/ai-future-blog.md",
+    "date": "2025-03-04"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000023",
+    "link": "sustainable-living-blog",
+    "title": "Rethinking Comfort and Consumption",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/sustainable-living-blog.md",
+    "date": "2025-03-22"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000024",
+    "link": "remote-work-blog",
+    "title": "The End of the Commute as We Knew It",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/remote-work-blog.md",
+    "date": "2025-04-08"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000025",
+    "link": "ai-future-blog",
+    "title": "Living in a World of Predictive Systems",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/ai-future-blog.md",
+    "date": "2025-04-26"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000026",
+    "link": "sustainable-living-blog",
+    "title": "Simplicity Is a Renewable Resource",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/sustainable-living-blog.md",
+    "date": "2025-05-14"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000027",
+    "link": "remote-work-blog",
+    "title": "Distributed Teams, Shared Intentions",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/remote-work-blog.md",
+    "date": "2025-06-01"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000028",
+    "link": "ai-future-blog",
+    "title": "Software That Shapes Human Behavior",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/ai-future-blog.md",
+    "date": "2025-06-18"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000029",
+    "link": "sustainable-living-blog",
+    "title": "The Future Looks Surprisingly Modest",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/sustainable-living-blog.md",
+    "date": "2025-07-05"
+  },
+  {
+    "uuid": "01a1c1d4-1111-4a1a-9a01-000000000030",
+    "link": "remote-work-blog",
+    "title": "Rebuilding Work Around Life",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/remote-work-blog.md",
+    "date": "2025-07-23"
   }
 ]
