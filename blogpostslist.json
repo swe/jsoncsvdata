@@ -1,0 +1,17 @@
+[
+  {
+    "uuid": "7b9b7a2e-9f6f-4f6a-8c2c-1a9c9d4f0a11",
+    "link": "ai-future-blog",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/ai-future-blog.md"
+  },
+  {
+    "uuid": "c3f0b5e4-2d8e-4f3c-9a2b-6c1d8e2f4b22",
+    "link": "sustainable-living-blog",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/sustainable-living-blog.md"
+  },
+  {
+    "uuid": "e91a4c77-6f0e-4b2a-9d3f-8a5b6c7d8e33",
+    "link": "remote-work-blog",
+    "url": "https://raw.githubusercontent.com/swe/jsoncsvdata/refs/heads/master/remote-work-blog.md"
+  }
+]
