@@ -780,5 +780,22 @@
     "comment": "For morning coffeeeee",
     "manufacturer": "Happy Doooiry",
     "packaging": "carton"
+  },
+    {
+    "photo": "https://example.com/photo1.jpg",
+    "name": "Whoisdaoisaodle Milk",
+    "location": "Kaaaatchen",
+    "subLocation": "Top shssself of grey cabinet left",
+    "category": "food",
+    "quantity": 2,
+    "expirationDate": "2026-01-25",
+    "addedDate": "2026-01-11",
+    "modifiedDate": "2026-01-11",
+    "status": "sealed",
+    "addedBy": "Ivan A.",
+    "itemCount": 2,
+    "comment": "For morning coffee",
+    "manufacturer": "Happy Dairy",
+    "packaging": "carton"
   }
 ]
