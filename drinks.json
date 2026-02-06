@@ -1,5 +1,44 @@
 [
   {
+    "name": "V60",
+    "drinkType": "coffee",
+    "isCocktail": false,
+    "ingredients": null,
+    "preparation": null,
+    "servingTemperature": null,
+    "flavorDescription": null,
+    "personalImpression": "Clean and bright pour-over that highlights the beans",
+    "isFavorite": true,
+    "region": null,
+    "imageUrl": "https://i.alleksy.com/cocktails/v60.png"
+  },
+  {
+    "name": "Chianti",
+    "drinkType": "wine",
+    "isCocktail": false,
+    "ingredients": null,
+    "preparation": null,
+    "servingTemperature": "16–18 °C",
+    "flavorDescription": null,
+    "personalImpression": "Earthy reds that pair perfectly with food",
+    "isFavorite": true,
+    "region": "Tuscany, Italy",
+    "imageUrl": "https://i.alleksy.com/cocktails/chianti.png"
+  },
+  {
+    "name": "Petit Chablis",
+    "drinkType": "wine",
+    "isCocktail": false,
+    "ingredients": null,
+    "preparation": null,
+    "servingTemperature": "10–12 °C",
+    "flavorDescription": null,
+    "personalImpression": "Crisp, light and citrusy French white",
+    "isFavorite": false,
+    "region": "Burgundy, France",
+    "imageUrl": "https://i.alleksy.com/cocktails/petit-chablis.png"
+  },
+  {
     "name": "Old Fashioned",
     "drinkType": "cocktail",
     "isCocktail": true,
@@ -76,6 +115,25 @@
     "imageUrl": "https://i.alleksy.com/cocktails/blood-and-sand.png"
   },
   {
+    "name": "Lucciola",
+    "drinkType": "cocktail",
+    "isCocktail": true,
+    "ingredients": [
+      "40ml gin",
+      "20ml elderflower liqueur",
+      "20ml fresh lemon juice",
+      "sparkling wine",
+      "ice"
+    ],
+    "preparation": "Shake gin, liqueur and lemon juice with ice, strain into a glass and top with sparkling wine",
+    "servingTemperature": null,
+    "flavorDescription": null,
+    "personalImpression": "Elegant and subtle with a modern herbal touch",
+    "isFavorite": false,
+    "region": null,
+    "imageUrl": "https://i.alleksy.com/cocktails/lucciola.png"
+  },
+  {
     "name": "Boulevardier",
     "drinkType": "cocktail",
     "isCocktail": true,
@@ -114,22 +172,66 @@
     "imageUrl": "https://i.alleksy.com/cocktails/cuba-libre.png"
   },
   {
-    "name": "Lucciola",
-    "drinkType": "cocktail",
-    "isCocktail": true,
+    "name": "Coca Cola",
+    "drinkType": "mocktail",
+    "isCocktail": false,
     "ingredients": [
-      "40ml gin",
-      "20ml elderflower liqueur",
-      "20ml fresh lemon juice",
-      "sparkling wine",
-      "ice"
+      "Coca Cola",
+      "ice",
+      "lemon wedge optional"
     ],
-    "preparation": "Shake gin, liqueur and lemon juice with ice, strain into a glass and top with sparkling wine",
+    "preparation": "Serve chilled over ice, garnish with lemon if desired",
     "servingTemperature": null,
     "flavorDescription": null,
-    "personalImpression": "Elegant and subtle with a modern herbal touch",
+    "personalImpression": "Fizzy sweet comfort with instant nostalgia",
+    "isFavorite": true,
+    "region": null,
+    "imageUrl": "https://i.alleksy.com/cocktails/coca-cola.png"
+  },
+  {
+    "name": "Sprite",
+    "drinkType": "mocktail",
+    "isCocktail": false,
+    "ingredients": [
+      "Sprite",
+      "ice",
+      "lemon slice optional"
+    ],
+    "preparation": "Serve chilled over ice, garnish with lemon if desired",
+    "servingTemperature": null,
+    "flavorDescription": null,
+    "personalImpression": "Clean lemon lime fizz that refreshes instantly",
     "isFavorite": false,
     "region": null,
-    "imageUrl": "https://i.alleksy.com/cocktails/lucciola.png"
+    "imageUrl": "https://i.alleksy.com/cocktails/sprite.png"
+  },
+  {
+    "name": "Orange Juice",
+    "drinkType": "mocktail",
+    "isCocktail": false,
+    "ingredients": [
+      "Freshly squeezed orange juice",
+      "ice optional"
+    ],
+    "preparation": "Serve chilled, optionally over ice",
+    "servingTemperature": null,
+    "flavorDescription": null,
+    "personalImpression": "Bright and fresh with natural sweetness",
+    "isFavorite": true,
+    "region": null,
+    "imageUrl": "https://i.alleksy.com/cocktails/orange-juice.png"
+  },
+  {
+    "name": "Laurent-Perrier Champagne",
+    "drinkType": "wine",
+    "isCocktail": false,
+    "ingredients": null,
+    "preparation": "Chill to serving temperature, pour gently into a flute",
+    "servingTemperature": "8–10 °C",
+    "flavorDescription": null,
+    "personalImpression": "Refined bubbles with quiet confidence",
+    "isFavorite": true,
+    "region": "Champagne, France",
+    "imageUrl": "https://i.alleksy.com/cocktails/laurent-perrier-champagne.png"
   }
 ]
