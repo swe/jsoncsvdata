@@ -4,10 +4,10 @@
     "drinkType": "coffee",
     "isCocktail": false,
     "ingredients": null,
-    "preparation": null,
+    "preparation": "Clean and bright pour-over that highlights the beans",
     "servingTemperature": null,
     "flavorDescription": null,
-    "personalImpression": "Clean and bright pour-over that highlights the beans",
+    "personalImpression": null,
     "isFavorite": true,
     "region": null,
     "imageUrl": "https://i.alleksy.com/cocktails/v60.png"
