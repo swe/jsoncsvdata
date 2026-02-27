@@ -1,0 +1,261 @@
+{
+  "report_version": "1.2",
+  "generated_date": "2025-07-15T14:30:00Z",
+  "target": "app.companyname.com / 185.199.108.153 / CRM Web Application",
+  "scope": "External perimeter: *.companyname.com, API endpoints, iOS/Android mobile apps",
+  "methodology": "Grey-box + Automated scanning + Manual validation",
+  "assessment_dates": {
+    "start": "2025-07-01",
+    "end": "2025-07-14"
+  },
+  "executive_summary": {
+    "total_vulnerabilities": 23,
+    "severity_counts": {
+      "critical": 4,
+      "high": 8,
+      "medium": 9,
+      "low": 2,
+      "informational": 0
+    },
+    "summary_text": "Four critical issues were identified, including unauthenticated file access and remote code execution vectors. Immediate action is required to prevent potential full compromise."
+  },
+  "technology_stack": [
+    {
+      "component": "Operating System",
+      "technology": "Ubuntu",
+      "version": "20.04.6 LTS",
+      "status": "Outdated (EOL April 2025)",
+      "notes": "Migration to 22.04 or 24.04 LTS recommended"
+    },
+    {
+      "component": "Web Server",
+      "technology": "Nginx",
+      "version": "1.18.0",
+      "status": "Outdated",
+      "notes": "Multiple known vulnerabilities post-1.20"
+    },
+    {
+      "component": "Backend Language",
+      "technology": "PHP",
+      "version": "7.4.33",
+      "status": "End-of-Life (November 2022)",
+      "notes": "Critical – urgent upgrade required"
+    },
+    {
+      "component": "Database",
+      "technology": "PostgreSQL",
+      "version": "13.15",
+      "status": "Supported"
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "id": "VULN-001",
+      "title": "Missing HSTS Header",
+      "severity": "High",
+      "category": "Security Headers",
+      "description": "The Strict-Transport-Security header is not present, allowing potential SSL stripping attacks.",
+      "impact": "Enables man-in-the-middle downgrade attacks to plain HTTP.",
+      "remediation": ["Add HSTS header with long max-age and includeSubDomains"]
+    },
+    {
+      "id": "VULN-002",
+      "title": "Outdated PHP Version (7.4 – End-of-Life)",
+      "severity": "Critical",
+      "category": "Dependency Issues",
+      "description": "PHP 7.4 reached end-of-life in November 2022 and no longer receives security updates.",
+      "impact": "Exposed to multiple known RCE and privilege escalation vulnerabilities.",
+      "remediation": ["Upgrade to PHP 8.2 or 8.3", "Run compatibility tests"]
+    },
+    {
+      "id": "VULN-003",
+      "title": "Support for Legacy TLS Protocols (1.0 / 1.1)",
+      "severity": "Medium",
+      "category": "SSL/TLS",
+      "description": "TLS 1.0 and TLS 1.1 are still enabled.",
+      "impact": "Vulnerable to protocol downgrade and weak cipher usage.",
+      "remediation": ["Restrict to TLSv1.2 TLSv1.3 in server configuration"]
+    },
+    {
+      "id": "VULN-004",
+      "title": "Unauthenticated Access to Backup Files",
+      "severity": "Critical",
+      "category": "Information Disclosure",
+      "description": "/backup/db-2025-07-10.sql accessible without authentication",
+      "impact": "Full database dump exposure including user credentials and PII",
+      "remediation": ["Remove public access", "Move backups outside web root", "Implement .htaccess / nginx deny rule"]
+    },
+    {
+      "id": "VULN-005",
+      "title": "Insecure Direct Object Reference (IDOR) – User Profile",
+      "severity": "High",
+      "category": "Authorization",
+      "description": "User can modify profile data of any other user by changing user_id parameter",
+      "impact": "Account takeover, data tampering",
+      "remediation": ["Implement proper ownership checks on every endpoint"]
+    },
+    {
+      "id": "VULN-006",
+      "title": "Reflected XSS in Search Parameter",
+      "severity": "High",
+      "category": "Input Validation",
+      "description": "Unescaped user input in ?q= parameter reflected in page title and content",
+      "impact": "Session hijacking, phishing, defacement",
+      "remediation": ["Apply proper output encoding (htmlspecialchars)", "Add CSP"]
+    },
+    {
+      "id": "VULN-007",
+      "title": "Weak Password Policy & No Rate Limiting on Login",
+      "severity": "High",
+      "category": "Authentication",
+      "description": "Allows passwords ≤ 6 chars, unlimited login attempts",
+      "impact": "Credential stuffing / brute-force feasible",
+      "remediation": ["Enforce 12+ chars + complexity", "Implement account lockout / CAPTCHA / rate limiting"]
+    },
+    {
+      "id": "VULN-008",
+      "title": "Missing CSRF Protection on State-Changing Actions",
+      "severity": "High",
+      "category": "Authentication",
+      "description": "POST requests to change email/password lack CSRF tokens",
+      "impact": "Forced actions via malicious links / img tags",
+      "remediation": ["Add synchronizer token pattern or SameSite=Strict cookies"]
+    },
+    {
+      "id": "VULN-009",
+      "title": "Server Version Disclosure",
+      "severity": "Medium",
+      "category": "Information Disclosure",
+      "description": "Nginx 1.18.0 version leaked in Server header",
+      "impact": "Helps attackers select targeted exploits",
+      "remediation": ["server_tokens off; in nginx"]
+    },
+    {
+      "id": "VULN-010",
+      "title": "Insecure Deserialization in PHP Session Handling",
+      "severity": "Critical",
+      "category": "Input Validation",
+      "description": "User-controlled session data deserialized without validation",
+      "impact": "Remote code execution via gadget chains (CVE-2024-xxxx like)",
+      "remediation": ["Disable session.use_strict_mode off", "Use secure session handler"]
+    },
+    {
+      "id": "VULN-011",
+      "title": "Exposed .env File",
+      "severity": "Critical",
+      "category": "Configuration",
+      "description": "http://app.companyname.com/.env accessible",
+      "impact": "DB credentials, API keys, secrets leakage",
+      "remediation": ["Block access via web server config", "Remove file from public directory"]
+    },
+    {
+      "id": "VULN-012",
+      "title": "CORS Misconfiguration – Wildcard Origin + Credentials",
+      "severity": "High",
+      "category": "Configuration",
+      "description": "Access-Control-Allow-Origin: * + Allow-Credentials: true",
+      "impact": "Cross-origin credential theft",
+      "remediation": ["Specify exact trusted origins only"]
+    },
+    {
+      "id": "VULN-013",
+      "title": "Clickjacking – Missing X-Frame-Options",
+      "severity": "Medium",
+      "category": "Security Headers",
+      "description": "Site can be loaded in iframe",
+      "impact": "UI redressing attacks",
+      "remediation": ["Add X-Frame-Options: DENY or SAMEORIGIN"]
+    },
+    {
+      "id": "VULN-014",
+      "title": "Outdated jQuery 3.5.1 (multiple known vulnerabilities)",
+      "severity": "Medium",
+      "category": "Dependency Issues",
+      "description": "Contains CVE-2020-11022, CVE-2020-11023 XSS vectors",
+      "impact": "Client-side XSS in legacy code paths",
+      "remediation": ["Upgrade to 3.7.1 or migrate to vanilla JS"]
+    },
+    {
+      "id": "VULN-015",
+      "title": "Verbose Error Messages (Stack Traces)",
+      "severity": "Medium",
+      "category": "Information Disclosure",
+      "description": "500 errors show full Laravel + PHP stack trace",
+      "impact": "Path disclosure, framework version fingerprinting",
+      "remediation": ["Set APP_DEBUG=false in production"]
+    },
+    {
+      "id": "VULN-016",
+      "title": "Insecure File Upload – No Extension/MIME Validation",
+      "severity": "High",
+      "category": "Input Validation",
+      "description": "Allows upload of .php files disguised as images",
+      "impact": "Remote code execution via uploaded webshell",
+      "remediation": ["Validate MIME type + extension", "Store outside web root"]
+    },
+    {
+      "id": "VULN-017",
+      "title": "Missing Referrer-Policy Header",
+      "severity": "Low",
+      "category": "Security Headers",
+      "description": "Full referrer leaked on cross-origin requests",
+      "impact": "Sensitive URL parameters leakage",
+      "remediation": ["Referrer-Policy: strict-origin-when-cross-origin"]
+    },
+    {
+      "id": "VULN-018",
+      "title": "Unvalidated Redirect (Open Redirect)",
+      "severity": "Medium",
+      "category": "Input Validation",
+      "description": "?redirect=https://evil.com accepted",
+      "impact": "Phishing via trusted domain",
+      "remediation": ["Whitelist allowed redirect domains"]
+    },
+    {
+      "id": "VULN-019",
+      "title": "Sensitive Data in Client-Side JavaScript",
+      "severity": "High",
+      "category": "Information Disclosure",
+      "description": "API keys and internal URLs hardcoded in bundled JS",
+      "impact": "Abuse of backend APIs / services",
+      "remediation": ["Move secrets to backend", "Use environment variables"]
+    },
+    {
+      "id": "VULN-020",
+      "title": "Insecure JWT Implementation – None Algorithm Accepted",
+      "severity": "Critical",
+      "category": "Cryptography",
+      "description": "alg: none tokens accepted as valid",
+      "impact": "Authentication bypass",
+      "remediation": ["Reject alg:none", "Enforce strong signing algorithm (HS256/RS256)"]
+    },
+    {
+      "id": "VULN-021",
+      "title": "No HTTP Strict Transport Security on subdomains",
+      "severity": "Medium",
+      "category": "SSL/TLS",
+      "description": "HSTS enabled but without includeSubDomains",
+      "impact": "Subdomains remain vulnerable to MITM",
+      "remediation": ["Add includeSubDomains directive"]
+    },
+    {
+      "id": "VULN-022",
+      "title": "Permission Overly Broad File Upload Directory",
+      "severity": "Medium",
+      "category": "Configuration",
+      "description": "Uploads directory has 777 permissions",
+      "impact": "Potential code execution if combined with other issues",
+      "remediation": ["Set 755 or 644 + proper ownership"]
+    },
+    {
+      "id": "VULN-023",
+      "title": "Lack of Security.txt / vulnerability disclosure policy",
+      "severity": "Informational → Low",
+      "category": "Other",
+      "description": "No security.txt file or bug bounty / reporting information",
+      "impact": "Slows responsible disclosure process",
+      "remediation": ["Create /.well-known/security.txt with contact info"]
+    }
+  ],
+  "conclusion": "The application exhibits a wide range of vulnerabilities from critical remote code execution paths to basic misconfigurations. Four critical findings require emergency patching. Full remediation and re-testing are highly recommended."
+}
