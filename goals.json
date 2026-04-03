@@ -1,0 +1,177 @@
+{
+  "year": 2026,
+  "goals": [
+    {
+      "id": "3f8c6e52-7a91-4f3a-9c8d-2a1c0c5f4a11",
+      "title": "Finish 20K Trail Race",
+      "description": "Train consistently to complete a 20 km trail race, focusing on endurance, elevation gain, and pacing strategy.",
+      "image_url": "",
+      "finished": false,
+      "created_at": "2025-12-03T09:14:22Z",
+      "updated_at": "2025-12-03T09:14:22Z"
+    },
+    {
+      "id": "b1a7c9d2-6c5f-4c11-8e4f-3d2b9b82a1d4",
+      "title": "Get Motorcycle License",
+      "description": "Complete all required training and testing to obtain a full motorcycle license, including road safety and riding skills.",
+      "image_url": "",
+      "finished": false,
+      "created_at": "2025-12-05T14:22:11Z",
+      "updated_at": "2025-12-05T14:22:11Z"
+    },
+    {
+      "id": "9d3e2a44-91f7-4f7b-b8aa-1c9fbb1d2e77",
+      "title": "Solo Long Hike/Run",
+      "description": "Plan and complete a long solo hiking or trail running day, focusing on navigation, endurance, and self-reliance.",
+      "image_url": "",
+      "finished": false,
+      "created_at": "2025-12-07T11:03:45Z",
+      "updated_at": "2025-12-07T11:03:45Z"
+    },
+    {
+      "id": "5a1c9b77-2d3e-4f11-8a2b-91c8d4e5f001",
+      "title": "Complete First Aid Course",
+      "description": "Take and successfully complete a certified first aid course to be prepared for emergencies in daily life and outdoors.",
+      "image_url": "",
+      "finished": false,
+      "created_at": "2025-12-08T18:41:02Z",
+      "updated_at": "2025-12-08T18:41:02Z"
+    },
+    {
+      "id": "7a4e1f66-3f92-4a44-9d2c-6e6a9f91d3b0",
+      "title": "Finish iPhone SE Soldering",
+      "description": "Complete the iPhone SE hardware repair project, including precise soldering work and restoring full device functionality.",
+      "image_url": "",
+      "finished": false,
+      "created_at": "2025-12-10T10:15:33Z",
+      "updated_at": "2025-12-10T10:15:33Z"
+    },
+    {
+      "id": "aa8d9e21-ef4c-4e4c-b0b3-9a5d5b5a2c21",
+      "title": "Get Married",
+      "description": "Organize and celebrate a meaningful wedding, ensuring all legal, personal, and logistical aspects are thoughtfully handled.",
+      "image_url": "",
+      "finished": false,
+      "created_at": "2025-12-11T13:55:10Z",
+      "updated_at": "2025-12-11T13:55:10Z"
+    },
+    {
+      "id": "c0a1d2e3-4b5f-4781-9a9a-1234567890ab",
+      "title": "Pass French B2 Exam",
+      "description": "Reach B2 proficiency in French and successfully pass a recognized language exam with strong speaking and writing skills.",
+      "image_url": "",
+      "finished": false,
+      "created_at": "2025-12-13T09:05:18Z",
+      "updated_at": "2025-12-13T09:05:18Z"
+    },
+    {
+      "id": "e9f8d7c6-b5a4-4d3c-9b2a-1a2b3c4d5e6f",
+      "title": "Reach 73kg Lean Physique",
+      "description": "Achieve a body weight of 73 kg with no more than 10% body fat through consistent training, diet, and recovery.",
+      "image_url": "",
+      "finished": false,
+      "created_at": "2025-12-14T07:45:59Z",
+      "updated_at": "2025-12-14T07:45:59Z"
+    },
+    {
+      "id": "1b2c3d4e-5f60-4a71-8b92-abcdef123456",
+      "title": "Visit 10 New Places",
+      "description": "Explore and experience at least 10 new locations, focusing on variety, culture, and memorable experiences.",
+      "image_url": "",
+      "finished": false,
+      "created_at": "2025-12-15T12:30:00Z",
+      "updated_at": "2025-12-15T12:30:00Z"
+    },
+    {
+      "id": "99887766-5544-4c33-2211-aabbccddeeff",
+      "title": "Multi-Day Mountain Hike",
+      "description": "Plan and complete a multi-day hiking trip in the mountains, including logistics, gear preparation, and route planning.",
+      "image_url": "",
+      "finished": false,
+      "created_at": "2025-12-16T08:12:41Z",
+      "updated_at": "2025-12-16T08:12:41Z"
+    },
+    {
+      "id": "11223344-5566-4788-99aa-bbccddeeff00",
+      "title": "Create Year Film",
+      "description": "Document and produce a short film summarizing the year, including key moments, achievements, and reflections.",
+      "image_url": "",
+      "finished": false,
+      "created_at": "2025-12-17T19:20:10Z",
+      "updated_at": "2025-12-17T19:20:10Z"
+    },
+    {
+      "id": "aabbccdd-eeff-4011-8899-776655443322",
+      "title": "Bench Press Body Weight",
+      "description": "Train consistently to achieve a bench press equal to your body weight with proper form and control.",
+      "image_url": "",
+      "finished": false,
+      "created_at": "2025-12-18T06:55:55Z",
+      "updated_at": "2025-12-18T06:55:55Z"
+    },
+    {
+      "id": "deadbeef-1234-4abc-9def-567890abcdef",
+      "title": "Standup Open Mic",
+      "description": "Prepare and perform a standup comedy set at an open mic, focusing on writing, timing, and delivery.",
+      "image_url": "",
+      "finished": false,
+      "created_at": "2025-12-19T21:10:03Z",
+      "updated_at": "2025-12-19T21:10:03Z"
+    },
+    {
+      "id": "0f1e2d3c-4b5a-4978-8c7d-6e5f4a3b2c1d",
+      "title": "Self-Host Online Presence",
+      "description": "Migrate personal and professional online services to self-hosted solutions for greater control and privacy.",
+      "image_url": "",
+      "finished": false,
+      "created_at": "2025-12-20T15:42:27Z",
+      "updated_at": "2025-12-20T15:42:27Z"
+    },
+
+    {
+      "id": "6c7d8e9f-0011-4a22-9b33-445566778899",
+      "title": "Learn Basic Car Maintenance",
+      "description": "Understand and perform essential car maintenance tasks like oil changes, tire replacement, and basic diagnostics.",
+      "image_url": "",
+      "finished": false,
+      "created_at": "2025-12-21T10:10:10Z",
+      "updated_at": "2025-12-21T10:10:10Z"
+    },
+    {
+      "id": "9a8b7c6d-5e4f-4321-9abc-def012345678",
+      "title": "Cold Exposure Challenge",
+      "description": "Safely build tolerance to cold exposure through activities like cold showers or winter swims.",
+      "image_url": "",
+      "finished": false,
+      "created_at": "2025-12-22T11:11:11Z",
+      "updated_at": "2025-12-22T11:11:11Z"
+    },
+    {
+      "id": "13579bdf-2468-4ace-bdf1-02468ace1357",
+      "title": "Camping Trip Solo",
+      "description": "Plan and complete a solo camping trip, focusing on independence, preparation, and outdoor survival basics.",
+      "image_url": "",
+      "finished": false,
+      "created_at": "2025-12-23T14:05:00Z",
+      "updated_at": "2025-12-23T14:05:00Z"
+    },
+    {
+      "id": "abcdef12-3456-4abc-9def-123456abcdef",
+      "title": "Digital Detox Week",
+      "description": "Spend a full week with minimal digital distractions, focusing on real-world experiences and mental clarity.",
+      "image_url": "",
+      "finished": false,
+      "created_at": "2025-12-24T09:25:36Z",
+      "updated_at": "2025-12-24T09:25:36Z"
+    },
+    {
+      "id": "fedcba98-7654-4fed-8cba-654321fedcba",
+      "title": "Read 12 Books",
+      "description": "Read at least 12 meaningful books across different areas such as philosophy, psychology, and personal development.",
+      "image_url": "",
+      "finished": false,
+      "created_at": "2025-12-26T08:00:00Z",
+      "updated_at": "2025-12-26T08:00:00Z"
+    }
+  ]
+}
