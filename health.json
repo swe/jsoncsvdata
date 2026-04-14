@@ -1,0 +1,486 @@
+{
+  "activityDetailsByYear": {
+    "2026": {
+      "2026-01-01": {
+        "summary": {
+          "duration": "1h 10m",
+          "distance": "10.2 km",
+          "calories": "820 cal"
+        },
+        "activities": [
+          {
+            "title": "New Year Morning Run",
+            "type": "Running",
+            "tag": "RUNNING",
+            "avgHr": 148,
+            "zone": "Zone 3",
+            "duration": "58m",
+            "durationMin": 58,
+            "distance": "10.2 km",
+            "distanceKm": 10.2,
+            "pace": "5:41 /km",
+            "metric": "10.2 km",
+            "calories": 620,
+            "elevationM": 84
+          },
+          {
+            "title": "Post-Run Sauna",
+            "type": "Sauna",
+            "tag": "OTHER",
+            "avgHr": 88,
+            "zone": "Zone 1",
+            "duration": "12m",
+            "durationMin": 12,
+            "distance": "0 km",
+            "distanceKm": 0,
+            "pace": "—",
+            "metric": "12 min",
+            "calories": 200,
+            "elevationM": 0
+          }
+        ]
+      },
+      "2026-01-02": {
+        "summary": {
+          "duration": "1h 20m",
+          "distance": "2.4 km",
+          "calories": "710 cal"
+        },
+        "activities": [
+          {
+            "title": "Lap Swimming",
+            "type": "Swimming",
+            "tag": "SWIMMING",
+            "avgHr": 134,
+            "zone": "Zone 2",
+            "duration": "45m",
+            "durationMin": 45,
+            "distance": "2.4 km",
+            "distanceKm": 2.4,
+            "pace": "1:52 /100m",
+            "metric": "2.4 km",
+            "calories": 480,
+            "elevationM": 0
+          },
+          {
+            "title": "Sauna Session",
+            "type": "Sauna",
+            "tag": "OTHER",
+            "avgHr": 85,
+            "zone": "Zone 1",
+            "duration": "20m",
+            "durationMin": 20,
+            "distance": "0 km",
+            "distanceKm": 0,
+            "pace": "—",
+            "metric": "20 min",
+            "calories": 230,
+            "elevationM": 0
+          }
+        ]
+      },
+      "2026-01-03": {
+        "summary": {
+          "duration": "1h 25m",
+          "distance": "0 km",
+          "calories": "660 cal"
+        },
+        "activities": [
+          {
+            "title": "Upper Body Strength",
+            "type": "Gym",
+            "tag": "GYM",
+            "avgHr": 122,
+            "zone": "Zone 2",
+            "duration": "65m",
+            "durationMin": 65,
+            "distance": "0 km",
+            "distanceKm": 0,
+            "pace": "—",
+            "metric": "65 min",
+            "calories": 640,
+            "elevationM": 0
+          },
+          {
+            "title": "Wim Hof Breathwork",
+            "type": "Other",
+            "tag": "OTHER",
+            "avgHr": 72,
+            "zone": "Zone 1",
+            "duration": "20m",
+            "durationMin": 20,
+            "distance": "0 km",
+            "distanceKm": 0,
+            "pace": "—",
+            "metric": "20 min",
+            "calories": 20,
+            "elevationM": 0
+          }
+        ]
+      },
+      "2026-01-04": {
+        "summary": {
+          "duration": "2h 10m",
+          "distance": "38.5 km",
+          "calories": "1080 cal"
+        },
+        "activities": [
+          {
+            "title": "Sunday Endurance Ride",
+            "type": "Cycling",
+            "tag": "CYCLING",
+            "avgHr": 139,
+            "zone": "Zone 2",
+            "duration": "1h 30m",
+            "durationMin": 90,
+            "distance": "38.5 km",
+            "distanceKm": 38.5,
+            "pace": "25.7 km/h",
+            "metric": "38.5 km",
+            "calories": 860,
+            "elevationM": 312
+          },
+          {
+            "title": "Recovery Sauna",
+            "type": "Sauna",
+            "tag": "OTHER",
+            "avgHr": 82,
+            "zone": "Zone 1",
+            "duration": "15m",
+            "durationMin": 15,
+            "distance": "0 km",
+            "distanceKm": 0,
+            "pace": "—",
+            "metric": "15 min",
+            "calories": 220,
+            "elevationM": 0
+          }
+        ]
+      },
+      "2026-01-05": {
+        "summary": {
+          "duration": "1h 15m",
+          "distance": "0 km",
+          "calories": "720 cal"
+        },
+        "activities": [
+          {
+            "title": "Full Body Strength",
+            "type": "Gym",
+            "tag": "GYM",
+            "avgHr": 128,
+            "zone": "Zone 2",
+            "duration": "75m",
+            "durationMin": 75,
+            "distance": "0 km",
+            "distanceKm": 0,
+            "pace": "—",
+            "metric": "75 min",
+            "calories": 720,
+            "elevationM": 0
+          }
+        ]
+      },
+      "2026-01-06": {
+        "summary": {
+          "duration": "45m",
+          "distance": "0 km",
+          "calories": "95 cal"
+        },
+        "activities": [
+          {
+            "title": "Morning Meditation & Breathwork",
+            "type": "Other",
+            "tag": "OTHER",
+            "avgHr": 58,
+            "zone": "Zone 1",
+            "duration": "25m",
+            "durationMin": 25,
+            "distance": "0 km",
+            "distanceKm": 0,
+            "pace": "—",
+            "metric": "25 min",
+            "calories": 25,
+            "elevationM": 0
+          },
+          {
+            "title": "Mobility & Stretching",
+            "type": "Other",
+            "tag": "OTHER",
+            "avgHr": 65,
+            "zone": "Zone 1",
+            "duration": "20m",
+            "durationMin": 20,
+            "distance": "0 km",
+            "distanceKm": 0,
+            "pace": "—",
+            "metric": "20 min",
+            "calories": 70,
+            "elevationM": 0
+          }
+        ]
+      },
+      "2026-01-07": {
+        "summary": {
+          "duration": "1h 28m",
+          "distance": "13.1 km",
+          "calories": "980 cal"
+        },
+        "activities": [
+          {
+            "title": "Half Marathon Progression Run",
+            "type": "Running",
+            "tag": "RUNNING",
+            "avgHr": 155,
+            "zone": "Zone 4",
+            "duration": "1h 28m",
+            "durationMin": 88,
+            "distance": "13.1 km",
+            "distanceKm": 13.1,
+            "pace": "6:44 /km",
+            "metric": "13.1 km",
+            "calories": 980,
+            "elevationM": 102
+          }
+        ]
+      },
+      "2026-01-08": {
+        "summary": {
+          "duration": "1h 30m",
+          "distance": "0 km",
+          "calories": "560 cal"
+        },
+        "activities": [
+          {
+            "title": "Indoor Boulder Session",
+            "type": "Climbing",
+            "tag": "CLIMBING",
+            "avgHr": 118,
+            "zone": "Zone 2",
+            "duration": "90m",
+            "durationMin": 90,
+            "distance": "0 km",
+            "distanceKm": 0,
+            "pace": "—",
+            "metric": "90 min",
+            "calories": 560,
+            "elevationM": 0
+          }
+        ]
+      },
+      "2026-01-09": {
+        "summary": {
+          "duration": "1h 00m",
+          "distance": "1.8 km",
+          "calories": "490 cal"
+        },
+        "activities": [
+          {
+            "title": "Interval Swimming",
+            "type": "Swimming",
+            "tag": "SWIMMING",
+            "avgHr": 141,
+            "zone": "Zone 3",
+            "duration": "40m",
+            "durationMin": 40,
+            "distance": "1.8 km",
+            "distanceKm": 1.8,
+            "pace": "2:13 /100m",
+            "metric": "1.8 km",
+            "calories": 370,
+            "elevationM": 0
+          },
+          {
+            "title": "Sauna & Cold Plunge",
+            "type": "Sauna",
+            "tag": "OTHER",
+            "avgHr": 90,
+            "zone": "Zone 1",
+            "duration": "20m",
+            "durationMin": 20,
+            "distance": "0 km",
+            "distanceKm": 0,
+            "pace": "—",
+            "metric": "20 min",
+            "calories": 120,
+            "elevationM": 0
+          }
+        ]
+      },
+      "2026-01-10": {
+        "summary": {
+          "duration": "55m",
+          "distance": "0 km",
+          "calories": "580 cal"
+        },
+        "activities": [
+          {
+            "title": "Lower Body Strength",
+            "type": "Gym",
+            "tag": "GYM",
+            "avgHr": 130,
+            "zone": "Zone 2",
+            "duration": "55m",
+            "durationMin": 55,
+            "distance": "0 km",
+            "distanceKm": 0,
+            "pace": "—",
+            "metric": "55 min",
+            "calories": 580,
+            "elevationM": 0
+          }
+        ]
+      },
+      "2026-01-11": {
+        "summary": {
+          "duration": "2h 30m",
+          "distance": "52.0 km",
+          "calories": "1340 cal"
+        },
+        "activities": [
+          {
+            "title": "Long Weekend Ride",
+            "type": "Cycling",
+            "tag": "CYCLING",
+            "avgHr": 144,
+            "zone": "Zone 3",
+            "duration": "2h 05m",
+            "durationMin": 125,
+            "distance": "52.0 km",
+            "distanceKm": 52.0,
+            "pace": "24.9 km/h",
+            "metric": "52.0 km",
+            "calories": 1090,
+            "elevationM": 480
+          },
+          {
+            "title": "Post-Ride Sauna",
+            "type": "Sauna",
+            "tag": "OTHER",
+            "avgHr": 84,
+            "zone": "Zone 1",
+            "duration": "18m",
+            "durationMin": 18,
+            "distance": "0 km",
+            "distanceKm": 0,
+            "pace": "—",
+            "metric": "18 min",
+            "calories": 250,
+            "elevationM": 0
+          }
+        ]
+      },
+      "2026-01-12": {
+        "summary": {
+          "duration": "52m",
+          "distance": "9.0 km",
+          "calories": "710 cal"
+        },
+        "activities": [
+          {
+            "title": "Easy Recovery Run",
+            "type": "Running",
+            "tag": "RUNNING",
+            "avgHr": 132,
+            "zone": "Zone 2",
+            "duration": "52m",
+            "durationMin": 52,
+            "distance": "9.0 km",
+            "distanceKm": 9.0,
+            "pace": "5:47 /km",
+            "metric": "9.0 km",
+            "calories": 710,
+            "elevationM": 55
+          }
+        ]
+      },
+      "2026-01-13": {
+        "summary": {
+          "duration": "1h 45m",
+          "distance": "0 km",
+          "calories": "620 cal"
+        },
+        "activities": [
+          {
+            "title": "Top-Rope Climbing",
+            "type": "Climbing",
+            "tag": "CLIMBING",
+            "avgHr": 115,
+            "zone": "Zone 2",
+            "duration": "1h 45m",
+            "durationMin": 105,
+            "distance": "0 km",
+            "distanceKm": 0,
+            "pace": "—",
+            "metric": "105 min",
+            "calories": 620,
+            "elevationM": 0
+          }
+        ]
+      },
+      "2026-01-14": {
+        "summary": {
+          "duration": "1h 20m",
+          "distance": "0 km",
+          "calories": "750 cal"
+        },
+        "activities": [
+          {
+            "title": "Push/Pull Hypertrophy",
+            "type": "Gym",
+            "tag": "GYM",
+            "avgHr": 125,
+            "zone": "Zone 2",
+            "duration": "80m",
+            "durationMin": 80,
+            "distance": "0 km",
+            "distanceKm": 0,
+            "pace": "—",
+            "metric": "80 min",
+            "calories": 750,
+            "elevationM": 0
+          }
+        ]
+      },
+      "2026-01-15": {
+        "summary": {
+          "duration": "2h 20m",
+          "distance": "21.5 km",
+          "calories": "1450 cal"
+        },
+        "activities": [
+          {
+            "title": "Long Run",
+            "type": "Running",
+            "tag": "RUNNING",
+            "avgHr": 152,
+            "zone": "Zone 3",
+            "duration": "2h 00m",
+            "durationMin": 120,
+            "distance": "21.5 km",
+            "distanceKm": 21.5,
+            "pace": "5:35 /km",
+            "metric": "21.5 km",
+            "calories": 1210,
+            "elevationM": 175
+          },
+          {
+            "title": "Recovery Sauna",
+            "type": "Sauna",
+            "tag": "OTHER",
+            "avgHr": 86,
+            "zone": "Zone 1",
+            "duration": "20m",
+            "durationMin": 20,
+            "distance": "0 km",
+            "distanceKm": 0,
+            "pace": "—",
+            "metric": "20 min",
+            "calories": 240,
+            "elevationM": 0
+          }
+        ]
+      }
+    }
+  }
+}
