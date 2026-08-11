@@ -1,0 +1,713 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "3344f60a-03aa-43b9-8f09-8ab09a119c40",
+      "title": "Inedible",
+      "actual": true,
+      "createdAt": "2026-08-11",
+      "items": [
+        {
+          "id": "611e9d67-6ba7-40b6-91c8-b6bf9b5e4ff7",
+          "text": "Green beans",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "f6afba46-163e-42bd-b424-90f3aa248db2",
+          "text": "Boiled onions",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "d4130b34-f6fc-4cee-a7b4-ee9c77a55670",
+          "text": "Celery",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "632c36cf-a4df-45d0-a4af-fea7f70c71fa",
+          "text": "Capers",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "089a26df-ea46-4f40-b64c-4fbc2f8dd298",
+          "text": "Herring",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "55df084c-eded-483a-b538-784c1a05ed1d",
+          "text": "Hematogen bars",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "df316c32-45a8-46aa-baeb-a7bc21740ae2",
+          "text": "Eggplant spread",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "7e75346a-a84b-4fa9-9f18-e08125431b08",
+          "text": "Aspic (meat jelly)",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "36324b4c-119d-46da-ab8f-c06afd2b7004",
+          "text": "Chocolatey things: pastries, cakes, and ice cream",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "844cbe5f-d11e-4ce8-83a3-8868cd0dfab1",
+          "text": "Dishes described as \"fusion\" that are really just confused",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "5d8f9461-3f46-4120-b1dc-cbdc085ac499",
+      "title": "Undrinkable",
+      "actual": true,
+      "createdAt": "2026-08-11",
+      "items": [
+        {
+          "id": "019564c7-df76-4895-818c-a1e86fa457c4",
+          "text": "Instant coffee",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "b8b81710-a60c-4eb1-b9f9-3b9a03307398",
+          "text": "Beer",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "81c79c73-d719-4242-aade-451097597b48",
+          "text": "Tequila",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "e7405852-11e0-4185-a863-6a65239b84dd",
+          "text": "Sweet, semi-sweet, and white wine",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "7b329c36-2cee-4c80-b39c-9935195eb6c5",
+          "text": "Pepsi",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "6985bd72-8223-48e3-b91d-b4192b3a3888",
+          "text": "Any vegetable juice",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "a0c62f08-576a-4496-a101-f3004255662a",
+          "text": "Sweet kefir",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "b12fd041-8e12-4601-9886-507862615e96",
+          "text": "Oat milk in espresso (you know what you did)",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "24bb5351-bd53-4ce4-b81f-8d1353999209",
+      "title": "Domestic crimes",
+      "actual": true,
+      "createdAt": "2026-08-11",
+      "items": [
+        {
+          "id": "e75e64d4-e582-4aa6-bf28-f4f59f65fd11",
+          "text": "When people wrap the TV remote in plastic",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "56bccf63-e72c-424a-886e-b29d123da53c",
+          "text": "When dishes are towel-dried after washing",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "91329cde-96c8-411c-9e9d-89a468f8cf66",
+          "text": "When brooms are soaked in the toilet",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "375a0e58-bc78-4784-af55-0886850519e9",
+          "text": "Brushing your teeth with soap",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "2c332626-c160-4c57-9fe1-dba5e0ae2254",
+          "text": "Leaving the toothpaste uncapped",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "60c65ad1-cd01-4a30-a478-1a92e5e6d12e",
+          "text": "When someone gets annoyed by the position of the toilet seat",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "7f23b1d6-eb04-4585-a823-5560a576664e",
+          "text": "Walking down the street while drinking beer",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "f5095bd7-1f22-4a92-9940-c219238d356c",
+          "text": "Pants with buttons instead of a zipper",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "64780980-46eb-4822-ae93-d2105a2607dc",
+          "text": "Decorative pillows that serve no purpose except to be removed before sleeping",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "46f5231f-06d5-49ea-ac7c-d4922b42f968",
+          "text": "Air fresheners that smell worse than whatever they're covering up",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "5ff55226-a9c6-4f1e-8b06-62d02c7c1543",
+      "title": "Social torture",
+      "actual": true,
+      "createdAt": "2026-08-11",
+      "items": [
+        {
+          "id": "291eff1a-e3e1-42d9-b188-eb38d74c84ea",
+          "text": "Disco",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "d03ee815-5049-4b34-8869-a0f191789391",
+          "text": "Country music",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "ccbc583e-1eef-4786-8930-9d1a0df871e7",
+          "text": "Televised stage plays",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "0939ef34-af09-42e8-8401-7525fb32c11b",
+          "text": "Karaoke",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "af61cd99-3f92-40e1-9ceb-9015444103ef",
+          "text": "When the popcorn is almost gone but the ads before the movie are still going",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "5ab04a4c-f49f-439a-ab38-15ea56dc38a4",
+          "text": "Nightclubs",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "f8aaa480-da44-4360-97ce-43c4a01d65a6",
+          "text": "Dance floors",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "5826318a-7141-4192-99ad-da5f87fe76b1",
+          "text": "Formal banquets",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "4c366db0-871f-4241-8947-42e734d60e06",
+          "text": "Receptions",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "132f781f-3baf-439c-8f29-44d43b6c46cb",
+          "text": "Buffets",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "52406f4e-a032-4320-b070-326352a4e27f",
+          "text": "Launch parties",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "7f656b51-78ea-4fac-baca-4f417f2f09b0",
+          "text": "Team-building activities involving trust falls",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "07ae2614-a1f7-4c65-aacc-c1b6398e0085",
+          "text": "\"Let's go around the room and introduce ourselves\"",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "c5fb4fd8-a247-4685-8999-f67ded7cb8fc",
+      "title": "Nonsense",
+      "actual": true,
+      "createdAt": "2026-08-11",
+      "items": [
+        {
+          "id": "600c8e43-bd7a-4ba9-949d-dc480adf766f",
+          "text": "Feng Shui",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "bc8f3d63-b77e-4cf9-af2a-1f2214ca360e",
+          "text": "Occultism",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "2ab964bb-6790-4e94-bbd5-e69663bf51ae",
+          "text": "Astrology",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "67e8a7b7-2422-4919-9041-4f32ab95eaed",
+          "text": "Anything that starts with \"para-\"",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "da1f4ac9-5bfa-4485-ad80-c1ae18aaaacf",
+          "text": "Healing crystals",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "d187ea78-b820-4ae2-9c3e-f16241284481",
+          "text": "Mercury being in retrograde (it's a planet, not your ex)",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "d0bff88b-b5fd-4a9d-895f-df479ad37095",
+      "title": "Urban eyesores",
+      "actual": true,
+      "createdAt": "2026-08-11",
+      "items": [
+        {
+          "id": "1f96cb69-6f5a-429b-b980-340ced2bb55a",
+          "text": "Air conditioners sticking out of building facades",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "90f3a733-f903-4b39-afb9-b43d9a381a44",
+          "text": "Plastic-framed double-glazed windows",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "fdb64f59-d1f4-4c91-aef1-e95391786647",
+          "text": "QR codes printed on posters at eye level in busy pedestrian areas",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "fe4e2041-b2e1-48e3-928e-9911c2e71aca",
+      "title": "Overused words",
+      "actual": true,
+      "createdAt": "2026-08-11",
+      "items": [
+        {
+          "id": "3fe1dbb7-2801-4128-9e6c-d81eb89e31d5",
+          "text": "The word \"elite\"",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "529503ec-eb84-428f-85ca-6356a8715c96",
+          "text": "The word \"exclusive\"",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "19e6740e-a911-4707-9261-cdfd55b7d99e",
+          "text": "The word \"VIP\"",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "6e922f06-c0c9-4ba6-97b5-2fb577512ebf",
+          "text": "\"Ecosystem\" when referring to a SaaS product",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "0cecc85b-8547-429d-b43e-00d984039fb4",
+          "text": "\"Seamless\"",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "3c5ebf8a-a641-48c1-ab49-4b5c16b57167",
+          "text": "\"Game-changer\"",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ad662da8-4141-4386-be42-62792a8dc9fe",
+      "title": "Beauty standards",
+      "actual": true,
+      "createdAt": "2026-08-11",
+      "items": [
+        {
+          "id": "f5fbadf7-7b18-4ca2-ab91-71a7b7ce1852",
+          "text": "Lipstick",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "6a62323c-e23b-421b-a05d-b0e31a0bc777",
+          "text": "Powder",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "9422781d-4016-4516-a837-6d61d00a3bf9",
+          "text": "Blush",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "c10aa28a-d1db-4f25-a21c-72a5370ba33f",
+          "text": "Miniskirts",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "b805436c-4b2e-4906-a22d-c2e368728f63",
+      "title": "Web sins",
+      "actual": true,
+      "createdAt": "2026-08-11",
+      "items": [
+        {
+          "id": "8993e842-ab57-43af-82d4-8c29a1197637",
+          "text": "When a link opens a new window without asking",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "d6c0443c-ec88-4de2-8fc2-62c13ef9340a",
+          "text": "When a banner leads somewhere completely unrelated",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "9b39cb02-b1b5-4ae9-9029-49dac0b30005",
+          "text": "Chats",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "9215751e-8f3f-48bc-a614-d256988a221b",
+          "text": "WhatsApp",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "22b070d9-6d1c-4527-9793-6a14703b30ab",
+          "text": "Cookie banners that require three clicks to decline",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "d3ab17df-4d86-4a47-92a6-a07ae14915d2",
+          "text": "Infinite scroll with no way to find where you left off",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "65ef1732-335c-4f57-957d-a33cc06c0e5c",
+          "text": "\"We value your privacy\" (you don't)",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "a39d7050-7e52-438c-aa43-afde4443656b",
+      "title": "Old web trauma",
+      "actual": true,
+      "createdAt": "2026-08-11",
+      "items": [
+        {
+          "id": "bffdf2ea-808a-42ca-aa31-9fb961a6361f",
+          "text": "SEO people and optimization specialists",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "4539762a-a69d-48d9-8027-a829d415d664",
+          "text": "\"Back to top\" links on websites",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "218255e1-1510-4d6d-9161-830020b48337",
+          "text": "Pop-ups, with or without ads",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "67ab6acc-e583-45cf-9a22-e68196b2f501",
+          "text": "Animated GIFs",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "8a31e8c5-ea2a-4e63-b046-c55f25a37842",
+          "text": "Flash clips where something just moves around endlessly",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "27e564c9-4d19-4ae4-8313-fc10f04bb436",
+          "text": "LinkedIn thought leaders",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "162c0f36-a487-4ff6-a49c-0177fc365013",
+      "title": "Tech frustrations",
+      "actual": true,
+      "createdAt": "2026-08-11",
+      "items": [
+        {
+          "id": "1be7a35b-eb07-4e95-b56a-c43412dccb7b",
+          "text": "When people don't use the numeric keypad",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "95a6723a-d921-4aa4-b977-22aaf3675468",
+          "text": "When a file created last year won't open and you can't even undo anything",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "d4ee6734-6325-425c-815e-4ec42e1e2197",
+          "text": "Loud fan noise",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "f2b5e1e5-673a-41bd-b6f1-e80893db8501",
+          "text": "Software that asks to update itself every time you open it",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "eb5d6659-df70-45f5-83f1-d1cfe0d8af68",
+          "text": "Apps that require an account to do something that shouldn't require one",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "005062c6-77d6-454b-8414-bae907c50a1e",
+          "text": "\"Smart\" TVs that boot more slowly than a 2009 laptop",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "1b79b910-cbaa-4eca-b74a-87240ab7c705",
+      "title": "Inbox horrors",
+      "actual": true,
+      "createdAt": "2026-08-11",
+      "items": [
+        {
+          "id": "0feebcb0-a538-42a6-9fbc-e4af98d95e1f",
+          "text": "Email \"letters\" on fake stationery with images",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "abca52ce-8dfb-4dcf-8c4c-d18b82defc44",
+          "text": "Replies that quote the entire message instead of just the relevant part",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "e0ef2748-ce1c-4918-a05e-50ad70a56d98",
+          "text": "Reply chains that keep the mailing list footer",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "8f6d7d89-2200-4617-b0ee-f10af2437e0d",
+          "text": "Newsletters you definitely didn't subscribe to but can't unsubscribe from",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "61356841-da20-475f-b611-33a0cf6cdc91",
+          "text": "\"Per my last email\"",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "2f49b89b-1b80-428f-b0fc-44ff23cf69fa",
+      "title": "Sonic warfare",
+      "actual": true,
+      "createdAt": "2026-08-11",
+      "items": [
+        {
+          "id": "ae402b4e-17e9-4921-b916-4852d8d26815",
+          "text": "Any ringtone you can actually hear (especially polyphonic ones)",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "6ca9250a-238e-40f8-ac14-a22ee02e056c",
+          "text": "Bluetooth speakers at the beach",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "74db6fec-8ce5-4667-a701-30f017fd93b8",
+          "text": "Phone calls on speaker in any public space",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "65086c20-e76a-43ea-8100-b1fc5579c60d",
+      "title": "Acoustic violence",
+      "actual": true,
+      "createdAt": "2026-08-11",
+      "items": [
+        {
+          "id": "54d1024e-89fb-429a-bf18-0b93d03bc186",
+          "text": "People chewing loudly while on the phone",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "425a61c1-df62-46af-8d6f-d23867f98046",
+          "text": "Alarm clocks that simulate birds or ocean waves",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "faab51f6-47d7-46b0-a876-9a48904424ec",
+          "text": "Microwaves that beep more than once",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "7531ca87-0098-4248-8066-ff2e2b9d556a",
+          "text": "Keyboard click sounds being turned on",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "69883abf-b66c-4668-bef0-13c9986f4c09",
+          "text": "Videos that autoplay with sound",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "49445cf5-f47d-4456-b817-7679152af4e1",
+      "title": "Miscellaneous rage",
+      "actual": true,
+      "createdAt": "2026-08-11",
+      "items": [
+        {
+          "id": "e6518d07-8dc7-4b73-bc21-f79b5bb42cbb",
+          "text": "Using a brand name instead of the product name",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "0ce8b02e-1318-4b5b-9475-1aec050ee44f",
+          "text": "Android devices",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "dd3b5f18-0130-405b-98d4-a5744253631b",
+          "text": "When someone says \"no offense\" before saying something offensive",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "1d294034-e9c8-454f-a078-c7783cbe9909",
+          "text": "Slow walkers in the middle of the sidewalk",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "35cf92fb-cc06-46c2-960f-ff1dc800907a",
+          "text": "Group photos where someone counts to three and then takes the photo on two",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        },
+        {
+          "id": "9bf492ef-1448-4839-b9af-94f802a8f21f",
+          "text": "\"Reply all\"",
+          "actual": true,
+          "createdAt": "2026-08-11"
+        }
+      ]
+    }
+  ]
+}
