@@ -1,0 +1,60 @@
+{
+  "sideQuests": [
+    {
+      "id": "7e9f0e61-7d3a-4f42-9d27-6b5e6f0f89c1",
+      "title": "Get a Motorcycle Licence",
+      "description": null,
+      "image": "https://media.triumphmotorcycles.co.uk/image/upload/f_auto/q_auto:eco/sitecoremedialibrary/media-library/images/motorcycles/daytona%202026/daytona_660_my26_770x770.jpg",
+      "createdAt": "2026-08-11",
+      "achievedAt": "2026-08-07"
+    },
+    {
+      "id": "76de206f-9617-4f85-a984-b064a9ae7773",
+      "title": "Get a Boating Licence",
+      "description": null,
+      "image": null,
+      "createdAt": "2026-08-11",
+      "achievedAt": null
+    },
+    {
+      "id": "45d72292-d510-4793-82dd-79616448263b",
+      "title": "Get a Private Pilot Licence",
+      "description": null,
+      "image": null,
+      "createdAt": "2026-08-11",
+      "achievedAt": null
+    },
+    {
+      "id": "8eebf648-3771-4863-a9c7-dbc225097581",
+      "title": "Finish an Ironman 70.3",
+      "description": null,
+      "image": null,
+      "createdAt": "2026-08-11",
+      "achievedAt": null
+    },
+    {
+      "id": "cd30b705-cf91-42db-b40f-a7d8422c71df",
+      "title": "Visit Every Country in the World",
+      "description": null,
+      "image": null,
+      "createdAt": "2026-08-11",
+      "achievedAt": null
+    },
+    {
+      "id": "0790994b-bdb4-47b2-a94f-9774eb513ad3",
+      "title": "Build a House",
+      "description": null,
+      "image": null,
+      "createdAt": "2026-08-11",
+      "achievedAt": null
+    },
+    {
+      "id": "c879fa34-46fb-431f-8580-0e407d7095c3",
+      "title": "Build a 1960s Muscle Car Restomod",
+      "description": null,
+      "image": null,
+      "createdAt": "2026-08-11",
+      "achievedAt": null
+    }
+  ]
+}
