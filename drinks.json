@@ -10,7 +10,7 @@
     "personalImpression": null,
     "isFavorite": true,
     "region": null,
-    "imageUrl": "https://www.hario-canada.ca/cdn/shop/files/hario_vdgr-02-b_v60-02-dripper-glass_black_in-use_01_1200x1200.jpg"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Coffee_pour_over_using_Hario_cone.jpg"
   },
   {
     "name": "Chianti",
@@ -23,7 +23,7 @@
     "personalImpression": "Earthy reds that pair perfectly with food",
     "isFavorite": true,
     "region": "Tuscany, Italy",
-    "imageUrl": "https://goodcheese.ca/cdn/shop/files/FullSizeRender_6af596b0-9006-4c4c-81ab-35c826c5f7ee.heic?v=1758120417"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/CHIANTI_glass_%26_bottle.jpg"
   },
   {
     "name": "Petit Chablis",
@@ -36,7 +36,7 @@
     "personalImpression": "Crisp, light and citrusy French white",
     "isFavorite": false,
     "region": "Burgundy, France",
-    "imageUrl": "https://i.alleksy.com/cocktails/petit-chablis.png"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Chablis_bottle_and_wine.jpg"
   },
   {
     "name": "Old Fashioned",
@@ -55,7 +55,7 @@
     "personalImpression": "A timeless classic that puts whiskey first",
     "isFavorite": true,
     "region": null,
-    "imageUrl": "https://i.alleksy.com/cocktails/old-fashioned.png"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Oldfashioned-cocktail.png"
   },
   {
     "name": "Whiskey Sour",
@@ -74,7 +74,7 @@
     "personalImpression": "Sharp citrus balanced by warmth and body",
     "isFavorite": false,
     "region": null,
-    "imageUrl": "https://i.alleksy.com/cocktails/whiskey-sour.png"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Whiskey_Sour.jpg"
   },
   {
     "name": "Fig Whiskey Sour",
@@ -93,7 +93,7 @@
     "personalImpression": "Deep fig sweetness elevates the classic sour",
     "isFavorite": true,
     "region": null,
-    "imageUrl": "https://i.alleksy.com/cocktails/fig-whiskey-sour.png"
+    "imageUrl": "https://www.theredheadbaker.com/wp-content/uploads/2018/09/honey-fig-whiskey-sour-1.jpg"
   },
   {
     "name": "Blood and Sand",
@@ -112,7 +112,7 @@
     "personalImpression": "Unexpectedly smooth with smoky and fruity layers",
     "isFavorite": false,
     "region": null,
-    "imageUrl": "https://i.alleksy.com/cocktails/blood-and-sand.png"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Blood_and_Sand.jpg"
   },
   {
     "name": "Lucciola",
@@ -131,7 +131,7 @@
     "personalImpression": "Elegant and subtle with a modern herbal touch",
     "isFavorite": false,
     "region": null,
-    "imageUrl": "https://i.alleksy.com/cocktails/lucciola.png"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/French_75.jpg"
   },
   {
     "name": "Boulevardier",
@@ -150,7 +150,7 @@
     "personalImpression": "Bold bittersweet character with warming depth",
     "isFavorite": false,
     "region": null,
-    "imageUrl": "https://i.alleksy.com/cocktails/boulevardier.png"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Boulevardier_in_Baton_Rouge.jpg"
   },
   {
     "name": "Cuba Libre",
@@ -163,13 +163,13 @@
       "lime wedge",
       "ice"
     ],
-    "preparation": "Fill a highball glass with ice, add rum and lime juice, top with cola and stir gently. Fill a highball glass with ice, add rum and lime juice, top with cola and stir gently. Fill a highball glass with ice, add rum and lime juice, top with cola and stir gently. Fill a highball glass with ice, add rum and lime juice, top with cola and stir gently",
+    "preparation": "Fill a highball glass with ice, add rum and lime juice, top with cola and stir gently",
     "servingTemperature": null,
     "flavorDescription": null,
     "personalImpression": "Easygoing mix with a clear summer vibe",
     "isFavorite": false,
     "region": null,
-    "imageUrl": "https://i.alleksy.com/cocktails/cuba-libre.png"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cuba_libre.jpg"
   },
   {
     "name": "Coca Cola",
@@ -186,7 +186,7 @@
     "personalImpression": "Fizzy sweet comfort with instant nostalgia",
     "isFavorite": true,
     "region": null,
-    "imageUrl": "https://i.alleksy.com/cocktails/coca-cola.png"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Coca-Cola_glass_bottle.jpg"
   },
   {
     "name": "Sprite",
@@ -203,7 +203,7 @@
     "personalImpression": "Clean lemon lime fizz that refreshes instantly",
     "isFavorite": false,
     "region": null,
-    "imageUrl": "https://i.alleksy.com/cocktails/sprite.png"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sprite_Glass_Bottle.jpg"
   },
   {
     "name": "Orange Juice",
@@ -219,7 +219,7 @@
     "personalImpression": "Bright and fresh with natural sweetness",
     "isFavorite": true,
     "region": null,
-    "imageUrl": "https://i.alleksy.com/cocktails/orange-juice.png"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Orange_juice_in_a_glass_%284430731914%29.jpg"
   },
   {
     "name": "Laurent-Perrier Champagne",
@@ -232,6 +232,6 @@
     "personalImpression": "Refined bubbles with quiet confidence",
     "isFavorite": true,
     "region": "Champagne, France",
-    "imageUrl": "https://i.alleksy.com/cocktails/laurent-perrier-champagne.png"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Laurent-Perrier_NV.jpg"
   }
 ]
