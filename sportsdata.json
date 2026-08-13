@@ -4,13 +4,13 @@
     "name": null,
     "dateOfBirth": null,
     "sex": null,
-    "heightCm": null,
+    "heightCm": 182,
     "targets": {
-      "weight": null,
-      "hrv": null,
-      "vo2": null,
-      "bodyFat": null,
-      "ffmi": null
+      "weight": 80,
+      "hrv": 60,
+      "vo2": 52,
+      "bodyFat": 7,
+      "ffmi": 23.8
     },
     "avatarAssetId": null,
     "createdAt": null
