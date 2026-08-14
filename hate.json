@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 1.3,
   "categories": [
     {
       "id": "3344f60a-03aa-43b9-8f09-8ab09a119c40",
@@ -66,6 +66,18 @@
           "text": "Dishes described as \"fusion\" that are really just confused",
           "actual": true,
           "createdAt": "2026-08-11"
+        },
+        {
+          "id": "88529333-11f2-4dcc-8a31-173a5376a415",
+          "text": "Truffle oil added to things that were doing perfectly well without it",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "92845fc4-1a5e-4436-93d6-444a930cf227",
+          "text": "Burgers too tall to physically eat",
+          "actual": true,
+          "createdAt": "2026-08-14"
         }
       ]
     },
@@ -122,6 +134,18 @@
           "text": "Oat milk in espresso (you know what you did)",
           "actual": true,
           "createdAt": "2026-08-11"
+        },
+        {
+          "id": "d9ed58a6-069f-4cc9-bd2c-195214a8912f",
+          "text": "Coffee that tastes primarily of syrup",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "a03e73a5-b94a-4532-957c-56d9b4b19392",
+          "text": "Espresso served in a mug large enough for soup",
+          "actual": true,
+          "createdAt": "2026-08-14"
         }
       ]
     },
@@ -190,6 +214,24 @@
           "text": "Air fresheners that smell worse than whatever they're covering up",
           "actual": true,
           "createdAt": "2026-08-11"
+        },
+        {
+          "id": "3b799849-c940-4826-8979-312ba8eb0d27",
+          "text": "Putting empty containers back in the fridge",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "bcfbd089-85a0-4193-98fd-29532ebb8ad8",
+          "text": "Keeping the protective film on electronics for years",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "c064c9e7-da4b-4d9e-970d-05df0728b554",
+          "text": "Using the oven as permanent storage",
+          "actual": true,
+          "createdAt": "2026-08-14"
         }
       ]
     },
@@ -276,6 +318,24 @@
           "text": "\"Let's go around the room and introduce ourselves\"",
           "actual": true,
           "createdAt": "2026-08-11"
+        },
+        {
+          "id": "eb6abd83-114c-4456-a88e-f285e1f368be",
+          "text": "Icebreakers",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "8bfb07e3-e5a9-4221-b6fc-352359e81988",
+          "text": "Networking events where everyone is visibly networking",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "669e7307-da48-4fb3-bef2-189ee0e84d98",
+          "text": "Mandatory fun",
+          "actual": true,
+          "createdAt": "2026-08-14"
         }
       ]
     },
@@ -320,6 +380,18 @@
           "text": "Mercury being in retrograde (it's a planet, not your ex)",
           "actual": true,
           "createdAt": "2026-08-11"
+        },
+        {
+          "id": "f441bca1-f147-46ec-9dc1-1a955eb209c5",
+          "text": "Manifesting as a substitute for planning",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "d68f1adb-6163-4c79-ad7a-226d31a47813",
+          "text": "Personality tests treated as scientific destiny",
+          "actual": true,
+          "createdAt": "2026-08-14"
         }
       ]
     },
@@ -346,6 +418,24 @@
           "text": "QR codes printed on posters at eye level in busy pedestrian areas",
           "actual": true,
           "createdAt": "2026-08-11"
+        },
+        {
+          "id": "9c5e4624-0035-4f69-9dd7-4c728e8c41b4",
+          "text": "Fake shutters that could never physically cover the window",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "3a9d19a7-eaae-42da-8898-5c9a50e1b7e3",
+          "text": "Houses with seventeen unrelated rooflines",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "6d8bde43-cfb1-4230-821d-ff6c270710f1",
+          "text": "Grey vinyl plank flooring presented as luxury",
+          "actual": true,
+          "createdAt": "2026-08-14"
         }
       ]
     },
@@ -390,6 +480,24 @@
           "text": "\"Game-changer\"",
           "actual": true,
           "createdAt": "2026-08-11"
+        },
+        {
+          "id": "287c0280-fa2b-4f2d-b7f2-75e390e944b1",
+          "text": "\"Synergy\"",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "5f656361-6630-43d6-9a3b-c42acd8f4275",
+          "text": "\"Best-in-class\"",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "20f48f66-9a47-452f-88f2-93be0b83a57a",
+          "text": "\"AI-powered\" when the AI is one API call",
+          "actual": true,
+          "createdAt": "2026-08-14"
         }
       ]
     },
@@ -422,6 +530,18 @@
           "text": "Miniskirts",
           "actual": true,
           "createdAt": "2026-08-11"
+        },
+        {
+          "id": "72ab5d43-b320-49b4-a6aa-bbdbb59c1bf3",
+          "text": "Eyebrows that look engineered rather than grown",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "7cb1109b-4065-4b44-9264-40db1759e1e7",
+          "text": "Visible fake tan lines",
+          "actual": true,
+          "createdAt": "2026-08-14"
         }
       ]
     },
@@ -472,6 +592,30 @@
           "text": "\"We value your privacy\" (you don't)",
           "actual": true,
           "createdAt": "2026-08-11"
+        },
+        {
+          "id": "4df887a6-f678-461f-a015-30bc6ef435e6",
+          "text": "Mobile websites aggressively asking you to install the app",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "cbca66d9-53ff-4ee5-a186-7548a6561878",
+          "text": "Login pages that forget where you were going",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "6f8550ed-ae02-46f3-b436-70340f750c44",
+          "text": "Password rules revealed only after you submit the form",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "4a43a58e-6dda-4552-84fe-93392628bbce",
+          "text": "Date pickers that make you click through years one month at a time",
+          "actual": true,
+          "createdAt": "2026-08-14"
         }
       ]
     },
@@ -516,6 +660,24 @@
           "text": "LinkedIn thought leaders",
           "actual": true,
           "createdAt": "2026-08-11"
+        },
+        {
+          "id": "4aa9ae67-6fa4-42b6-8e3f-35265e4bb57f",
+          "text": "Websites that start playing music by themselves",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "eac7ac73-1c05-4a36-9214-7f6ea4e7ea46",
+          "text": "Visitor counters",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "740cb0a7-7d4e-45f1-9d53-9824e37faef6",
+          "text": "\"Under construction\" pages that stayed that way for five years",
+          "actual": true,
+          "createdAt": "2026-08-14"
         }
       ]
     },
@@ -560,6 +722,24 @@
           "text": "\"Smart\" TVs that boot more slowly than a 2009 laptop",
           "actual": true,
           "createdAt": "2026-08-11"
+        },
+        {
+          "id": "e3339131-e833-479b-ab76-eac872ebb9a5",
+          "text": "A smart device that becomes useless when the internet goes down",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "1bf2a7b0-8595-4b6b-92b9-155688a9b4b5",
+          "text": "Firmware updates for things that never needed firmware",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "aa34543e-1b0a-4146-b92d-cd0b2366e740",
+          "text": "Touch controls replacing perfectly good physical buttons",
+          "actual": true,
+          "createdAt": "2026-08-14"
         }
       ]
     },
@@ -598,6 +778,24 @@
           "text": "\"Per my last email\"",
           "actual": true,
           "createdAt": "2026-08-11"
+        },
+        {
+          "id": "5d9b322e-8959-46e5-89c8-28ab56c81731",
+          "text": "\"Just following up\" sent less than 24 hours later",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "28d54c2b-eb74-45ce-b534-d141af110515",
+          "text": "Calendar invitations with no agenda",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "cc935fe9-9eb6-4888-bb2e-8452f817bb47",
+          "text": "Email signatures longer than the email",
+          "actual": true,
+          "createdAt": "2026-08-14"
         }
       ]
     },
@@ -624,6 +822,18 @@
           "text": "Phone calls on speaker in any public space",
           "actual": true,
           "createdAt": "2026-08-11"
+        },
+        {
+          "id": "2a5c2540-c26b-4a1a-906d-b2a72d2cf5d1",
+          "text": "People watching short-form videos at full volume in public",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "d5d950ca-2877-417e-9834-839832db216a",
+          "text": "Notification sounds every twelve seconds",
+          "actual": true,
+          "createdAt": "2026-08-14"
         }
       ]
     },
@@ -662,6 +872,18 @@
           "text": "Videos that autoplay with sound",
           "actual": true,
           "createdAt": "2026-08-11"
+        },
+        {
+          "id": "f8abbccd-f7eb-4849-996a-6db998ad663a",
+          "text": "Vacuum cleaners used during a phone call",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "49dab35e-0977-4213-b90b-3854f5825931",
+          "text": "Cars that beep repeatedly because the door is open",
+          "actual": true,
+          "createdAt": "2026-08-14"
         }
       ]
     },
@@ -706,6 +928,280 @@
           "text": "\"Reply all\"",
           "actual": true,
           "createdAt": "2026-08-11"
+        },
+        {
+          "id": "e645fbc3-86c7-4e7b-9916-f1e21bc94640",
+          "text": "Shopping carts with one defective wheel",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "69749df6-b38c-48f5-977f-de918b7faace",
+          "text": "Stickers that leave adhesive behind",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "57fdc0fd-7a0b-4edc-904b-8f29dedc92b8",
+          "text": "USB plugs requiring three attempts despite having two orientations",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        }
+      ]
+    },
+    {
+      "id": "f7ce0841-be5c-4495-b6b7-d396d37b4c4f",
+      "title": "Bureaucratic theatre",
+      "actual": true,
+      "createdAt": "2026-08-14",
+      "items": [
+        {
+          "id": "8cf62212-fda5-42de-888b-a8bcdb96d9f9",
+          "text": "Forms that ask for information they already have",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "04d6c556-8870-46d1-9068-ce46e157b263",
+          "text": "Printing a document just to sign it and scan it again",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "302ada7e-66af-4a25-9c0c-82125d5080a8",
+          "text": "Websites that require a phone call to cancel something",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "8a5518c7-95b9-4976-8a8a-37a5fe9446cc",
+          "text": "Booking an appointment to make another appointment",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "8b09491b-a6f9-47c5-8f9d-f85b7bf8026b",
+          "text": "\"Please allow 5–7 business days\"",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "f8494465-7d88-4b7a-9059-97099798b82f",
+          "text": "PDF forms with fields you cannot actually type into",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "22b0627d-6e67-421c-97ea-7e695c8c39ff",
+          "text": "\"Your request has been escalated\"",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        }
+      ]
+    },
+    {
+      "id": "0d8a97b2-8edd-432f-96b4-bb18e9f15e0f",
+      "title": "Meeting crimes",
+      "actual": true,
+      "createdAt": "2026-08-14",
+      "items": [
+        {
+          "id": "75ac56c6-3e95-414a-b814-741d1f7d734c",
+          "text": "Meetings that could have been an email",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "491b7622-e4d0-4a54-82db-01a9f197024e",
+          "text": "Meetings without an agenda",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "daa26234-0d65-4798-b2d5-89b34a70eeae",
+          "text": "Meetings to prepare for another meeting",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "6983be48-23ee-45cb-8653-c30851d4b59f",
+          "text": "Someone reading the slide aloud",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "4aed3921-111f-4835-80ca-78bb8fdcaa35",
+          "text": "\"Can everyone see my screen?\"",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "164fe48a-3105-47c9-a23f-36028da2d13b",
+          "text": "\"One quick question\" at 4:59 PM",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "22f19f34-ae46-440b-a3d3-52f2d678acee",
+          "text": "Fifteen people attending a meeting where two people speak",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        }
+      ]
+    },
+    {
+      "id": "5a34632b-440c-40f3-b296-72eaef46eab2",
+      "title": "UX hostility",
+      "actual": true,
+      "createdAt": "2026-08-14",
+      "items": [
+        {
+          "id": "a30b871c-ad86-418d-98d0-ca7af2875c1e",
+          "text": "Hamburger menus on desktop websites",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "ac6b8ed5-b193-4810-a4e1-c64f4e9a91ed",
+          "text": "Carousels nobody asked for",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "dbeb4fe9-f276-481b-882c-90d28e4a11a1",
+          "text": "Search fields that search worse than Google site:",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "dc80f319-1e63-48ef-ba8f-afaf366f5e16",
+          "text": "Dropdowns containing 200 countries with no keyboard search",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "7192f6bb-e03a-4696-88b9-90c77624aeec",
+          "text": "Buttons labelled \"Learn more\" that explain nothing",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "8359a317-1cbc-4473-a7bd-b130c7f294a3",
+          "text": "Interfaces that replace obvious text labels with mysterious icons",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "dea8bd59-fe57-4575-b831-c4254eae85d4",
+          "text": "Animations that make simple actions slower",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        }
+      ]
+    },
+    {
+      "id": "69e0d47b-356d-4aae-9ad7-d6f176c7916c",
+      "title": "Design offences",
+      "actual": true,
+      "createdAt": "2026-08-14",
+      "items": [
+        {
+          "id": "81a8e01f-4268-4d2b-929d-2760c552491f",
+          "text": "Rounded corners on absolutely everything",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "faaef3d6-d3f4-4e04-a263-47a1b92419d4",
+          "text": "Drop shadows visible from orbit",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "f7a80277-049e-4ca6-b60d-39fb22955474",
+          "text": "Cards inside cards inside cards",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "4e8b9045-5ace-40ab-bb70-54c2d98caf96",
+          "text": "Center-aligned paragraphs",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "c2d44335-e567-4575-a87f-2791bc4d04e5",
+          "text": "Luxury branding that just means beige",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "68dd11fd-ea6a-40e1-9fd7-8e89954c4263",
+          "text": "Using five shades of almost-the-same gray",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "7ab5a884-4757-4ec6-8b15-f5961d710bba",
+          "text": "Minimalism achieved by removing useful information",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        }
+      ]
+    },
+    {
+      "id": "f1215412-90e9-4578-b017-18e6a8e07060",
+      "title": "Cybersecurity theatre",
+      "actual": true,
+      "createdAt": "2026-08-14",
+      "items": [
+        {
+          "id": "d8e0910c-ab7f-476c-9344-454369372a96",
+          "text": "\"Military-grade encryption\"",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "a819eca2-e8b2-4a12-ad1a-8f03ec6e00f4",
+          "text": "Vulnerability scanners presented as penetration tests",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "188c0f98-cd5d-4e14-9b70-d13ebff4d024",
+          "text": "\"Zero trust\" used as a product category",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "c6a8c585-957c-4c31-83e4-9f83d66ee300",
+          "text": "Security questionnaires containing 400 questions nobody will read",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "0202d611-d35c-49b7-aef7-7ec2de8fef9f",
+          "text": "Companies claiming to be secure because they use MFA",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "945efb66-ed64-44c2-9d0b-40afa0eba932",
+          "text": "Blocking copy and paste in password fields",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "e3594eb1-77fc-4f28-b5f3-669d2627a0d5",
+          "text": "Putting \"cyber\" in front of a normal IT service and doubling the price",
+          "actual": true,
+          "createdAt": "2026-08-14"
+        },
+        {
+          "id": "634dbb43-a925-4251-85aa-be2f40e1a1f0",
+          "text": "Security dashboards with seventeen red gauges and no actionable information",
+          "actual": true,
+          "createdAt": "2026-08-14"
         }
       ]
     }
