@@ -12,7 +12,7 @@ The shift to remote work has fundamentally transformed how millions of people ap
 Remote work offers unprecedented flexibility, allowing people to design their workdays around their most productive hours and personal commitments. Parents can attend school events without sacrificing their careers, night owls can work when their creativity peaks, and individuals can live in locations that align with their lifestyle preferences rather than proximity to an office. This autonomy has led to increased job satisfaction and, for many, improved mental health as the stress of commuting and rigid schedules diminishes.
 
 ![Remote Work Environment](https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800)
-![Remote Work Environment](https://images.unsplash.com/photo-3245634392301-dfaf72ae4b04?w=800)
+![Remote Work Environment](https://images.unsplash.com/photo-1786352260444-20539d92fee0?w=800)
 
 However, the remote work model also presents unique challenges that require intentional strategies to overcome. The blurring of boundaries between work and personal life can lead to burnout if not managed carefully. Creating dedicated workspace, establishing clear working hours, and maintaining regular communication with colleagues become essential practices. Additionally, companies must invest in digital tools and cultivate intentional culture-building activities to maintain team cohesion and ensure remote employees feel connected and valued.
 
