@@ -1,0 +1,3976 @@
+{
+  "agent": {
+    "name": "ragnarok",
+    "schemaVersion": "1.0.0"
+  },
+  "summary": {
+    "total": 50,
+    "bySeverity": {
+      "critical": 5,
+      "high": 6,
+      "medium": 22,
+      "low": 14,
+      "info": 3
+    },
+    "sourceDerived": 27,
+    "syntheticDemo": 23
+  },
+  "findings": [
+    {
+      "id": "93e9e4cb-30c4-591f-95ce-75fdd0cc5256",
+      "ragnarok": {
+        "title": "Weak Cipher Suites Detection",
+        "description": "Weak cipher suites were detected on the target.",
+        "summary": null,
+        "severity": "low",
+        "status": "open",
+        "category": "cryptography",
+        "impact": null,
+        "recommendation": "Disable deprecated TLS versions and weak cipher suites.",
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "nuclei",
+        "name": "Nuclei",
+        "type": "scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": 443,
+        "protocol": "tls",
+        "scheme": "https",
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "ssl",
+          "tls",
+          "misconfiguration",
+          "vulnerability"
+        ]
+      },
+      "evidence": {
+        "summary": "Matcher: tls-1.1",
+        "matcher": "tls-1.1",
+        "matchedAt": "alleksy.com:443",
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": "Disable deprecated TLS versions and weak cipher suites.",
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "1957aa50-f6db-5c28-8390-789b33ec2c18",
+      "ragnarok": {
+        "title": "Weak Cipher Suites Detection",
+        "description": "Weak cipher suites were detected on the target.",
+        "summary": null,
+        "severity": "low",
+        "status": "open",
+        "category": "cryptography",
+        "impact": null,
+        "recommendation": "Disable deprecated TLS versions and weak cipher suites.",
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "nuclei",
+        "name": "Nuclei",
+        "type": "scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": 8443,
+        "protocol": "tls",
+        "scheme": "https",
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "ssl",
+          "tls",
+          "misconfiguration",
+          "vulnerability"
+        ]
+      },
+      "evidence": {
+        "summary": "Matcher: tls-1.1",
+        "matcher": "tls-1.1",
+        "matchedAt": "alleksy.com:8443",
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": "Disable deprecated TLS versions and weak cipher suites.",
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "b2bbf8a5-5ee3-5339-aa09-68bb0eb43627",
+      "ragnarok": {
+        "title": "Weak Cipher Suites Detection",
+        "description": "Weak cipher suites were detected on the target.",
+        "summary": null,
+        "severity": "low",
+        "status": "open",
+        "category": "cryptography",
+        "impact": null,
+        "recommendation": "Disable deprecated TLS versions and weak cipher suites.",
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "nuclei",
+        "name": "Nuclei",
+        "type": "scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": 443,
+        "protocol": "tls",
+        "scheme": "https",
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "ssl",
+          "tls",
+          "misconfiguration",
+          "vulnerability"
+        ]
+      },
+      "evidence": {
+        "summary": "Matcher: tls-1.0",
+        "matcher": "tls-1.0",
+        "matchedAt": "alleksy.com:443",
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": "Disable deprecated TLS versions and weak cipher suites.",
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "ca0d8af6-65f3-544e-b50f-88697720bb71",
+      "ragnarok": {
+        "title": "Weak Cipher Suites Detection",
+        "description": "Weak cipher suites were detected on the target.",
+        "summary": null,
+        "severity": "low",
+        "status": "open",
+        "category": "cryptography",
+        "impact": null,
+        "recommendation": "Disable deprecated TLS versions and weak cipher suites.",
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "nuclei",
+        "name": "Nuclei",
+        "type": "scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": "172.67.204.159",
+        "port": 8443,
+        "protocol": "tls",
+        "scheme": "https",
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "ssl",
+          "tls",
+          "misconfiguration",
+          "vulnerability"
+        ]
+      },
+      "evidence": {
+        "summary": "Matcher: tls-1.0",
+        "matcher": "tls-1.0",
+        "matchedAt": "alleksy.com:8443",
+        "parameter": null,
+        "extractedResults": [
+          "tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+        ],
+        "http": []
+      },
+      "remediation": {
+        "solution": "Disable deprecated TLS versions and weak cipher suites.",
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "92837c17-c240-558e-92ed-03519f6a6ac2",
+      "ragnarok": {
+        "title": "TLS 1.1 is considered an insecure encryption protocol and should be disabled.",
+        "description": "TLS 1.1 is enabled and is considered deprecated and insecure.",
+        "summary": null,
+        "severity": "medium",
+        "status": "open",
+        "category": "cryptography",
+        "impact": null,
+        "recommendation": "Disable TLS 1.1 and use TLS 1.2 or TLS 1.3.",
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "sslyze",
+        "name": "SSLyze",
+        "type": "scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": "tls",
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "tls",
+          "deprecated-protocol"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": "Disable TLS 1.1 and use TLS 1.2 or TLS 1.3.",
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "644f4d90-3893-5334-b68e-d6a254a5f4a7",
+      "ragnarok": {
+        "title": "TLS 1.0 is considered an insecure encryption protocol and should be disabled.",
+        "description": "TLS 1.0 is enabled and is considered deprecated and insecure.",
+        "summary": null,
+        "severity": "medium",
+        "status": "open",
+        "category": "cryptography",
+        "impact": null,
+        "recommendation": "Disable TLS 1.0 and use TLS 1.2 or TLS 1.3.",
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "sslyze",
+        "name": "SSLyze",
+        "type": "scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": "tls",
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "tls",
+          "deprecated-protocol"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": "Disable TLS 1.0 and use TLS 1.2 or TLS 1.3.",
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "97e7ae07-169e-5c1c-b8cd-accb46083f03",
+      "ragnarok": {
+        "title": "Missing Anti-clickjacking Header",
+        "description": null,
+        "summary": null,
+        "severity": "medium",
+        "status": "open",
+        "category": "web-security",
+        "impact": null,
+        "recommendation": null,
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "zap-passive",
+        "name": "ZAP Passive",
+        "type": "scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": "https://alleksy.com/",
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [
+          {
+            "id": "A05:2021",
+            "name": "Security Misconfiguration",
+            "url": null
+          }
+        ],
+        "cwe": [
+          {
+            "id": 1021,
+            "url": "https://cwe.mitre.org/data/definitions/1021.html"
+          }
+        ],
+        "wasc": [
+          15
+        ],
+        "cve": [],
+        "tags": [
+          "owasp",
+          "web"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "6db39b21-269d-577a-b190-1431ad844370",
+      "ragnarok": {
+        "title": "Content Security Policy (CSP) Header Not Set",
+        "description": null,
+        "summary": null,
+        "severity": "medium",
+        "status": "open",
+        "category": "web-security",
+        "impact": null,
+        "recommendation": null,
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "zap-passive",
+        "name": "ZAP Passive",
+        "type": "scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": "https://alleksy.com/",
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [
+          {
+            "id": "A05:2021",
+            "name": "Security Misconfiguration",
+            "url": null
+          }
+        ],
+        "cwe": [
+          {
+            "id": 693,
+            "url": "https://cwe.mitre.org/data/definitions/693.html"
+          }
+        ],
+        "wasc": [
+          15
+        ],
+        "cve": [],
+        "tags": [
+          "owasp",
+          "web"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "b86c6ec1-37e9-593a-8012-f4e8408dc281",
+      "ragnarok": {
+        "title": "Sub Resource Integrity Attribute Missing",
+        "description": null,
+        "summary": null,
+        "severity": "medium",
+        "status": "open",
+        "category": "web-security",
+        "impact": null,
+        "recommendation": null,
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "zap-passive",
+        "name": "ZAP Passive",
+        "type": "scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": "https://alleksy.com/",
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [
+          {
+            "id": "A05:2021",
+            "name": "Security Misconfiguration",
+            "url": null
+          }
+        ],
+        "cwe": [
+          {
+            "id": 345,
+            "url": "https://cwe.mitre.org/data/definitions/345.html"
+          }
+        ],
+        "wasc": [
+          15
+        ],
+        "cve": [],
+        "tags": [
+          "owasp",
+          "web"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "effe7656-473f-56fa-b218-40b19f929aba",
+      "ragnarok": {
+        "title": "Cross-Domain Misconfiguration",
+        "description": null,
+        "summary": null,
+        "severity": "medium",
+        "status": "open",
+        "category": "web-security",
+        "impact": null,
+        "recommendation": null,
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "zap-passive",
+        "name": "ZAP Passive",
+        "type": "scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": "https://alleksy.com/",
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [
+          {
+            "id": "A01:2021",
+            "name": "Broken Access Control",
+            "url": null
+          }
+        ],
+        "cwe": [
+          {
+            "id": 264,
+            "url": "https://cwe.mitre.org/data/definitions/264.html"
+          }
+        ],
+        "wasc": [
+          14
+        ],
+        "cve": [],
+        "tags": [
+          "owasp",
+          "web"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "2f973de1-a36e-5ae4-abb1-420aad446d1d",
+      "ragnarok": {
+        "title": "Strict-Transport-Security Header Not Set",
+        "description": null,
+        "summary": null,
+        "severity": "low",
+        "status": "open",
+        "category": "web-security",
+        "impact": null,
+        "recommendation": null,
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "zap-passive",
+        "name": "ZAP Passive",
+        "type": "scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": "https://alleksy.com/",
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [
+          {
+            "id": "A05:2021",
+            "name": "Security Misconfiguration",
+            "url": null
+          }
+        ],
+        "cwe": [
+          {
+            "id": 319,
+            "url": "https://cwe.mitre.org/data/definitions/319.html"
+          }
+        ],
+        "wasc": [
+          15
+        ],
+        "cve": [],
+        "tags": [
+          "owasp",
+          "web"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "25891edc-8104-55d0-96a4-79fc4fb7f1fa",
+      "ragnarok": {
+        "title": "X-Content-Type-Options Header Missing",
+        "description": null,
+        "summary": null,
+        "severity": "low",
+        "status": "open",
+        "category": "web-security",
+        "impact": null,
+        "recommendation": null,
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "zap-passive",
+        "name": "ZAP Passive",
+        "type": "scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": "https://alleksy.com/",
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [
+          {
+            "id": "A05:2021",
+            "name": "Security Misconfiguration",
+            "url": null
+          }
+        ],
+        "cwe": [
+          {
+            "id": 693,
+            "url": "https://cwe.mitre.org/data/definitions/693.html"
+          }
+        ],
+        "wasc": [
+          15
+        ],
+        "cve": [],
+        "tags": [
+          "owasp",
+          "web"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "7e240e90-9103-5189-9ee9-a89991461b8c",
+      "ragnarok": {
+        "title": "Cross-Domain JavaScript Source File Inclusion",
+        "description": null,
+        "summary": null,
+        "severity": "low",
+        "status": "open",
+        "category": "web-security",
+        "impact": null,
+        "recommendation": null,
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "zap-passive",
+        "name": "ZAP Passive",
+        "type": "scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": "https://alleksy.com/",
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [
+          {
+            "id": "A08:2021",
+            "name": "Software and Data Integrity Failures",
+            "url": null
+          }
+        ],
+        "cwe": [
+          {
+            "id": 829,
+            "url": "https://cwe.mitre.org/data/definitions/829.html"
+          }
+        ],
+        "wasc": [
+          15
+        ],
+        "cve": [],
+        "tags": [
+          "owasp",
+          "web"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "df4e2dab-d1ae-520d-b23e-6c934ca51122",
+      "ragnarok": {
+        "title": "In Page Banner Information Leak",
+        "description": null,
+        "summary": null,
+        "severity": "low",
+        "status": "open",
+        "category": "web-security",
+        "impact": null,
+        "recommendation": null,
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "zap-passive",
+        "name": "ZAP Passive",
+        "type": "scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": "https://alleksy.com/",
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [
+          {
+            "id": "A05:2021",
+            "name": "Security Misconfiguration",
+            "url": null
+          }
+        ],
+        "cwe": [
+          {
+            "id": 497,
+            "url": "https://cwe.mitre.org/data/definitions/497.html"
+          }
+        ],
+        "wasc": [
+          13
+        ],
+        "cve": [],
+        "tags": [
+          "owasp",
+          "web"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "382dcf7d-6b6b-5502-8d21-e4f926d1a94d",
+      "ragnarok": {
+        "title": "Open TCP Port: 8880",
+        "description": null,
+        "summary": null,
+        "severity": "medium",
+        "status": "open",
+        "category": "network-exposure",
+        "impact": null,
+        "recommendation": null,
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "nmap",
+        "name": "Nmap",
+        "type": "network-scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": 8880,
+        "protocol": "tcp",
+        "scheme": "http",
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "network",
+          "open-port"
+        ]
+      },
+      "evidence": {
+        "summary": "TCP port 8880 is reachable.",
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "9386ed56-f52f-5016-9690-dd680b2ae113",
+      "ragnarok": {
+        "title": "Open TCP Port: 8443",
+        "description": null,
+        "summary": null,
+        "severity": "medium",
+        "status": "open",
+        "category": "network-exposure",
+        "impact": null,
+        "recommendation": null,
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "nmap",
+        "name": "Nmap",
+        "type": "network-scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": 8443,
+        "protocol": "tcp",
+        "scheme": "https",
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "network",
+          "open-port"
+        ]
+      },
+      "evidence": {
+        "summary": "TCP port 8443 is reachable.",
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "a412b0a2-e0e9-51a8-8200-21d832f3203a",
+      "ragnarok": {
+        "title": "Open TCP Port: 8080",
+        "description": null,
+        "summary": null,
+        "severity": "medium",
+        "status": "open",
+        "category": "network-exposure",
+        "impact": null,
+        "recommendation": null,
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "nmap",
+        "name": "Nmap",
+        "type": "network-scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": 8080,
+        "protocol": "tcp",
+        "scheme": "http",
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "network",
+          "open-port"
+        ]
+      },
+      "evidence": {
+        "summary": "TCP port 8080 is reachable.",
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "ce003600-cfe4-51ce-9d87-3ddc4fa2790f",
+      "ragnarok": {
+        "title": "Open TCP Port: 2096",
+        "description": null,
+        "summary": null,
+        "severity": "medium",
+        "status": "open",
+        "category": "network-exposure",
+        "impact": null,
+        "recommendation": null,
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "nmap",
+        "name": "Nmap",
+        "type": "network-scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": 2096,
+        "protocol": "tcp",
+        "scheme": "https",
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "network",
+          "open-port"
+        ]
+      },
+      "evidence": {
+        "summary": "TCP port 2096 is reachable.",
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "7fda02e6-5274-5b72-80e5-cb70d765d418",
+      "ragnarok": {
+        "title": "Open TCP Port: 2095",
+        "description": null,
+        "summary": null,
+        "severity": "medium",
+        "status": "open",
+        "category": "network-exposure",
+        "impact": null,
+        "recommendation": null,
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "nmap",
+        "name": "Nmap",
+        "type": "network-scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": 2095,
+        "protocol": "tcp",
+        "scheme": "http",
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "network",
+          "open-port"
+        ]
+      },
+      "evidence": {
+        "summary": "TCP port 2095 is reachable.",
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "8a9878e1-57d8-5ae0-aa25-1adf4356d057",
+      "ragnarok": {
+        "title": "Open TCP Port: 2087",
+        "description": null,
+        "summary": null,
+        "severity": "medium",
+        "status": "open",
+        "category": "network-exposure",
+        "impact": null,
+        "recommendation": null,
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "nmap",
+        "name": "Nmap",
+        "type": "network-scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": 2087,
+        "protocol": "tcp",
+        "scheme": "https",
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "network",
+          "open-port"
+        ]
+      },
+      "evidence": {
+        "summary": "TCP port 2087 is reachable.",
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "6b5a4779-f26e-534f-8685-da3ae6220e10",
+      "ragnarok": {
+        "title": "Open TCP Port: 2086",
+        "description": null,
+        "summary": null,
+        "severity": "medium",
+        "status": "open",
+        "category": "network-exposure",
+        "impact": null,
+        "recommendation": null,
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "nmap",
+        "name": "Nmap",
+        "type": "network-scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": 2086,
+        "protocol": "tcp",
+        "scheme": "http",
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "network",
+          "open-port"
+        ]
+      },
+      "evidence": {
+        "summary": "TCP port 2086 is reachable.",
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "72d63733-59df-5c63-8933-b20b1d1e523d",
+      "ragnarok": {
+        "title": "Open TCP Port: 2083",
+        "description": null,
+        "summary": null,
+        "severity": "medium",
+        "status": "open",
+        "category": "network-exposure",
+        "impact": null,
+        "recommendation": null,
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "nmap",
+        "name": "Nmap",
+        "type": "network-scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": 2083,
+        "protocol": "tcp",
+        "scheme": "https",
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "network",
+          "open-port"
+        ]
+      },
+      "evidence": {
+        "summary": "TCP port 2083 is reachable.",
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "f3b34085-c9b3-54ca-8a64-43e743c204a8",
+      "ragnarok": {
+        "title": "Open TCP Port: 2082",
+        "description": null,
+        "summary": null,
+        "severity": "medium",
+        "status": "open",
+        "category": "network-exposure",
+        "impact": null,
+        "recommendation": null,
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "nmap",
+        "name": "Nmap",
+        "type": "network-scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": 2082,
+        "protocol": "tcp",
+        "scheme": "http",
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "network",
+          "open-port"
+        ]
+      },
+      "evidence": {
+        "summary": "TCP port 2082 is reachable.",
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "9f7b7d38-998e-53dc-bd40-1006d26525c1",
+      "ragnarok": {
+        "title": "Open TCP Port: 2053",
+        "description": null,
+        "summary": null,
+        "severity": "medium",
+        "status": "open",
+        "category": "network-exposure",
+        "impact": null,
+        "recommendation": null,
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "nmap",
+        "name": "Nmap",
+        "type": "network-scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": 2053,
+        "protocol": "tcp",
+        "scheme": "https",
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "network",
+          "open-port"
+        ]
+      },
+      "evidence": {
+        "summary": "TCP port 2053 is reachable.",
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "8bb41eb1-6115-55c0-b905-1336df2ac292",
+      "ragnarok": {
+        "title": "Open TCP Port: 2052",
+        "description": null,
+        "summary": null,
+        "severity": "medium",
+        "status": "open",
+        "category": "network-exposure",
+        "impact": null,
+        "recommendation": null,
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "nmap",
+        "name": "Nmap",
+        "type": "network-scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": 2052,
+        "protocol": "tcp",
+        "scheme": "http",
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "network",
+          "open-port"
+        ]
+      },
+      "evidence": {
+        "summary": "TCP port 2052 is reachable.",
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "82e88c8c-0a35-5aa4-881c-489e538810e6",
+      "ragnarok": {
+        "title": "Open TCP Port: 443",
+        "description": null,
+        "summary": null,
+        "severity": "low",
+        "status": "open",
+        "category": "network-exposure",
+        "impact": null,
+        "recommendation": null,
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "nmap",
+        "name": "Nmap",
+        "type": "network-scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": 443,
+        "protocol": "tcp",
+        "scheme": "https",
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "network",
+          "open-port"
+        ]
+      },
+      "evidence": {
+        "summary": "TCP port 443 is reachable.",
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "a82139cf-1fcc-57d0-b724-b09cf61e2b48",
+      "ragnarok": {
+        "title": "Open TCP Port: 80",
+        "description": null,
+        "summary": null,
+        "severity": "low",
+        "status": "open",
+        "category": "network-exposure",
+        "impact": null,
+        "recommendation": null,
+        "confidence": null,
+        "riskScore": null,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "nmap",
+        "name": "Nmap",
+        "type": "network-scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": 80,
+        "protocol": "tcp",
+        "scheme": "http",
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "network",
+          "open-port"
+        ]
+      },
+      "evidence": {
+        "summary": "TCP port 80 is reachable.",
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": false,
+        "labels": {}
+      }
+    },
+    {
+      "id": "ef027d4b-c8ca-526a-8eb1-e66310065622",
+      "ragnarok": {
+        "title": "Hardcoded Production API Secret Exposed",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: Hardcoded Production API Secret Exposed.",
+        "summary": null,
+        "severity": "critical",
+        "status": "open",
+        "category": "secrets",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 9.8,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "secret-scanner",
+        "name": "Secret Scanner",
+        "type": "secret-scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [
+          {
+            "id": 798,
+            "url": "https://cwe.mitre.org/data/definitions/798.html"
+          }
+        ],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "credential",
+          "secret"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    },
+    {
+      "id": "80174c02-243b-590e-baef-b647994401bf",
+      "ragnarok": {
+        "title": "Unauthenticated Remote Code Execution",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: Unauthenticated Remote Code Execution.",
+        "summary": null,
+        "severity": "critical",
+        "status": "open",
+        "category": "code-execution",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 10.0,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "web-exploit-scanner",
+        "name": "Web Exploit Scanner",
+        "type": "dast",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [
+          {
+            "id": 306,
+            "url": "https://cwe.mitre.org/data/definitions/306.html"
+          }
+        ],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "rce",
+          "unauthenticated"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    },
+    {
+      "id": "4237a91b-0675-5987-a368-a85bb6318cc4",
+      "ragnarok": {
+        "title": "Publicly Accessible Cloud Storage With Sensitive Data",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: Publicly Accessible Cloud Storage With Sensitive Data.",
+        "summary": null,
+        "severity": "critical",
+        "status": "open",
+        "category": "data-exposure",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 9.5,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "cloud-posture",
+        "name": "Cloud Posture",
+        "type": "cloud-security",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [
+          {
+            "id": 284,
+            "url": "https://cwe.mitre.org/data/definitions/284.html"
+          }
+        ],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "cloud",
+          "public-access"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    },
+    {
+      "id": "18b9a151-4938-56db-a56c-a7177087e05a",
+      "ragnarok": {
+        "title": "SQL Injection in Authentication Endpoint",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: SQL Injection in Authentication Endpoint.",
+        "summary": null,
+        "severity": "critical",
+        "status": "open",
+        "category": "injection",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 9.7,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "ragnarok-dast",
+        "name": "Ragnarok DAST",
+        "type": "dast",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [
+          {
+            "id": 89,
+            "url": "https://cwe.mitre.org/data/definitions/89.html"
+          }
+        ],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "sql-injection",
+          "authentication"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    },
+    {
+      "id": "2df313d6-5f28-5f9e-b764-e1e558a7a6f9",
+      "ragnarok": {
+        "title": "Default Administrative Credentials Accepted",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: Default Administrative Credentials Accepted.",
+        "summary": null,
+        "severity": "critical",
+        "status": "open",
+        "category": "authentication",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 9.6,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "credential-audit",
+        "name": "Credential Audit",
+        "type": "credential-audit",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [
+          {
+            "id": 1392,
+            "url": "https://cwe.mitre.org/data/definitions/1392.html"
+          }
+        ],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "default-credentials",
+          "admin"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    },
+    {
+      "id": "f0968842-eaee-5f5c-9433-7ab4f565ae28",
+      "ragnarok": {
+        "title": "Stored Cross-Site Scripting",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: Stored Cross-Site Scripting.",
+        "summary": null,
+        "severity": "high",
+        "status": "open",
+        "category": "injection",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 8.4,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "application-scanner",
+        "name": "Application Scanner",
+        "type": "dast",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [
+          {
+            "id": 79,
+            "url": "https://cwe.mitre.org/data/definitions/79.html"
+          }
+        ],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "xss",
+          "stored"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    },
+    {
+      "id": "514d7abe-3f75-55b3-ab7e-773d2fe13f48",
+      "ragnarok": {
+        "title": "Server-Side Request Forgery",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: Server-Side Request Forgery.",
+        "summary": null,
+        "severity": "high",
+        "status": "open",
+        "category": "request-forgery",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 8.7,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "ragnarok-web-probe",
+        "name": "Ragnarok Web Probe",
+        "type": "dast",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [
+          {
+            "id": 918,
+            "url": "https://cwe.mitre.org/data/definitions/918.html"
+          }
+        ],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "ssrf"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    },
+    {
+      "id": "8c4fc410-8136-57cd-939a-eafcff44578b",
+      "ragnarok": {
+        "title": "Privileged IAM Role Allows Wildcard Actions",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: Privileged IAM Role Allows Wildcard Actions.",
+        "summary": null,
+        "severity": "high",
+        "status": "open",
+        "category": "access-control",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 8.2,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "iam-analyzer",
+        "name": "IAM Analyzer",
+        "type": "iam",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [
+          {
+            "id": 269,
+            "url": "https://cwe.mitre.org/data/definitions/269.html"
+          }
+        ],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "iam",
+          "least-privilege"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    },
+    {
+      "id": "b93cf842-e909-5677-bc26-6b4ce6624993",
+      "ragnarok": {
+        "title": "Container Running as Privileged",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: Container Running as Privileged.",
+        "summary": null,
+        "severity": "high",
+        "status": "open",
+        "category": "container-misconfiguration",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 8.0,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "container-scanner",
+        "name": "Container Scanner",
+        "type": "container-security",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [
+          {
+            "id": 250,
+            "url": "https://cwe.mitre.org/data/definitions/250.html"
+          }
+        ],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "container",
+          "privileged"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    },
+    {
+      "id": "e760ee18-d812-51d1-a32f-9923663ca5b0",
+      "ragnarok": {
+        "title": "Outdated Dependency With Known High-Risk Vulnerability",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: Outdated Dependency With Known High-Risk Vulnerability.",
+        "summary": null,
+        "severity": "high",
+        "status": "open",
+        "category": "vulnerable-component",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 8.1,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "dependency-scanner",
+        "name": "Dependency Scanner",
+        "type": "sca",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [
+          {
+            "id": 1104,
+            "url": "https://cwe.mitre.org/data/definitions/1104.html"
+          }
+        ],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "dependency",
+          "sca"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    },
+    {
+      "id": "50dcffe5-7efe-545d-a134-0d619c1d1406",
+      "ragnarok": {
+        "title": "Administrative Interface Exposed to the Internet",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: Administrative Interface Exposed to the Internet.",
+        "summary": null,
+        "severity": "high",
+        "status": "open",
+        "category": "network-exposure",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 8.3,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "attack-surface-monitor",
+        "name": "Attack Surface Monitor",
+        "type": "asm",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [
+          {
+            "id": 284,
+            "url": "https://cwe.mitre.org/data/definitions/284.html"
+          }
+        ],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "admin-panel",
+          "internet-exposed"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    },
+    {
+      "id": "4c0b696e-fe5b-54f2-b296-1ca3ff335db8",
+      "ragnarok": {
+        "title": "Directory Listing Enabled",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: Directory Listing Enabled.",
+        "summary": null,
+        "severity": "medium",
+        "status": "open",
+        "category": "security-misconfiguration",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 5.3,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "web-configuration-scanner",
+        "name": "Web Configuration Scanner",
+        "type": "scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [
+          {
+            "id": 548,
+            "url": "https://cwe.mitre.org/data/definitions/548.html"
+          }
+        ],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "directory-listing"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    },
+    {
+      "id": "133d86bd-22c4-5295-84bf-ac106f51b4c3",
+      "ragnarok": {
+        "title": "Session Cookie Missing Secure Attribute",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: Session Cookie Missing Secure Attribute.",
+        "summary": null,
+        "severity": "medium",
+        "status": "open",
+        "category": "session-management",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 5.0,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "http-policy-scanner",
+        "name": "HTTP Policy Scanner",
+        "type": "scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [
+          {
+            "id": 614,
+            "url": "https://cwe.mitre.org/data/definitions/614.html"
+          }
+        ],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "cookie",
+          "secure-flag"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    },
+    {
+      "id": "da3160f5-ee45-52f1-8f97-de9962054fff",
+      "ragnarok": {
+        "title": "Session Cookie Missing SameSite Attribute",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: Session Cookie Missing SameSite Attribute.",
+        "summary": null,
+        "severity": "medium",
+        "status": "open",
+        "category": "session-management",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 4.8,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "http-policy-scanner",
+        "name": "HTTP Policy Scanner",
+        "type": "scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [
+          {
+            "id": 1275,
+            "url": "https://cwe.mitre.org/data/definitions/1275.html"
+          }
+        ],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "cookie",
+          "samesite"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    },
+    {
+      "id": "94a13a20-dc6f-58d7-9fbf-92b652375095",
+      "ragnarok": {
+        "title": "Password Policy Allows Weak Passwords",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: Password Policy Allows Weak Passwords.",
+        "summary": null,
+        "severity": "medium",
+        "status": "open",
+        "category": "authentication",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 6.1,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "identity-policy-audit",
+        "name": "Identity Policy Audit",
+        "type": "iam",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [
+          {
+            "id": 521,
+            "url": "https://cwe.mitre.org/data/definitions/521.html"
+          }
+        ],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "password-policy"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    },
+    {
+      "id": "c65bc101-007f-5928-a460-917f1a6e4224",
+      "ragnarok": {
+        "title": "Excessive CORS Origin Trust",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: Excessive CORS Origin Trust.",
+        "summary": null,
+        "severity": "medium",
+        "status": "open",
+        "category": "access-control",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 6.4,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "api-security-scanner",
+        "name": "API Security Scanner",
+        "type": "api-security",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [
+          {
+            "id": 942,
+            "url": "https://cwe.mitre.org/data/definitions/942.html"
+          }
+        ],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "cors",
+          "api"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    },
+    {
+      "id": "6d4962c5-62cc-5e84-83d5-eaa09c8ee3a0",
+      "ragnarok": {
+        "title": "Server Version Disclosed in HTTP Header",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: Server Version Disclosed in HTTP Header.",
+        "summary": null,
+        "severity": "low",
+        "status": "open",
+        "category": "information-disclosure",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 3.2,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "header-analyzer",
+        "name": "Header Analyzer",
+        "type": "scanner",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [
+          {
+            "id": 200,
+            "url": "https://cwe.mitre.org/data/definitions/200.html"
+          }
+        ],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "banner",
+          "information-disclosure"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    },
+    {
+      "id": "948dd32a-aafb-53d7-8f95-d7db4a62fc52",
+      "ragnarok": {
+        "title": "Verbose Error Messages Expose Internal Paths",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: Verbose Error Messages Expose Internal Paths.",
+        "summary": null,
+        "severity": "low",
+        "status": "open",
+        "category": "information-disclosure",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 3.7,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "application-scanner",
+        "name": "Application Scanner",
+        "type": "dast",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [
+          {
+            "id": 209,
+            "url": "https://cwe.mitre.org/data/definitions/209.html"
+          }
+        ],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "error-handling",
+          "paths"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    },
+    {
+      "id": "ddbbfe5e-8b92-5c97-900f-5fb153402301",
+      "ragnarok": {
+        "title": "TLS Certificate Nearing Expiration",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: TLS Certificate Nearing Expiration.",
+        "summary": null,
+        "severity": "low",
+        "status": "open",
+        "category": "certificate-hygiene",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 2.8,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "certificate-monitor",
+        "name": "Certificate Monitor",
+        "type": "certificate-monitor",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "tls",
+          "certificate"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    },
+    {
+      "id": "244a7723-3fea-54e6-ba36-bd00b43acefb",
+      "ragnarok": {
+        "title": "DNS Zone Uses Deprecated Cryptographic Algorithm",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: DNS Zone Uses Deprecated Cryptographic Algorithm.",
+        "summary": null,
+        "severity": "low",
+        "status": "open",
+        "category": "cryptography",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 3.4,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "dns-security-scanner",
+        "name": "DNS Security Scanner",
+        "type": "dns-security",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [
+          {
+            "id": 327,
+            "url": "https://cwe.mitre.org/data/definitions/327.html"
+          }
+        ],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "dns",
+          "crypto"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    },
+    {
+      "id": "ff52e409-4e4b-59de-aa99-ec2c010536b3",
+      "ragnarok": {
+        "title": "HTTP Server Technology Detected",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: HTTP Server Technology Detected.",
+        "summary": null,
+        "severity": "info",
+        "status": "open",
+        "category": "discovery",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 0.0,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "technology-fingerprinter",
+        "name": "Technology Fingerprinter",
+        "type": "fingerprinter",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "technology",
+          "fingerprint"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    },
+    {
+      "id": "5d525ce6-b821-59ec-b80e-ceb63127ce6a",
+      "ragnarok": {
+        "title": "robots.txt Discovered",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: robots.txt Discovered.",
+        "summary": null,
+        "severity": "info",
+        "status": "open",
+        "category": "discovery",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 0.0,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "web-crawler",
+        "name": "Web Crawler",
+        "type": "crawler",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "robots.txt",
+          "discovery"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    },
+    {
+      "id": "b52f5118-c1ce-5420-bc29-66aba32eeb15",
+      "ragnarok": {
+        "title": "Public Sitemap Discovered",
+        "description": "Synthetic demo finding generated for ragnarok visualization coverage: Public Sitemap Discovered.",
+        "summary": null,
+        "severity": "info",
+        "status": "open",
+        "category": "discovery",
+        "impact": null,
+        "recommendation": null,
+        "confidence": 0.9,
+        "riskScore": 0.0,
+        "isDuplicate": false,
+        "duplicateOf": null,
+        "falsePositiveProbability": null
+      },
+      "source": {
+        "id": "web-crawler",
+        "name": "Web Crawler",
+        "type": "crawler",
+        "provider": null,
+        "version": null,
+        "findingId": null,
+        "scanId": null
+      },
+      "target": {
+        "assetId": null,
+        "host": "alleksy.com",
+        "hostname": "alleksy.com",
+        "ipAddress": null,
+        "port": null,
+        "protocol": null,
+        "scheme": null,
+        "url": null,
+        "path": null,
+        "resource": null
+      },
+      "classification": {
+        "owasp": [],
+        "cwe": [],
+        "wasc": [],
+        "cve": [],
+        "tags": [
+          "sitemap",
+          "discovery"
+        ]
+      },
+      "evidence": {
+        "summary": null,
+        "matcher": null,
+        "matchedAt": null,
+        "parameter": null,
+        "extractedResults": [],
+        "http": []
+      },
+      "remediation": {
+        "solution": null,
+        "references": []
+      },
+      "timestamps": {
+        "firstSeenAt": null,
+        "lastSeenAt": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "resolvedAt": null
+      },
+      "raw": null,
+      "metadata": {
+        "schemaVersion": "1.0.0",
+        "normalizedBy": "ragnarok",
+        "synthetic": true,
+        "labels": {}
+      }
+    }
+  ]
+}
