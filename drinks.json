@@ -2,236 +2,518 @@
   {
     "name": "V60",
     "drinkType": "coffee",
-    "isCocktail": false,
-    "ingredients": null,
-    "preparation": "Clean and bright pour-over that highlights the beans",
-    "servingTemperature": null,
-    "flavorDescription": null,
-    "personalImpression": null,
+    "personalImpression": "Clean, structured and bright — the kind of coffee I want to taste rather than simply drink.",
     "isFavorite": true,
-    "region": null,
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Coffee_pour_over_using_Hario_cone.jpg"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Coffee_pour_over_using_Hario_cone.jpg",
+    "details": {
+      "origin": {
+        "country": "Colombia",
+        "region": "Huila"
+      },
+      "process": "washed",
+      "roastLevel": "medium",
+      "brewMethod": "V60",
+      "coffeeDoseGrams": 17.3,
+      "waterVolumeMl": 300,
+      "waterTemperatureC": 92,
+      "grindSizeMicrons": 920,
+      "pourStages": [
+        {
+          "waterMl": 50,
+          "purpose": "bloom"
+        },
+        {
+          "waterMl": 150,
+          "purpose": "main pour"
+        },
+        {
+          "waterMl": 100,
+          "purpose": "final pour"
+        }
+      ],
+      "preparation": "Rinse the filter and preheat the brewer. Add the ground coffee, bloom with 50 ml of water, continue with a controlled 150 ml pour, then finish with the remaining 100 ml."
+    }
+  },
+  {
+    "name": "Aperol Spritz",
+    "drinkType": "cocktail",
+    "personalImpression": "Bittersweet, cold and uncomplicated. Better when the soda knows its place.",
+    "isFavorite": true,
+    "imageUrl": null,
+    "details": {
+      "style": "spritz",
+      "ingredients": [
+        {
+          "name": "Prosecco DOC",
+          "amount": 90,
+          "unit": "ml"
+        },
+        {
+          "name": "Aperol",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "soda water",
+          "amount": 15,
+          "unit": "ml"
+        }
+      ],
+      "garnish": [
+        "orange slice"
+      ],
+      "ice": "plenty of ice",
+      "glassware": "wine glass",
+      "preparation": "Fill a wine glass with ice, add Prosecco, Aperol and only a small splash of soda. Stir gently and garnish with an orange slice."
+    }
+  },
+  {
+    "name": "S.Pellegrino",
+    "drinkType": "non_alcoholic",
+    "personalImpression": "Mineral water that actually feels like a drink. Cold, sharp and better with lemon — never diluted with ice.",
+    "isFavorite": true,
+    "imageUrl": null,
+    "details": {
+      "category": "sparkling_water",
+      "brand": "S.Pellegrino",
+      "servingTemperature": "chilled",
+      "ice": false,
+      "garnish": [
+        "lemon wedge"
+      ],
+      "preparation": "Serve well chilled without ice, with a fresh lemon wedge."
+    }
+  },
+  {
+    "name": "Coca-Cola",
+    "drinkType": "non_alcoholic",
+    "personalImpression": "Exactly what it is supposed to be: cold, sweet, fizzy and considerably better with ice and lemon.",
+    "isFavorite": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Coca-Cola_glass_bottle.jpg",
+    "details": {
+      "category": "soft_drink",
+      "brand": "Coca-Cola",
+      "servingTemperature": "very cold",
+      "ice": true,
+      "garnish": [
+        "lemon wedge"
+      ],
+      "preparation": "Serve very cold over plenty of ice with a fresh lemon wedge."
+    }
   },
   {
     "name": "Chianti",
     "drinkType": "wine",
-    "isCocktail": false,
-    "ingredients": null,
-    "preparation": null,
-    "servingTemperature": "16–18 °C",
-    "flavorDescription": null,
-    "personalImpression": "Earthy reds that pair perfectly with food",
+    "personalImpression": "Sangiovese with structure, acidity and enough earthiness to belong at the table. I prefer it with a few years behind it rather than young and polished.",
     "isFavorite": true,
-    "region": "Tuscany, Italy",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/CHIANTI_glass_%26_bottle.jpg"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/CHIANTI_glass_%26_bottle.jpg",
+    "details": {
+      "style": "red",
+      "country": "Italy",
+      "region": "Tuscany",
+      "appellation": "Chianti",
+      "grapeVarieties": [
+        "Sangiovese"
+      ],
+      "preferredVintages": [
+        2016,
+        2019
+      ],
+      "servingTemperatureC": {
+        "min": 16,
+        "max": 18
+      }
+    }
+  },
+  {
+    "name": "Zinfandel",
+    "drinkType": "wine",
+    "personalImpression": "Ripe, generous and unapologetically Californian — dark fruit, warmth and enough spice to keep the sweetness in check.",
+    "isFavorite": true,
+    "imageUrl": null,
+    "details": {
+      "style": "red",
+      "country": "United States",
+      "region": "California",
+      "grapeVarieties": [
+        "Zinfandel"
+      ],
+      "preferredVintages": [
+        2022,
+        2023
+      ],
+      "servingTemperatureC": {
+        "min": 16,
+        "max": 18
+      }
+    }
+  },
+  {
+    "name": "Laurent-Perrier La Cuvée",
+    "drinkType": "wine",
+    "personalImpression": "Champagne I like for restraint rather than spectacle — fresh, precise and quietly elegant.",
+    "isFavorite": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Laurent-Perrier_NV.jpg",
+    "details": {
+      "style": "sparkling",
+      "country": "France",
+      "region": "Champagne",
+      "appellation": "Champagne",
+      "producer": "Laurent-Perrier",
+      "cuvee": "La Cuvée",
+      "vintage": null,
+      "servingTemperatureC": {
+        "min": 9,
+        "max": 11
+      },
+      "ice": false
+    }
+  },
+  {
+    "name": "Moët & Chandon Ice Impérial",
+    "drinkType": "wine",
+    "personalImpression": "Champagne with the ceremony removed. Big fruit, lots of ice and absolutely no need to pretend it is a formal occasion.",
+    "isFavorite": true,
+    "imageUrl": null,
+    "details": {
+      "style": "sparkling",
+      "country": "France",
+      "region": "Champagne",
+      "appellation": "Champagne",
+      "producer": "Moët & Chandon",
+      "cuvee": "Ice Impérial",
+      "vintage": null,
+      "ice": true,
+      "iceCubes": 3,
+      "preparation": "Serve over three large ice cubes."
+    }
+  },
+  {
+    "name": "Sanpellegrino Aranciata Rossa",
+    "drinkType": "non_alcoholic",
+    "personalImpression": "Blood orange, bubbles and just enough bitterness to stop it from tasting like ordinary soda.",
+    "isFavorite": true,
+    "imageUrl": null,
+    "details": {
+      "category": "soft_drink",
+      "brand": "Sanpellegrino",
+      "flavor": "blood orange",
+      "servingTemperature": "chilled",
+      "ice": true,
+      "preparation": "Serve cold over ice."
+    }
+  },
+  {
+    "name": "Chablis Premier Cru",
+    "drinkType": "wine",
+    "personalImpression": "The Chablis I want when Petit Chablis feels too simple — more texture and depth, but still built around acidity and restraint.",
+    "isFavorite": true,
+    "imageUrl": null,
+    "details": {
+      "style": "white",
+      "country": "France",
+      "region": "Burgundy",
+      "subregion": "Chablis",
+      "classification": "Premier Cru",
+      "grapeVarieties": [
+        "Chardonnay"
+      ],
+      "preferredVintages": [
+        2016,
+        2018
+      ],
+      "servingTemperatureC": {
+        "min": 10,
+        "max": 12
+      }
+    }
   },
   {
     "name": "Petit Chablis",
     "drinkType": "wine",
-    "isCocktail": false,
-    "ingredients": null,
-    "preparation": null,
-    "servingTemperature": "10–12 °C",
-    "flavorDescription": null,
-    "personalImpression": "Crisp, light and citrusy French white. Crisp, light and citrusy French white. Crisp, light and citrusy French white. Crisp, light and citrusy French white. Crisp, light and citrusy French white. Crisp, light and citrusy French white. Crisp, light and citrusy French white. Crisp, light and citrusy French white. Crisp, light and citrusy French white. Crisp, light and citrusy French white. ",
-    "isFavorite": false,
-    "region": "Burgundy, France",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Chablis_bottle_and_wine.jpg"
+    "personalImpression": "Light, crisp Chardonnay stripped down to the essentials. I like it colder and less ceremonious than wine people probably think I should.",
+    "isFavorite": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Chablis_bottle_and_wine.jpg",
+    "details": {
+      "style": "white",
+      "country": "France",
+      "region": "Burgundy",
+      "subregion": "Chablis",
+      "appellation": "Petit Chablis",
+      "grapeVarieties": [
+        "Chardonnay"
+      ],
+      "ice": true,
+      "preparation": "Serve chilled over ice."
+    }
   },
   {
-    "name": "Old Fashioned",
-    "drinkType": "cocktail",
-    "isCocktail": true,
-    "ingredients": [
-      "60ml bourbon or rye whiskey",
-      "5ml sugar syrup",
-      "2 dashes angostura bitters",
-      "orange peel",
-      "large ice cube"
-    ],
-    "preparation": "Add sugar syrup and bitters to a rocks glass, add ice, pour whiskey and stir gently, garnish with orange peel",
-    "servingTemperature": null,
-    "flavorDescription": null,
-    "personalImpression": "A timeless classic that puts whiskey first",
+    "name": "Chardonnay",
+    "drinkType": "wine",
+    "personalImpression": "Young Chardonnay when it stays fresh and composed — enough body to be interesting without turning into butter and oak.",
     "isFavorite": true,
-    "region": null,
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Oldfashioned-cocktail.png"
+    "imageUrl": null,
+    "details": {
+      "style": "white",
+      "country": null,
+      "region": null,
+      "grapeVarieties": [
+        "Chardonnay"
+      ],
+      "preferredVintages": [
+        2022,
+        2023
+      ],
+      "servingTemperatureC": {
+        "min": 10,
+        "max": 12
+      }
+    }
+  },
+  {
+    "name": "Amarone della Valpolicella",
+    "drinkType": "wine",
+    "personalImpression": "Dense, mature and slow. The kind of wine that should taste like time has actually done something to it.",
+    "isFavorite": true,
+    "imageUrl": null,
+    "details": {
+      "style": "red",
+      "country": "Italy",
+      "region": "Veneto",
+      "appellation": "Amarone della Valpolicella",
+      "preferredVintages": [
+        2005,
+        2010
+      ],
+      "servingTemperatureC": {
+        "min": 17,
+        "max": 18
+      },
+      "decanting": "Allow older bottles time to open before drinking."
+    }
+  },
+  {
+    "name": "Glen Deveron 28 Year Old",
+    "drinkType": "spirit",
+    "personalImpression": "Old whisky without the theatre — slow, rounded and made for one large cube rather than a complicated ritual.",
+    "isFavorite": true,
+    "imageUrl": null,
+    "details": {
+      "category": "single_malt_scotch_whisky",
+      "brand": "Glen Deveron",
+      "country": "Scotland",
+      "region": "Highlands",
+      "ageYears": 28,
+      "servingStyle": "on_the_rocks",
+      "ice": true,
+      "iceCubes": 1,
+      "preparation": "Serve over one large rock."
+    }
   },
   {
     "name": "Whiskey Sour",
     "drinkType": "cocktail",
-    "isCocktail": true,
-    "ingredients": [
-      "50ml bourbon",
-      "25ml fresh lemon juice",
-      "15ml sugar syrup",
-      "egg white optional",
-      "ice"
-    ],
-    "preparation": "Shake all ingredients without ice, then add ice and shake again, strain into a chilled glass",
-    "servingTemperature": null,
-    "flavorDescription": null,
-    "personalImpression": "Sharp citrus balanced by warmth and body",
-    "isFavorite": false,
-    "region": null,
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Whiskey_Sour.jpg"
-  },
-  {
-    "name": "Fig Whiskey Sour",
-    "drinkType": "cocktail",
-    "isCocktail": true,
-    "ingredients": [
-      "50ml bourbon",
-      "25ml fresh lemon juice",
-      "15ml fig syrup",
-      "egg white optional",
-      "ice"
-    ],
-    "preparation": "Dry shake all ingredients, add ice and shake again, strain into a rocks glass",
-    "servingTemperature": null,
-    "flavorDescription": null,
-    "personalImpression": "Deep fig sweetness elevates the classic sour",
+    "personalImpression": "One of the best arguments for keeping cocktails simple: whiskey, acid, sweetness and texture in the right proportions.",
     "isFavorite": true,
-    "region": null,
-    "imageUrl": "https://www.theredheadbaker.com/wp-content/uploads/2018/09/honey-fig-whiskey-sour-1.jpg"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Whiskey_Sour.jpg",
+    "details": {
+      "style": "sour",
+      "ingredients": [
+        {
+          "name": "bourbon whiskey",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "name": "fresh lemon juice",
+          "amount": 25,
+          "unit": "ml"
+        },
+        {
+          "name": "simple syrup",
+          "amount": 20,
+          "unit": "ml"
+        },
+        {
+          "name": "egg white",
+          "amount": null,
+          "unit": null,
+          "optional": true
+        }
+      ],
+      "ice": true,
+      "preparation": "If using egg white, dry shake first. Add ice, shake again and strain into the serving glass."
+    }
   },
   {
-    "name": "Blood and Sand",
+    "name": "Old Fashioned",
     "drinkType": "cocktail",
-    "isCocktail": true,
-    "ingredients": [
-      "25ml blended scotch whisky",
-      "25ml sweet vermouth",
-      "25ml cherry liqueur",
-      "25ml fresh orange juice",
-      "ice"
-    ],
-    "preparation": "Shake all ingredients with ice and strain into a chilled cocktail glass",
-    "servingTemperature": null,
-    "flavorDescription": null,
-    "personalImpression": "Unexpectedly smooth with smoky and fruity layers",
-    "isFavorite": false,
-    "region": null,
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Blood_and_Sand.jpg"
-  },
-  {
-    "name": "Lucciola",
-    "drinkType": "cocktail",
-    "isCocktail": true,
-    "ingredients": [
-      "40ml gin",
-      "20ml elderflower liqueur",
-      "20ml fresh lemon juice",
-      "sparkling wine",
-      "ice"
-    ],
-    "preparation": "Shake gin, liqueur and lemon juice with ice, strain into a glass and top with sparkling wine",
-    "servingTemperature": null,
-    "flavorDescription": null,
-    "personalImpression": "Elegant and subtle with a modern herbal touch",
-    "isFavorite": false,
-    "region": null,
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/French_75.jpg"
+    "personalImpression": "Almost nothing to hide behind. When the whiskey is good, that is exactly the point.",
+    "isFavorite": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Oldfashioned-cocktail.png",
+    "details": {
+      "style": "spirit_forward",
+      "ingredients": [
+        {
+          "name": "bourbon or rye whiskey",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "name": "sugar cube",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "Angostura bitters",
+          "amount": 2,
+          "unit": "dashes"
+        },
+        {
+          "name": "water",
+          "amount": 5,
+          "unit": "ml"
+        }
+      ],
+      "garnish": [
+        "orange zest"
+      ],
+      "ice": true,
+      "preparation": "Dissolve the sugar with bitters and water, add whiskey and ice, then stir until properly chilled."
+    }
   },
   {
     "name": "Boulevardier",
     "drinkType": "cocktail",
-    "isCocktail": true,
-    "ingredients": [
-      "30ml bourbon or rye whiskey",
-      "30ml campari",
-      "30ml sweet vermouth",
-      "orange peel",
-      "ice"
-    ],
-    "preparation": "Stir all ingredients with ice until chilled, strain into a rocks glass over ice, garnish with orange peel",
-    "servingTemperature": null,
-    "flavorDescription": null,
-    "personalImpression": "Bold bittersweet character with warming depth",
-    "isFavorite": false,
-    "region": null,
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Boulevardier_in_Baton_Rouge.jpg"
+    "personalImpression": "A Negroni after it changed into a heavier coat — bitter, dark and warmer around the edges.",
+    "isFavorite": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Boulevardier_in_Baton_Rouge.jpg",
+    "details": {
+      "style": "spirit_forward",
+      "ingredients": [
+        {
+          "name": "bourbon or rye whiskey",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "name": "Campari",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "sweet red vermouth",
+          "amount": 30,
+          "unit": "ml"
+        }
+      ],
+      "garnish": [
+        "orange zest"
+      ],
+      "ice": true,
+      "preparation": "Stir all ingredients with ice until chilled, then strain into a rocks glass over fresh ice."
+    }
   },
   {
-    "name": "Cuba Libre",
+    "name": "Fig Whiskey Sour",
     "drinkType": "cocktail",
-    "isCocktail": true,
-    "ingredients": [
-      "50ml white or dark rum",
-      "120ml cola",
-      "fresh lime juice",
-      "lime wedge",
-      "ice"
-    ],
-    "preparation": "Fill a highball glass with ice, add rum and lime juice, top with cola and stir gently",
-    "servingTemperature": null,
-    "flavorDescription": null,
-    "personalImpression": "Easygoing mix with a clear summer vibe",
-    "isFavorite": false,
-    "region": null,
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cuba_libre.jpg"
-  },
-  {
-    "name": "Coca Cola",
-    "drinkType": "mocktail",
-    "isCocktail": false,
-    "ingredients": [
-      "Coca Cola",
-      "ice",
-      "lemon wedge optional"
-    ],
-    "preparation": "Serve chilled over ice, garnish with lemon if desired",
-    "servingTemperature": null,
-    "flavorDescription": null,
-    "personalImpression": "Fizzy sweet comfort with instant nostalgia",
+    "personalImpression": "A Whiskey Sour with more depth rather than simply more sweetness. Fig works because it feels dark, ripe and slightly excessive.",
     "isFavorite": true,
-    "region": null,
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Coca-Cola_glass_bottle.jpg"
+    "imageUrl": "https://www.theredheadbaker.com/wp-content/uploads/2018/09/honey-fig-whiskey-sour-1.jpg",
+    "details": {
+      "style": "sour",
+      "ingredients": [
+        {
+          "name": "bourbon whiskey",
+          "amount": 50,
+          "unit": "ml"
+        },
+        {
+          "name": "fresh lemon juice",
+          "amount": 25,
+          "unit": "ml"
+        },
+        {
+          "name": "fig syrup",
+          "amount": 15,
+          "unit": "ml"
+        },
+        {
+          "name": "egg white",
+          "amount": null,
+          "unit": null,
+          "optional": false
+        }
+      ],
+      "ice": true,
+      "preparation": "Dry shake all ingredients, add ice and shake again, then double strain over a large rock."
+    }
   },
   {
-    "name": "Sprite",
-    "drinkType": "mocktail",
-    "isCocktail": false,
-    "ingredients": [
-      "Sprite",
-      "ice",
-      "lemon slice optional"
-    ],
-    "preparation": "Serve chilled over ice, garnish with lemon if desired",
-    "servingTemperature": null,
-    "flavorDescription": null,
-    "personalImpression": "Clean lemon lime fizz that refreshes instantly",
-    "isFavorite": false,
-    "region": null,
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sprite_Glass_Bottle.jpg"
-  },
-  {
-    "name": "Orange Juice",
-    "drinkType": "mocktail",
-    "isCocktail": false,
-    "ingredients": [
-      "Freshly squeezed orange juice",
-      "ice optional"
-    ],
-    "preparation": "Serve chilled, optionally over ice",
-    "servingTemperature": null,
-    "flavorDescription": null,
-    "personalImpression": "Bright and fresh with natural sweetness",
+    "name": "Paper Plane",
+    "drinkType": "cocktail",
+    "personalImpression": "One of those cocktails that looks impossible on paper and perfectly obvious after the first sip — bitter, sour, herbal and balanced.",
     "isFavorite": true,
-    "region": null,
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Orange_juice_in_a_glass_%284430731914%29.jpg"
+    "imageUrl": null,
+    "details": {
+      "style": "equal_parts",
+      "ingredients": [
+        {
+          "name": "bourbon whiskey",
+          "amount": 22.5,
+          "unit": "ml"
+        },
+        {
+          "name": "Aperol",
+          "amount": 22.5,
+          "unit": "ml"
+        },
+        {
+          "name": "Amaro Nonino",
+          "amount": 22.5,
+          "unit": "ml"
+        },
+        {
+          "name": "fresh lemon juice",
+          "amount": 22.5,
+          "unit": "ml"
+        }
+      ],
+      "ice": false,
+      "glassware": "coupe",
+      "preparation": "Shake all ingredients with ice and strain into a chilled coupe."
+    }
   },
   {
-    "name": "Laurent-Perrier Champagne",
-    "drinkType": "wine",
-    "isCocktail": false,
-    "ingredients": null,
-    "preparation": "Chill to serving temperature, pour gently into a flute",
-    "servingTemperature": "8–10 °C",
-    "flavorDescription": null,
-    "personalImpression": "Refined bubbles with quiet confidence",
+    "name": "Negroni",
+    "drinkType": "cocktail",
+    "personalImpression": "No softness and no apology. Bitter, aromatic and exactly as serious as three equal pours need to be.",
     "isFavorite": true,
-    "region": "Champagne, France",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Laurent-Perrier_NV.jpg"
+    "imageUrl": null,
+    "details": {
+      "style": "equal_parts",
+      "ingredients": [
+        {
+          "name": "gin",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "Campari",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "sweet red vermouth",
+          "amount": 30,
+          "unit": "ml"
+        }
+      ],
+      "garnish": [
+        "orange peel"
+      ],
+      "ice": true,
+      "preparation": "Build over ice and stir gently until chilled."
+    }
   }
 ]
